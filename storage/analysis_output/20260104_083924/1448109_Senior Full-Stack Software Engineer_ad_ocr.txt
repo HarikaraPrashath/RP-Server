@@ -1,0 +1,75 @@
+° .
+Senior Full-Stack Software Engineer
+Location: Sri Lanka (Remote)
+
+Company: GANA Pvt Ltd
+Project: Apartment Management System (SaaS MVP)
+About the Project
+We are building a cloud-based Apartment Management System (SaaS) focused on billing,
+communication, and complaint handling for apartments in Sri Lanka.
+This is a greenfield product, MVP scope is clearly defined and frozen, and the goal is to
+launch a revenue-generating system.
+Role Overview
+We are looking for a Senior Full-Stack Software Engineer to lead the development of the
+MVP.
+‘You will work closely with the product owner and have high ownership over architecture,
+development, and delivery.
+MVP Scope (You will build)
+e Multitenant SaaS
++ Units & Residents management
+« Monthly maintenance invoicing
+* Manual one-time invoices
++ PDF invoice generation
++ Notices (push + email)
+© Complaints (with images & status tracking)
++» Admin Web App (React)
++ Resident Mobile App (Flutter)
+Tech Stack
+Frontend
++ React (Admin Web App)
++ Flutter (Resident Mobile App)
+Backend
++ Node.js (REST APIs)
++ JWT authentication
++ Role-based access control
+Database
++ PostgreSQL (shared DB with apartment _id isolation)
+Other
++ S3-compatible object storage
++ Email + Push notifications
++ CICD (basic pipeline)
+Key Responsibilities
++ Design and implement REST APIs
++ Build React admin panel
++ Build Flutter mobile app
++ Implement authentication & role-based access
++ Handle invoice generation and PDF exports
++ Ensure data isolation for multi-tenant SaaS
++ Deploy and maintain MVP environment
++ Deliver MVP within agreed timeline
+Required Skills
++ 3+ years experience in software development
++ Strong experience with Node.js
++ Good knowledge of React
++ Experience with Flutter (or strong mobile development background)
++ PostgreSQL / relational database design
++ REST API design
++ Authentication & authorization (JWT)
++ Clean, maintainable code practices
+Nice to Have
++ SaaS or multi-tenant system experience
++ Billing / invoicing system experience
+Employment Type
++ Contract (preferred) OR Full-time (negotiable)
++ Remote (Sri Lanka)
+Compensation
++ Competitive, based on experience
+» Open to milestone-based payment for contract engagement
+How to Apply
+Please apply via email with the following:
++ Your CV
++ GitHub / portfolio (if available)
++ A brief note on your experience with similar systems
+« Send your application to:
+(©! mnaru91@gmail.com
+$9! Aran Arunakiri@gmail.com

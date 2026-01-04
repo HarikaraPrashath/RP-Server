@@ -1,0 +1,13 @@
+cd "C:\Users\user\Desktop\New folder\Reserch\New folder\RP-Server"
+.\.venv\Scripts\Activate.ps1
+uvicorn app:app --reload --host 0.0.0.0 --port 8000
+
+
+in a new terminal
+Invoke-RestMethod -Method Post -Uri "http://localhost:8000/jobs/refresh"
+
+
+Market trend radar: store multiple scrapes over time and show trending skills, emerging roles, and declining skills; adds a temporal research angle.
+
+
+Minimal‑effort roadmap: compute the smallest set of missing skills to reach a target match threshold (e.g., 70% coverage) using optimization; turns “skill gaps” into a measurable plan.

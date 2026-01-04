@@ -1,0 +1,29 @@
+ORYSYS
+Key Responsibilities:
+e Develop and maintain dynamic and responsive web applications using Angular and .NET technologies.
+© Build reusable code and libraries for future use with best practices.
+e Integrate front-end UI with RESTful APIs and back-end services.
+¢ Write clean, scalable, and maintainable code in C# and TypeScript.
+© Collaborate with cross-functional teams to define, design, and ship new features.
+e Ensure application security through proper authentication and authorization mechanisms.
+e Participate in code reviews and mentor junior team members.
+¢ Maintain high standards of software quality within the team.
+Qualifications:
+e Bachelor’s degree in Computer Science, Engineering, or related field.
+e Front-End Development:
+> 3+-years of hands-on experience with Angular.
+> Strong proficiency in TypeScript, RxJS, NgRx, and Angular CLI.
+> Solid experience in HTMLS, CSS3, JavaScript, and responsive design.
+> Experience integrating Angular front-ends with RESTful APIs.
+e Back-End Development:
+> Hands-on experience with NET Framework (ASP.NET MVC/Web Forms) and .NET Core.
+> Strong knowledge of C#, Middleware, and REST API development.
+> Experience working with Relational Databases (e.g., SQL Server).
+> Good understanding of web security principles (Authentication, Authorization).
+¢ Proficient with version control tools such as Git or SVN.
+e Familiarity with Object-Oriented Analysis (OOA), Object-Oriented Design (OOD), SOLID principles,
+and Design Patterns.
+e Exposure to Blazor is an added advantage.
+e Basic understanding of CI/CD pipelines and Agile development practices.
+Orysys Limited is an equal opportunity company, all selection decisions will be based on evidence of suitability demonstrated throughout the
+selection process and not be dependent upon race, gender, marital status, disability, age, religious belief or sexual orientation.

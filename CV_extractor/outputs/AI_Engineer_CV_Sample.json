@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "text": "Rahul Sharma \n\nAI Engineer \n\nEmail: rahul.sharma@email.com | Phone: +91-9876543210 | GitHub: github.com/rahulsharma | LinkedIn: \nlinkedin.com/in/rahulsharma \n\nProfessional Summary \nAI Engineer with 5+ years of experience in designing, developing, and deploying machine learning and deep \nlearning solutions. Strong background in NLP, computer vision, and MLOps with hands-on experience in \nproduction-scale AI systems. \n\nTechnical Skills \n• Programming: Python, C++, Java \n• Machine Learning: Scikit-learn, XGBoost, LightGBM \n• Deep Learning: TensorFlow, PyTorch, Keras \n• NLP: Transformers, BERT, GPT, spaCy, NLTK \n• Computer Vision: OpenCV, CNNs, YOLO \n• MLOps & Cloud: Docker, Kubernetes, MLflow, AWS, GCP \n• Databases: PostgreSQL, MongoDB \n\nProfessional Experience \nSenior AI Engineer – ABC Technologies (2021 – Present) \n\n- Led the development of NLP-based resume parsing and recommendation systems. \n- Deployed ML models using Docker and Kubernetes, improving inference latency by 30%. \n- Collaborated with cross-functional teams to integrate AI solutions into production. \n\nMachine Learning Engineer – XYZ Solutions (2018 – 2021) \n\n- Built predictive models for customer churn and demand forecasting. \n- Implemented end-to-end ML pipelines including data preprocessing, training, and monitoring. \n- Improved model accuracy by 18% through feature engineering and hyperparameter tuning. \n\nEducation \nBachelor of Technology in Computer Science \nIndian Institute of Technology, Delhi (2014 – 2018) \n\nKey Projects \n• AI Resume Parser: Built an NLP-based system to extract structured data from CVs (PDF/DOC). \n• Chatbot using Transformers: Developed a domain-specific conversational AI using Hugging Face models. \n• \n\nImage Classification System: Designed a CNN-based pipeline for automated defect detection. \n\nCertifications \n• TensorFlow Developer Certificate \n• AWS Certified Machine Learning – Specialty \n• Deep Learning Specialization – Coursera",
+    "method": "pdf_text",
+    "quality": {
+      "char_count": 1951,
+      "line_count": 49
+    }
+  },
+  "name": "Rahul Sharma",
+  "contacts": {
+    "emails": [
+      "rahul.sharma@email.com"
+    ],
+    "phones": [
+      "+91-9876543210"
+    ],
+    "urls": [],
+    "linkedin": [
+      "linkedin.com/in/rahulsharma"
+    ],
+    "github": [
+      "github.com/rahulsharma"
+    ]
+  },
+  "sections": {
+    "other": "Rahul Sharma\nAI Engineer\nEmail: rahul.sharma@email.com | Phone: +91-9876543210 | GitHub: github.com/rahulsharma | LinkedIn:\nlinkedin.com/in/rahulsharma\nProfessional Summary\nAI Engineer with 5+ years of experience in designing, developing, and deploying machine learning and deep\nlearning solutions. Strong background in NLP, computer vision, and MLOps with hands-on experience in\nproduction-scale AI systems.",
+    "skills": "• Programming: Python, C++, Java\n• Machine Learning: Scikit-learn, XGBoost, LightGBM\n• Deep Learning: TensorFlow, PyTorch, Keras\n• NLP: Transformers, BERT, GPT, spaCy, NLTK\n• Computer Vision: OpenCV, CNNs, YOLO\n• MLOps & Cloud: Docker, Kubernetes, MLflow, AWS, GCP\n• Databases: PostgreSQL, MongoDB",
+    "experience": "Senior AI Engineer – ABC Technologies (2021 – Present)\n- Led the development of NLP-based resume parsing and recommendation systems.\n- Deployed ML models using Docker and Kubernetes, improving inference latency by 30%.\n- Collaborated with cross-functional teams to integrate AI solutions into production.\nMachine Learning Engineer – XYZ Solutions (2018 – 2021)\n- Built predictive models for customer churn and demand forecasting.\n- Implemented end-to-end ML pipelines including data preprocessing, training, and monitoring.\n- Improved model accuracy by 18% through feature engineering and hyperparameter tuning.",
+    "education": "Bachelor of Technology in Computer Science\nIndian Institute of Technology, Delhi (2014 – 2018)",
+    "projects": "• AI Resume Parser: Built an NLP-based system to extract structured data from CVs (PDF/DOC).\n• Chatbot using Transformers: Developed a domain-specific conversational AI using Hugging Face models.\n•\nImage Classification System: Designed a CNN-based pipeline for automated defect detection.",
+    "certifications": "• TensorFlow Developer Certificate\n• AWS Certified Machine Learning – Specialty\n• Deep Learning Specialization – Coursera"
+  },
+  "skills": [
+    "AWS",
+    "C++",
+    "Deep Learning",
+    "Docker",
+    "Java",
+    "Kubernetes",
+    "Machine Learning",
+    "NLP",
+    "PyTorch",
+    "Python",
+    "TensorFlow"
+  ],
+  "raw_text": "Rahul Sharma \n\nAI Engineer \n\nEmail: rahul.sharma@email.com | Phone: +91-9876543210 | GitHub: github.com/rahulsharma | LinkedIn: \nlinkedin.com/in/rahulsharma \n\nProfessional Summary \nAI Engineer with 5+ years of experience in designing, developing, and deploying machine learning and deep \nlearning solutions. Strong background in NLP, computer vision, and MLOps with hands-on experience in \nproduction-scale AI systems. \n\nTechnical Skills \n• Programming: Python, C++, Java \n• Machine Learning: Scikit-learn, XGBoost, LightGBM \n• Deep Learning: TensorFlow, PyTorch, Keras \n• NLP: Transformers, BERT, GPT, spaCy, NLTK \n• Computer Vision: OpenCV, CNNs, YOLO \n• MLOps & Cloud: Docker, Kubernetes, MLflow, AWS, GCP \n• Databases: PostgreSQL, MongoDB \n\nProfessional Experience \nSenior AI Engineer – ABC Technologies (2021 – Present) \n\n- Led the development of NLP-based resume parsing and recommendation systems. \n- Deployed ML models using Docker and Kubernetes, improving inference latency by 30%. \n- Collaborated with cross-functional teams to integrate AI solutions into production. \n\nMachine Learning Engineer – XYZ Solutions (2018 – 2021) \n\n- Built predictive models for customer churn and demand forecasting. \n- Implemented end-to-end ML pipelines including data preprocessing, training, and monitoring. \n- Improved model accuracy by 18% through feature engineering and hyperparameter tuning. \n\nEducation \nBachelor of Technology in Computer Science \nIndian Institute of Technology, Delhi (2014 – 2018) \n\nKey Projects \n• AI Resume Parser: Built an NLP-based system to extract structured data from CVs (PDF/DOC). \n• Chatbot using Transformers: Developed a domain-specific conversational AI using Hugging Face models. \n• \n\nImage Classification System: Designed a CNN-based pipeline for automated defect detection. \n\nCertifications \n• TensorFlow Developer Certificate \n• AWS Certified Machine Learning – Specialty \n• Deep Learning Specialization – Coursera"
+}

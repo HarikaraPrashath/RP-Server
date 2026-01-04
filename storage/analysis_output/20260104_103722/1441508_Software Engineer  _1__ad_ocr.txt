@@ -1,0 +1,29 @@
+We are looking for,
+
+Software Engineer
+
+The standard solutions engineer builds modules for the integration
+projects between the Nexus network and external products,
+external network partners, as well as internal platform components,
+where needed. This team plays a crucial role in improving Nexus
+customer time-to-value.
+
+Responsibilities
+
++ Assistin the design of standard solution and integration modules
+
+* Codein Java, JavaScript, Angular, Python, as needed
+
+* Work closely with the standard solutions team's product
+
+managers as well as Nexus product managers and services
+
+Requirements
+
+¢ Bachelors in Computer Science/ Engineering
+
+¢ Java and related technologies
+
+* Interest and some experience in full stack development
+
+¢ Integration technologies a plus (Web Services, EDI)

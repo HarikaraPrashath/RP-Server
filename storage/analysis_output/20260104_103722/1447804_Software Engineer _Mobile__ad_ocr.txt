@@ -1,0 +1,59 @@
+Software Engineer ( Mobile )
+We are looking for passionate candidates to join the Sri Lankan operations of an Australian-based
+cutting-edge Technology Company serving both government and private organizations in Australia,
+England, and New Zealand.
+This can be a full-time position with the possibility to join the permanent carder based on your performance.
+We offer attractive packages and flexibility of working from home (maintaining social distancing to stay
+safe and healthy, as well as saving commuting time and cost).
+Who are we looking for?
+Self-motivated, energetic, and creative individuals who can work with minimal supervision and deliver high-quality
+mobile solutions. We are looking for someone who has strong coding skills, a passion for mobile technologies,
+and the ability to work effectively within cross-functional teams.
+Skill Requirements:
+
+© A Bachelor's Degree in Computer Science, Software Engineering, IT, or equivalent qualification
+
+‘3 years of Strong hands-on coding experience with Flutter, Android native (Kotlin/Java), or iOS native
+
+(Swift/Objective-C)
+
+Experience with mobile UI/UX implementation and pixel-perfect design alignment
+
+‘© Understanding of mobile architectures, state management, and performance optimization
+
+‘© Experience integrating Firebase, push notifications, analytics, and mobile SDKs
+
+‘© Experience integrating Google Pay / Apple Pay or similar mobile payment services
+
+Familiarity with REST APIs, JSON, and backend integration
+
+‘© Version control experience using Git
+
+‘Experience with mobile app testing, debugging, and profiling tools
+
+* Knowledge of Agile/Scrum development processes
+
+‘© Experience with Play Store / App Store deployment will be an added advantage
+Responsibilities
+
+© Develop and maintain high-quality mobile applications using Flutter, Android, or iOS native
+
+technologies
+
+© Translate Figma designs into functional, responsive, and accurate mobile Ul
+
+Perform developer testing and work collaboratively with QA to ensure defect-free releases
+
+‘© Debug and troubleshoot mobile-specific issues across devices and OS versions
+
+Provide accurate effort estimates and deliver tasks within sprint deadlines
+
+‘* Collaborate closely with designers, backend developers, and product managers
+
+'* Participate in code reviews and maintain code quality, documentation, and best practices
+
+‘* Implement mobile-specific integrations such as payment gateways, Firebase, and third-party SDKs
+
+© Support app submission processes and ensure compliance with App Store / Play Store guidelines
+Ifyou have worked with the above skill requirements / areas more than 3 years, not scared to think out of the box and believe you can.
+make an impact in changing the traditional way of work, then you are encouraged to apply. Feel Free to email your resume to

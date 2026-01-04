@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CV\\AI_Engineer_CV_Sample.pdf",
+    "output": "outputs\\AI_Engineer_CV_Sample.json",
+    "method": "pdf_text",
+    "char_count": 1951
+  },
+  {
+    "file": "CV\\Asmitha Thiraviyarasa CV.pdf",
+    "output": "outputs\\Asmitha Thiraviyarasa CV.json",
+    "method": "pdf_text",
+    "char_count": 4563
+  },
+  {
+    "file": "CV\\Dinithi CV Resume.pdf",
+    "output": "outputs\\Dinithi CV Resume.json",
+    "method": "pdf_text",
+    "char_count": 2969
+  },
+  {
+    "file": "CV\\Kojithan-Yogarajah-CV.pdf",
+    "output": "outputs\\Kojithan-Yogarajah-CV.json",
+    "method": "pdf_text",
+    "char_count": 3417
+  },
+  {
+    "file": "CV\\QA.pdf",
+    "output": "outputs\\QA.json",
+    "method": "pdf_text",
+    "char_count": 5611
+  },
+  {
+    "file": "CV\\rusaik_cv.pdf",
+    "output": "outputs\\rusaik_cv.json",
+    "method": "pdf_text",
+    "char_count": 6438
+  }
+]

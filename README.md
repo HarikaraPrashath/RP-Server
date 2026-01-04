@@ -17,8 +17,12 @@ Endpoints (summary):
 - GET /cv -> latest CV metadata
 - GET /cv/file?id=... -> stream CV file
 - GET/PUT /profile -> profile storage
+- POST /auth/signup -> create account (local storage)
+- POST /auth/login -> sign in (local storage)
+- POST /auth/forgot-password -> placeholder reset flow
 - GET /jobs -> job metadata + snippets
 - GET /jobs/file?name=... -> job asset
 - POST /jobs/refresh -> run scraper + ranking
 - GET /ranked -> ranked job list
 - GET /ranked/summary -> best + top matches
+- POST /analyse -> run job analysis pipeline (keyword in JSON body)

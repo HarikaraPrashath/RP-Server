@@ -1,0 +1,64 @@
+®@ Insight Software Solutions (ISS) Pty Ltd
+About ISS
+
+Insight Software Solutions (ISS) is a fast-growing technology company delivering Al-
+powered products and custom software solutions for clients worldwide. With exciting
+new projects in the pipeline, we’re looking for passionate Al Engineers and a Digital
+Marketing Specialist to join our team.
+
+@ Al Engineer (TypeScript | C#| Python) - Remote (P/T or F/T)
+We are looking for a hands-on Al Engineer with real project experience in building and
+delivering Al solutions.
+
+Key Responsibilities
+= Design, build, and deploy Al-driven solutions and products
+= Develop and manage Al Agents and multi-agent systems
+= Build Al workflows and orchestration pipelines
+= Integrate LLMs into production systems.
+= Implement RAG solutions
+= Work across backend, Al services, and cloud platforms
+Required Skills & Experience
+Strong programming experience in C# | TypeScript | Python
+Practical experience with:
+= Al Agents & Al Workflows
+= Azure Al Agent Framework, Azure Al Foundry
+= LLMs, Hugging face, RAG, Al tools
+Experience with one or more:
+= AzureAl
+= Google Al
+= AWSAlservices
+Nice to Have
+» Startup or product-based experience
+» Knowledge of Al scalability, security, and performance
+« Experience with cloud-native architectures
+¢ Digital Marketing Specialist (Proven Results Required)
+We are looking for an experienced Digital Marketer with a strong success profile,
+capable of driving leads, users, and revenue.
+Key Responsibilities
+« Plan and execute Linkedin B2B & B2C campaigns
++ Manage global social media campaigns:
+o Facebook, Instagram, Twitter/X
+o Other relevant platforms
+Run campaigns for:
+« Insight Software Al & Custom Software Consulting
+» Various Product launches
+« Execute product marketing and growth campaigns
+« Manage CRM, lead nurturing, and follow-ups
+« Email campaigns
+* Own day-to-day digital marketing operations
+* Track performance, conversions, and ROI!
+Must Have
++ Proven success stories / case studies
+* Strong understanding of funnels, conversions, and growth
+« Ability to work independently and deliver results
+Why ISS
+* Competitive salary + project-based bonuses
+« Flexible hours & fully remote work from anywhere with a good connection.
+« Employee Share Program for high performers
+« Start Part-time with the option to move to full-time.
+« Annual learning budget and conference events.
+How to apply
+1. Email priyal@insightsoftwaresolutions.com.au with subject “Al Engineer” or
+“Digital Marketing Specialist”. For confidential enquiries: +94 071 511 1484
+The Al gold rush is underway, claim your stake today and let’s build your
+legacy together.

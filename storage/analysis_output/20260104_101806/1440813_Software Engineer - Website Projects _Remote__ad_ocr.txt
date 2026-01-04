@@ -1,0 +1,109 @@
+Sit! WE ARE Jo Wee:
+aaeeS 3 R helpers a
+: Software Engineer — Website Projects Team (Remote) — :
+
+Experience Level Location Employment Type Company
+
+04+ Years Sri Lanka (Remote) Full-Time The Job Helpers, USA
+
+Overview
+The Job Helpers is seeking a talented and self-driven Software Engineer to join our Website Projects Team. This role is ideal for an
+engineer with strong web development expertise who enjoys building scalable digital platforms, enhancing user experience, and
+contributing to our growing portfolio of website solutions. The ideal candidate will excel in R&D, automation, web optimisation, and
+SEO-driven development while working in a fully remote environment.
+We offer an Attractive Sri Lankan Payment Plan and opportunities for long-term career growth within a global operation.
+Key Responsibilities Required Qualifications
+Website Development & Innovation Technical Skills
+
+‘* Contribute to the research, design, and development of new» Bachelor’s degree in Computer Science, Software
+website functionalities, modules, and platforms that align Engineering, Information Systems, or a related field.
+with business requirements. + 4+ years of experience in full-stack web development.
+
+* Enhance existing web applications through performance Strong proficiency in:
+optimization, UX improvements, and modern coding © JavaScript, TypeScript, HTMLS, CSS3
+practices. © React, Next js, Angular, or Vuejs
+
+* Explore and integrate new technologies, frameworks, and * Experience “working with CMS platforms (WordPress,
+automation tools to elevate the platform's capabilities. Webflow, or custom CMS development).
+
+Cross-Team Collaboration * Solid understanding of databases (MySQL, MongoDB,
+
+* Work closely with the Website Projects Team, designers, and PostgreSQL).
+content teams to coordinate. tasks, ensure smooth  * Experience with REST APIs, integrations, and automation
+communication, and maintain project alignment. workflows.
+
+* Use automation tools to streamline internal workflows,  * Hands-on experience with Git, CI/CD workflows, and cloud
+particularly for email sequences and customer platforms.
+communication processes. Professional Skills
+
+Full Project Lifecycle Ownership * Strong problem-solving ability with a proactive and detail-
+
+* Participate in the planning, development, testing, oriented mindset.
+deployment, and maintenance of website projects. * Ability to work independently in a remote environment.
+
+* Ensure high-quality deliverables through continuous _—_* Excellent communication and documentation skills.
+integration, code reviews, and adherence to development * Experience collaborating with cross-functional teams in fast-
+standards. paced environments.
+
+* Maintain detailed documentation for systems, updates, and _ Preferred Qualifications
+technical decisions. « Experience in SEO-friendly development and technical
+
+‘System Stability, Security & Performance optimization.
+
+‘* Monitor website performance, uptime, and scalability across * Familiarity with workflow automation tools (Make, Zapier,
+all platforms and services. nBn, etc).
+
+* Proactively troubleshoot bugs, performance issues, and  * Background in website analytics, performance tuning, and
+security vulnerabilities. A/B testing.
+
+‘+ Implement best practices for web security, data protection,  * Exposure to UX/UI principles and responsive web design.
+and system reliability. * Knowledge of security best practices and performance
+
+Technical SEO & Analytics ‘monitoring tools.
+
+* Apply technical SEO best practices to enhance site visibility,
+page performance, indexing, and overall search rankings.
+
+* Use tools like Google Analytics, Search Console, and
+performance dashboards to guide improvement initiatives.
+
+* Provide insights and recommendations for website growth
+strategies based on data trends.
+
+Reporting & Communication
+
+* Maintain consistent communication with The Job Helpers
+team.
+
+* Submit weekly status updates, detailing progress, tasks,
+blockers, and resource needs.
+
+* Prepare monthly and annual reports outlining performance
+metrics, technical improvements, KPls, and strategic
+recommendations.
+
+Attractive Sri Lankan Payment Plan
+We offer one of the most competitive compensation packages for remote engineers in Sri Lanka, including:
+
++ Monthly salary paid in LKR or USD (based on preference).
+
+* Performance-based increments every 6 or 12 months.
+
+© Eligibility for quarterly performance bonuses based on KPIs.
+
+* Additional project-based incentive payments for completing high-impact deliverables.
+
++ Opportunity for rapid salary growth based on skills, contribution, and tenure.
+
+* Long-term career track with promotions to Senior Engineer, Team Lead, or Product Engineer roles.
+
+How to Apply
+Please email your most updated CV/Resume along with a cover letter and your project portfolio to mardy@thejobhelpers.com
+You may also contact us via Call or WhatsApp at 071499 9656
+Applications submitted without a cover letter will not be considered.
+Before applying, kindly review all criteria and information provided in this job advertisement. Pay close attention to the listed
+responsibilities and key requirements of the position. Due to the high volume of applications we receive, all submissions will be
+reviewed in the order they are received. Only shortlisted candidates will be contacted for the first round of interviews.
+Thank you for your understanding.
+Q North Dakota, United States
+eS www.thejobhelpers.com

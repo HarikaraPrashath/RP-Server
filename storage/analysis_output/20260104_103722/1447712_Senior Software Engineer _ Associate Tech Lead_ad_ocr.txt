@@ -1,0 +1,37 @@
+Join Our Team
+Allion Technologies Sri Lanka delivers innovative, scalable software solutions for 0
+businesses around the world - combining global expertise, agile development, and a ALLION
+client-first approach to drive digital transformation and long-term growth across
+industries.
+Senior Software Engineer/Associate Tech Lead
+Hybrid | Colombo 05
+We are looking for a Senior Software Engineer / Associate ecee
+Tech Lead who is highly hands-on and detail-oriented, 2 @
+with strong communication skills. You will play a key role
+in building modern web and mobile applications, ensuring
+high UI/UX quality, and contributing to frontend
+architecture, code quality, and team best practices
+Responsibilities
+* Build and lead frontend-heavy applications using Reactjs and
+TypeScript
+* Develop and maintain cross-platform mobile apps using React Native 1
+(iOS & Android)
+* Translate designs and requirements into pixel- perfect, performant Uls
+Integrate frontend with backend services built using Nodejs / NestJS
+* Implement Al- powered frontend features, including LLM function
+calling and Al workflows
+Requirements & Skills
+* 3+ years of frontend-focused development experience
+* Strong expertise in Reactjs, React Native, and TypeScript
+¢ Solid understanding of frontend architecture, state management, and
+performance
+* Working experience integrating APIs built with Nodejs / NestJS
+* Hands-on experience with LLMs, including function calling and Al-driven UI
+features
+« Experience integrating with MongoDB, Redis, and REST APIs
+¢ Excellent communication skills and strong attention to detail
+* Strong advantage if you can share frontend applications you have built (live
+links, repositories, or case studies), especially in React or React Native.
+Apply now: ecee
+» Let's grow together with Allion Sri Lanka! eeee
+www.alliontechnologies.com

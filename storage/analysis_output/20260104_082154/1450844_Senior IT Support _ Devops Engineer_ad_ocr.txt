@@ -1,0 +1,27 @@
+JOIN OUR CANADIAN-BASED GLOBAL COMPANY
+Voyzant, a global leader in the travel industry, is seeking a skilled IT Support & Cloud Operations Specialist
+to provide end-to-end IT support across our international offices. This role combines Microsoft 365
+administration, cloud operations, and global IT support to ensure seamless operations and secure
+collaboration worldwide.
+We are seeking a Senior IT Support & DevOps Engineer to support our local/cloud IT infrastructure.
+Key Responsibilities:
++ Support and maintain CI/CD pipelines and deployment workflows
++ Support cloud infrastructure and production environments (Azure/AWS)
++ Support server based and containerized platforms using Docker and Kubernetes
++ Administer Microsoft 365 (Entra ID, Exchange, SharePoint, Teams, Intune)
+yr + Manage identity, MFA, endpoint security, and access controls
+I &, + Support local network infrastructure (LAN/Wi-Fi, firewalls, VPN)
+Required Experience & Skills
+{/ + 5+ years of experience in DevOps, and IT Infrastructure management
+* Skilled in CI/CD Pipelines, Docker and Kubernetes, GitHub Actions,
+~ Jenkins and Prometheus & Grafana
+4 + Strong Microsoft 365 administration experience
++ Solid networking and troubleshooting skills
+Nice to Have
++ Experience with SOC 2, ISO 27001, GDPR, or PIPEDA
++ Experience supporting regulated or enterprise environments
++ Azure or Microsoft certifications
+ay «
+ga Apply Now: hrsl@voyzant.com | 0767 871 585
+Head of Human Resources vvyyZa n tC
+Voyzant (Pvt) Ltd. 481 T. B. Jayah Mawatha, Colombo 10 | www.voyzant.com

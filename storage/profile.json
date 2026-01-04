@@ -1,0 +1,23 @@
+{
+  "basics": {
+    "firstName": "DIVENDRA",
+    "lastName": "PARAMENDRAN",
+    "additionalName": "",
+    "headline": "software engineer",
+    "position": "software engineer",
+    "industry": "",
+    "school": "BSc (Hons) in Information Technology Specializing in Software Engineering,",
+    "country": "Sri Lanka",
+    "city": "Akkaraipattu",
+    "contactEmail": "divendraparamendran226@gmail.com",
+    "showCurrentCompany": true,
+    "showSchool": true
+  },
+  "about": "Leveraging expertise in full-stack web development, with hands-on experience in delivering innovative solutions.\nDedicated to enhancing user experiences through responsive design and real-time features, with a focus on\ncreating transformative applications that integrate modern technologies for impactful digital interactions.",
+  "experiences": [],
+  "educationItems": [],
+  "skills": [],
+  "projects": [],
+  "certifications": [],
+  "recommendations": []
+}

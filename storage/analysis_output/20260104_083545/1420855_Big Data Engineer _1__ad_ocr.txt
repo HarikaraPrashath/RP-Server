@@ -1,0 +1,34 @@
+2 ut vo
+We Are Anniversary
+° ° Big Data Engineer
+' r r Gg For a US Client
+We're looking for a Big Data Engineer for a NYSE listed
+AdTech giant. You would get the opportunity to work with
+, the systems handling one of the world’s largest consumer
+¥ fo profile data sets.
+» , “i Requirements
+ng | a (j 5+ years of experience as a Big Data Engineer
+: —_ an | a | mh , either on-premises (Hadoop), public cloud (AWS
+— | \ EMR), or hybrid infrastructure.
+ll ~ i : © Experience managing Hive.
+NG 5 =a | (Yj Proficiency in Linux and shell scripting.
+— nn \ >” @« (4 Experience with Apache Kafka for data streaming
+er | LA | ‘ij - and event processing.
+Ad er >> Pd Y) , | (% DBA experience with PostgreSQL, MySQL, or
+a’ One \ Z ih) vo | MariaDB Is a plus.
+i a” 4 og sa | (4 Experience working with Terraform is a plus.
+| 3 fi | > SY (% Solid knowledge of NoSQL databases
+iy oF \ fq (Cassandra, Scylla, Aerospike) is a plus.
+>. ~~ d “NS (Yj Fluency in spoken and written English to directly
+\ “¥v \\ ia SS i work with US teams.
+ee a Responsibilities
+1 —_ — " i (Yj Ensuring availability, efficiency, and reliability
+: - ! of the BigData infrastructure.
+(4 Managing daily BigData operations.
+SC
+To apply, click on the advertisement (Yj Building and supporting tools for operational tasks.
+to visit www.cms.Ik or email your ™ Evaluating, designing, deploying monitoring tools.
+resume to careers@cms.|k with the , | . |
+: cme moa ees (4 Designing and implementing DR/BC practices and
+subject “Big Data Engineer”. procedures
+© On-call support of production systems.

@@ -1,0 +1,10 @@
+cd "c:\Users\user\Desktop\pro 2\CV_extractor\scrapper"
+# Ensure Chrome + matching chromedriver; you may need to install selenium, bs4, pillow, requests:
+.\.venv\Scripts\activate
+pip install selenium beautifulsoup4 pillow requests
+python TopJobs_scraper_t2.py
+
+
+cd "c:\Users\user\Desktop\pro 2\CV_extractor"
+
+python job_skill_pipeline.py --scraped_folder "..\\scr_output\\topjobs_ads" --user_skills "react,javascript,html,css,rest api"

@@ -1,0 +1,35 @@
+CALLING ( / 7
+) VA aN > “ ~ = BS
+; “
+—~@
+Data Engineer
+We are looking for Data Engineers with hands-on experience in SQL to join our data
+analytics team. As a key member of the team, you will be involved in developing data
+products to address various use cases in the company.
+We want you to :
+¢ Assemble data sets to develop data products to meet various business requirements.
+e Identify, design, and implement internal process improvements to optimize data
+deliveries.
+¢ Build the framework required for optimal extraction, transformation, and loading of data
+from a wide variety of data sources.
+¢ Build data products including predictive analytics solutions using data pipelines to
+provide actionable insights to improve business performances.
+¢ Continuously monitor the data products being developed to ensure accuracy and user-
+friendliness
+¢ Work with various stakeholders to gather insights to do necessary modifications in a
+timely manner.
+We expect you to
+¢ Possess a bachelor’s degree (or equivalent) in data science, information technology,
+engineering, or related discipline
+e Have a minimum 2 to 3 years of experience with SQL, R and data analytics tools and
+solutions (Oracle BI, Power BI, Tableau etc.)
+¢ Have good communication skills, especially in explaining technical concepts to
+nontechnical staff.
+Selected candidates will be offered a competitive remuneration package with fringe benefits
+and a steady career with endless opportunities to advance forward.
+
+Send your updated resume to hrd@cf.|k mentioning the position in the subject of the email.
+Ser Bt EF centrix, CENTRAL FINANCE COMPANY PLC CF
+wt ata www.centralfinance.lk
+
+Central Finance Company Pisa leeraed france company supe by he Cental Bank of Sanka OT1 2 038 028

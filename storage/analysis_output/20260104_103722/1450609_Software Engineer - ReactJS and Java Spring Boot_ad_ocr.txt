@@ -1,0 +1,53 @@
+FORTUNAGE BAL
+Software Engineer
+ReactJS and Java Spring Boot
+© About the Role
+We are seeking a talented Full-Stack Developer to join our team. The ideal candidate
+will have strong expertise in React for frontend development and Spring Boot for
+building robust REST APIs and backend services.
+© Required Skills & Experience
+>» Front-end Development
+* Strong proficiency in Reactjs and modern JavaScript (ES6+)
+* Experience with React Hooks, Context API, and state management (Redux/Zustand)
+®@ Solid understanding of HTML5, CSS3, and responsive design
+®@ Knowledge of modern frontend build tools (Webpack, Vite, etc.)
+@ Experience with RESTful API integration
+> Backend Development
+® Proficiency in Java and Spring Boot framework
+@ Strong experience building RESTful APIs
+@ Knowledge of Spring Security, Spring Data JPA
+* Experience with relational databases (MySQL)
+®@ Understanding of microservices architecture
+* API documentation (Swagger/OpenaPl)
+> General Requirements
+*@ 2-5 years of professional development experience
+* Strong problem-solving and debugging skills
+Experience with Git version control
+* Understanding of Agile/Scrum methodologies
+*® Good communication and teamwork skills
+© Nice to Have
+* Experience with cloud platforms (AWS, Azure, GCP)
+@ Knowledge of Docker and containerization
+* CI/CD pipeline experience (Jenkins, GitLab Cl, GitHub Actions)
+* Experience with NoSQL databases (MongoDB, Redis)
+® TypeScript knowledge
+* Testing frameworks (JUnit, Jest, React Testing Library)
+*® Message queuing systems (RabbitMQ, Kafka)
+© Responsibilities
+® Design and develop responsive web applications using React
+@ Build and maintain RESTful APIs using Spring Boot
+®@ Collaborate with cross-functional teams to define and ship new features
+@ Write clean, maintainable, and well-documented code
+®@ Participate in code reviews and mentor junior developers
+® =Troubleshoot and debug applications
+® Optimize applications for maximum speed and scalability
+® Stay up-to-date with emerging technologies and industry trends
+© what We Offer
+* Competitive salary package
+@ Flexible working hours
+* —Remote/Hybrid work options
+*@ Professional development opportunities
+® Collaborative and innovative work environment
+Health insurance and benefits
+® Modern tech stack and tools
+www.fortunaglobal.com
