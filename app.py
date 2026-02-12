@@ -817,6 +817,7 @@ async def forgot_password(payload: dict[str, Any]) -> JSONResponse:
 
 @app.get("/jobs")
 def get_jobs() -> JSONResponse:
+    print("[jobs] fetch metadata")
     metadata_path = SCR_OUTPUT_DIR / "metadata.json"
     if not metadata_path.exists():
         return JSONResponse({"jobs": []})
@@ -892,7 +893,9 @@ async def refresh_jobs(request: Request, payload: dict[str, Any] | None = None) 
         enable_ocr = str(os.environ.get("ENABLE_JOB_OCR", "1")).lower() in ("1", "true", "yes")
 
     try:
+        print(f"[jobs/refresh] keyword='{keyword}' skills={len(user_skills)} force={force} ocr={enable_ocr}")
         if _should_refresh(keyword, force):
+            print("[jobs/refresh] running scraper + pipeline")
             env = os.environ.copy()
             env["TOPJOBS_KEYWORD"] = keyword
             _python_run([sys.executable, str(SCRAPER_PATH)], env=env)
@@ -919,10 +922,13 @@ async def refresh_jobs(request: Request, payload: dict[str, Any] | None = None) 
                 _record_trend_snapshot(keyword)
             except Exception:
                 pass
+            print("[jobs/refresh] refresh complete")
             return JSONResponse({"ok": True, "refreshed": True})
 
+        print("[jobs/refresh] using cached results")
         return JSONResponse({"ok": True, "refreshed": False})
     except Exception as exc:
+        print(f"[jobs/refresh] failed: {exc}")
         raise HTTPException(status_code=500, detail=f"Job refresh failed: {exc}") from exc
 
 
@@ -957,6 +963,7 @@ async def seed_trends(payload: dict[str, Any] | None = None) -> JSONResponse:
 
 @app.get("/ranked")
 def get_ranked() -> JSONResponse:
+    print("[ranked] fetch ranked list")
     ranked_path = SCR_OUTPUT_DIR / "ranked_jobs.json"
     if not ranked_path.exists():
         return JSONResponse({"ranked": []})

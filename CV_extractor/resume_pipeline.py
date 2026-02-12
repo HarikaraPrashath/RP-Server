@@ -17,7 +17,17 @@ from rapidfuzz import fuzz
 
 DEFAULT_SECTION_HEADERS = {
     "summary": ["summary", "profile", "about", "objective"],
-    "skills": ["skills", "technical skills", "core skills", "tools", "technologies"],
+    "skills": [
+        "skills",
+        "technical skills",
+        "technical skills and interests",
+        "technical skills & interests",
+        "skills and interests",
+        "skills & interests",
+        "core skills",
+        "tools",
+        "technologies",
+    ],
     "experience": ["experience", "work experience", "employment", "professional experience", "work history"],
     "education": ["education", "academic", "qualifications"],
     "projects": ["projects", "personal projects", "key projects"],
@@ -193,6 +203,13 @@ def extract_text_hybrid(path: str, pdf_text_min_chars: int = 400) -> Dict[str, A
 
 # ------------------ SECTION SEGMENTATION ------------------
 
+def _normalize_header_line(line: str) -> str:
+    cleaned = line.strip().lower()
+    cleaned = re.sub(r"^[\s•\-\*]+", "", cleaned)
+    cleaned = re.sub(r"[:\-\s]+$", "", cleaned)
+    return cleaned
+
+
 def segment_sections(text: str, headers: Dict[str, List[str]] = DEFAULT_SECTION_HEADERS) -> Dict[str, str]:
     """
     Simple header-based segmentation.
@@ -207,12 +224,30 @@ def segment_sections(text: str, headers: Dict[str, List[str]] = DEFAULT_SECTION_
 
     sections: Dict[str, List[str]] = {"other": []}
     current = "other"
+    header_variants = sorted(header_map.keys(), key=len, reverse=True)
 
     for ln in lines:
-        key = ln.lower().strip(": -\t")
+        key = _normalize_header_line(ln)
         if key in header_map:
             current = header_map[key]
             sections.setdefault(current, [])
+            continue
+
+        matched = None
+        remainder = ""
+        for variant in header_variants:
+            pattern = r"^\s*[•\-\*]*\s*" + re.escape(variant) + r"\b[:\-\s]*(.*)$"
+            m = re.match(pattern, ln, flags=re.IGNORECASE)
+            if m:
+                matched = variant
+                remainder = (m.group(1) or "").strip()
+                break
+
+        if matched:
+            current = header_map[matched]
+            sections.setdefault(current, [])
+            if remainder:
+                sections[current].append(remainder)
             continue
 
         sections.setdefault(current, [])
