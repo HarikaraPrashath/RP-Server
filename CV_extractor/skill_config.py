@@ -16,7 +16,7 @@ SKILL_LEXICON: Dict[str, List[str]] = {
     "swift": ["swift"],
     "c": ["c programming", "c"],
     "c++": ["c++", "cpp"],
-    "c#": ["c#", "c sharp"],
+    "c#": ["c#", "c sharp", "c-sharp", "c# .net", "c#.net"],
     "go": ["go", "golang"],
     "rust": ["rust"],
     "ruby": ["ruby"],
@@ -33,7 +33,7 @@ SKILL_LEXICON: Dict[str, List[str]] = {
     "next.js": ["next.js", "nextjs", "next js"],
     "vue": ["vue", "vue.js", "vuejs"],
     "nuxt": ["nuxt", "nuxt.js", "nuxtjs"],
-    "angular": ["angular", "angularjs"],
+    "angular": ["angular", "angularjs", "angluar"],
     "flutter": ["flutter"],
     "html": ["html", "html5"],
     "css": ["css", "css3"],
@@ -67,7 +67,8 @@ SKILL_LEXICON: Dict[str, List[str]] = {
     "playwright": ["playwright"],
     "selenium": ["selenium"],
     "pytest": ["pytest"],
-    "junit": ["junit"],
+    "junit": ["junit", "j unit"],
+    "oop": ["oop", "oop concepts", "object oriented programming", "object-oriented programming"],
     "tdd": ["tdd", "test driven development"],
     "bdd": ["bdd", "behavior driven development"],
 
@@ -80,7 +81,9 @@ SKILL_LEXICON: Dict[str, List[str]] = {
     "django": ["django"],
     "flask": ["flask"],
     "fastapi": ["fastapi"],
+    "spring framework": ["spring framework", "spring"],
     "spring boot": ["spring boot"],
+    "java ee": ["java ee", "j2ee", "jee"],
     ".net": [".net", "dotnet", "asp.net", "aspnet"],
     "graphql": ["graphql"],
     "grpc": ["grpc"],
@@ -103,9 +106,10 @@ SKILL_LEXICON: Dict[str, List[str]] = {
     # Databases
     # ======================
     "sql": ["sql"],
+    "pl/sql": ["pl/sql", "pl sql", "plsql"],
     "mysql": ["mysql"],
     "postgresql": ["postgresql", "postgres"],
-    "oracle": ["oracle", "oracle db"],
+    "oracle": ["oracle", "oracle db", "rdbms oracle", "rdbms"],
     "sql server": ["sql server", "mssql"],
     "mongodb": ["mongodb", "mongo db", "mongo"],
     "redis": ["redis"],
@@ -172,6 +176,7 @@ SKILL_LEXICON: Dict[str, List[str]] = {
     "devsecops": ["devsecops"],
     "qa": ["qa", "quality assurance"],
     "automation testing": ["automation testing"],
+    "crystal reports": ["crystal reports", "crystal report"],
 
     # ======================
     # Automation/Enterprise
@@ -200,13 +205,20 @@ EXTRA_SIGNALS = {
 SECTION_HEADERS = [
     "responsibilities",
     "requirements",
+    "must have",
+    "must-have",
+    "mandatory requirements",
     "core skills",
     "core skills & experience",
     "technical skills",
+    "preferred qualifications",
+    "preferred skills",
     "what you will do",
     "what you bring",
     "nice-to-have",
     "nice to have",
+    "good to have",
+    "bonus skills",
     "the job",
     "the person",
 ]

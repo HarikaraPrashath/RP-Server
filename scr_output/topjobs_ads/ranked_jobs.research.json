@@ -1,0 +1,2052 @@
+[
+  {
+    "ref": "1468537",
+    "position": "Senior Full Stack Software Engineer (Java + Angluar/React)",
+    "employer": "ObjectOne (Private) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=DEFZZZ&jc=0001468537&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "opjectone We Are Hiring! Senior Full Stack Software Engineer (Java + Angular/Rea + A degree in Computer Science, Engineering, or related field + 3+ years of experience building enterprise-grade applications using Java and Spring Proficiency with modern JavaScript frameworks (Angular; React/Vue also welcome) Strong understanding of object-oriented principles and system design Experience with REST APIs, microservices, and SQL/NoSQL databases Familiarity with Git, Cl/CD tools, and agile development practices Solid debugging and problem-solving skills Strong written and spoken English communication skills Nice to have: experience with Docker, Kubernetes, or cloud platforms (aws/GcpP/Azure) » Dev...",
+    "text_full": "opjectone We Are Hiring! Senior Full Stack Software Engineer (Java + Angular/Rea + A degree in Computer Science, Engineering, or related field + 3+ years of experience building enterprise-grade applications using Java and Spring Proficiency with modern JavaScript frameworks (Angular; React/Vue also welcome) Strong understanding of object-oriented principles and system design Experience with REST APIs, microservices, and SQL/NoSQL databases Familiarity with Git, Cl/CD tools, and agile development practices Solid debugging and problem-solving skills Strong written and spoken English communication skills Nice to have: experience with Docker, Kubernetes, or cloud platforms (aws/GcpP/Azure) » Develop backend services, APIs, and responsive web applications » Write clean, maintainable, and testable code in Java and JavaScript + Collaborate with product managers, designers, and engineers to ship features » Write and maintain unit and integration tests + Participate in planning, code reviews, and technical discussions * Take ownership of your work and drive it through to completion » Help shape best practices and contribute to continuous improvement Drop Your CV to www.objectoneworld.com ct)",
+    "skills_found": [
+      "angular",
+      "aws",
+      "azure",
+      "docker",
+      "git",
+      "java",
+      "javascript",
+      "kubernetes",
+      "react",
+      "rest api",
+      "spring framework",
+      "sql",
+      "vue"
+    ],
+    "signals_found": [
+      "backend",
+      "full stack",
+      "integration",
+      "microservices"
+    ],
+    "match_percent": 63.39,
+    "baseline_match_percent": 53.85,
+    "overlap": [
+      "aws",
+      "docker",
+      "git",
+      "javascript",
+      "kubernetes",
+      "react",
+      "sql"
+    ],
+    "missing": [
+      "angular",
+      "azure",
+      "java",
+      "rest api",
+      "spring framework",
+      "vue"
+    ],
+    "job_skill_count": 13,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [
+      "angular",
+      "aws",
+      "azure",
+      "docker",
+      "java",
+      "javascript",
+      "kubernetes",
+      "react"
+    ],
+    "core_skills": [
+      "git",
+      "rest api",
+      "spring framework",
+      "sql",
+      "vue"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [
+      "aws",
+      "docker",
+      "javascript",
+      "kubernetes",
+      "react"
+    ],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.3257,
+      "nice_to_have_coverage": 0.625,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 7 of 13 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1464464",
+    "position": "Associate Software Engineer  (1)",
+    "employer": "Synapsys",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=25&ac=0000000039&jc=0001464464&ec=0000000373&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "~ Associate Software Engineer FullStack Developer At Synapsys Ltd, we build secure enterprise and fintech platforms used by banks and financial institutions. We're looking for Associate Software Engineers who want to grow as full-stack developers working on real production systems. ‘write clean, maintainable, and efficient code following best practices Develop backend services using NET and/or Node|s, Bul frontend components using React Collaborate with the team to design and implement new features Debug, troubleshoot, and resolve application issues Ensure performance, quality, and responsiveness of applications Participate in code reviews to maintain high development standards Stay updated...",
+    "text_full": "~ Associate Software Engineer FullStack Developer At Synapsys Ltd, we build secure enterprise and fintech platforms used by banks and financial institutions. We're looking for Associate Software Engineers who want to grow as full-stack developers working on real production systems. ‘write clean, maintainable, and efficient code following best practices Develop backend services using NET and/or Node|s, Bul frontend components using React Collaborate with the team to design and implement new features Debug, troubleshoot, and resolve application issues Ensure performance, quality, and responsiveness of applications Participate in code reviews to maintain high development standards Stay updated on industry trends and technologies \"Work with senior engineers to adopt Aland ‘automation tools to improve coding efficleney and best practices Bachelors Degree in Software Engineering / IT / 15 or equivalent 0-2yeors of experience in software or ful-stack development Exposure to NET, Node je, and React Basle experience with MS SQL / SQL Familiarity with Git-based development workflows Exposure to Azure or Azure DevOps environments is a plus Knowledge of PHP or Python is an advantage Drive & initiative: Sef-motivated and wiling to take ‘ownership ‘Continuous Learner: Passionate about improving technical skill Experiment & Innovate: Willing to ry new ideas and improve solutions Adaptability: Open to feedback and changing priorities ‘Team Player: Strong collaboration and ‘communication skis",
+    "skills_found": [
+      "azure",
+      "git",
+      "node.js",
+      "php",
+      "python",
+      "react",
+      "sql"
+    ],
+    "signals_found": [
+      "backend",
+      "frontend",
+      "full stack"
+    ],
+    "match_percent": 62.03,
+    "baseline_match_percent": 57.14,
+    "overlap": [
+      "git",
+      "python",
+      "react",
+      "sql"
+    ],
+    "missing": [
+      "azure",
+      "node.js",
+      "php"
+    ],
+    "job_skill_count": 7,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "azure",
+      "git",
+      "node.js",
+      "php",
+      "python",
+      "react",
+      "sql"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.5215,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 4 of 7 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1464461",
+    "position": "Software Engineer  (1)",
+    "employer": "Synapsys",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=26&ac=0000000039&jc=0001464461&ec=0000000373&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Software Engineer FullStack Developer Synapsys is looking for Software Engineers ~ Full-Stack to build and enhance enterprise and fintech applications used in regulated financial environments. This role suits engineers ready to take greater ownership of design, development, and delivery. Design and develop full-stack applications Work with NET, Nodes, React, and MS SQL Collaborate on feature design and implementation Debug and resolve application and performance Eneure quality, responsiveness, and reliability Participate in code reviews and cl/CD activities Adopt Al and automation tools to improve development efficiency Bachelor's Degree in Software Engineering | IT equivalent 5 years experi...",
+    "text_full": "Software Engineer FullStack Developer Synapsys is looking for Software Engineers ~ Full-Stack to build and enhance enterprise and fintech applications used in regulated financial environments. This role suits engineers ready to take greater ownership of design, development, and delivery. Design and develop full-stack applications Work with NET, Nodes, React, and MS SQL Collaborate on feature design and implementation Debug and resolve application and performance Eneure quality, responsiveness, and reliability Participate in code reviews and cl/CD activities Adopt Al and automation tools to improve development efficiency Bachelor's Degree in Software Engineering | IT equivalent 5 years experience in ful-stack development Strong NET, Node|, and React experiance Solid MS SQL / SQL knowledge Experience with Azure Devops is an advantage PHP or Python experience is a plus Strong ownership and delivery mindset Passion for continuous learning illngness to experiment and innovate Adaptable and receptive to feedback Effective team collaborator",
+    "skills_found": [
+      "azure",
+      "node.js",
+      "php",
+      "python",
+      "react",
+      "sql"
+    ],
+    "signals_found": [
+      "full stack"
+    ],
+    "match_percent": 58.54,
+    "baseline_match_percent": 50.0,
+    "overlap": [
+      "python",
+      "react",
+      "sql"
+    ],
+    "missing": [
+      "azure",
+      "node.js",
+      "php"
+    ],
+    "job_skill_count": 6,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "azure",
+      "node.js",
+      "php",
+      "python",
+      "react",
+      "sql"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.4479,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 3 of 6 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1463889",
+    "position": "Odoo Developer (Software Engineer)",
+    "employer": "Prostyle Technology (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=28&ac=DEFZZZ&jc=0001463889&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "WE ARE HIRING Q Prostyle Technology (Pvt) Ltd 9 Colombo, Sri Lanka Requirements Vv 1-3 years experience g W Odoo ERP (Community / Enterprise) ‘ vo Python & PostgreSQL WV XML, QWeb, JavaScript wo REST APIs, Linux, Git Nice to Have te Odoo upgrades & migrations Apply Now & ERP business process knowledge ¥%& Good English communication Wi Send your CV to: hr@dai-ki.co.jp Q Subject: Odoo Developer o) Ec.",
+    "text_full": "WE ARE HIRING Q Prostyle Technology (Pvt) Ltd 9 Colombo, Sri Lanka Requirements Vv 1-3 years experience g W Odoo ERP (Community / Enterprise) ‘ vo Python & PostgreSQL WV XML, QWeb, JavaScript wo REST APIs, Linux, Git Nice to Have te Odoo upgrades & migrations Apply Now & ERP business process knowledge ¥%& Good English communication Wi Send your CV to: hr@dai-ki.co.jp Q Subject: Odoo Developer o) Ec.",
+    "skills_found": [
+      "git",
+      "javascript",
+      "linux",
+      "postgresql",
+      "python",
+      "rest api"
+    ],
+    "signals_found": [],
+    "match_percent": 56.16,
+    "baseline_match_percent": 66.67,
+    "overlap": [
+      "git",
+      "javascript",
+      "linux",
+      "python"
+    ],
+    "missing": [
+      "postgresql",
+      "rest api"
+    ],
+    "job_skill_count": 6,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      "git",
+      "javascript",
+      "linux",
+      "postgresql",
+      "python",
+      "rest api"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "git",
+      "javascript",
+      "linux",
+      "postgresql",
+      "python",
+      "rest api"
+    ],
+    "matched_must_have": [
+      "git",
+      "javascript",
+      "linux",
+      "python"
+    ],
+    "missing_must_have": [
+      "postgresql",
+      "rest api"
+    ],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.6667,
+      "core_weighted_coverage": 0.6725,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 4 of 6 extracted skills.",
+      "Matched 4/6 must-have skills.",
+      "Critical gaps: postgresql, rest api"
+    ]
+  },
+  {
+    "ref": "1467730",
+    "position": "Software Engineer | React Full Stack Web Developer",
+    "employer": "Datamtx Labs",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=13&ac=DEFZZZ&jc=0001467730&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Software Engineer / React Full Stack Web Developer Job Role: Asa Full Stack Java / React JS Developer, you will be responsible for developing and maintaining web applications with a focus on both server-side and client-side programming. You will work closely with our cross-functional teams to create seamless and efficient end-user experiences. Key Responsibilities: * Develop front-end applications using React JS ‘* Design and implement back-end APIs and services with Java © Design Wireframes using figma. Ensure the performance, quality, and responsiveness of applications Conduct code reviews and provide constructive feedback Troubleshoot, debug, and perform necessary changes to the WebApplic...",
+    "text_full": "Software Engineer / React Full Stack Web Developer Job Role: Asa Full Stack Java / React JS Developer, you will be responsible for developing and maintaining web applications with a focus on both server-side and client-side programming. You will work closely with our cross-functional teams to create seamless and efficient end-user experiences. Key Responsibilities: * Develop front-end applications using React JS ‘* Design and implement back-end APIs and services with Java © Design Wireframes using figma. Ensure the performance, quality, and responsiveness of applications Conduct code reviews and provide constructive feedback Troubleshoot, debug, and perform necessary changes to the WebApplications Work with the DevOps team for continuous integration and deployment Maintain comprehensive documentation for all development work D AT, A IM ARC iN Qualifications Bachelor's degree in Computer Science, Information Technology, or a related fiel LABS ‘+ 3+ years of experience in full stack development * Proficiency in React JS , Node JS and JavaScript frameworks vacancies@datamtx.com Experience with RESTful services and API design 076 428 6656 Understanding of relational and NoSQL databases Excellent problem-solving and analytical skills http://www.datamtx.com/ Strong communication and teamwork abilities Skills ‘Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model Thorough understanding of React.js, Node JS and its core principles Experience with popular React js workflows (such as Flux or Redux) Familiarity with RESTful APIs. Familiarity with Figma Wireframe designing. Knowledge of modern authorization mechanisms, such as JSON Web Token Familiarity with modern front-end build pipelines and tools Experience with common front-end development tools such as Babel, Webpack, NPM, etc. Thorough understanding of HTML/CSS, Aws Lambda & use of RESTful APIs Thorough understanding of SQL/NoSQL databases Previous experience with GitHub",
+    "skills_found": [
+      "aws",
+      "babel",
+      "ci/cd",
+      "css",
+      "html",
+      "java",
+      "javascript",
+      "jwt",
+      "node.js",
+      "react",
+      "redux",
+      "rest api",
+      "serverless",
+      "sql",
+      "webpack"
+    ],
+    "signals_found": [
+      "backend",
+      "frontend",
+      "full stack",
+      "integration"
+    ],
+    "match_percent": 47.58,
+    "baseline_match_percent": 26.67,
+    "overlap": [
+      "aws",
+      "javascript",
+      "react",
+      "sql"
+    ],
+    "missing": [
+      "babel",
+      "ci/cd",
+      "css",
+      "html",
+      "java",
+      "jwt",
+      "node.js",
+      "redux",
+      "rest api",
+      "serverless",
+      "webpack"
+    ],
+    "job_skill_count": 15,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "aws",
+      "babel",
+      "ci/cd",
+      "css",
+      "html",
+      "java",
+      "javascript",
+      "jwt",
+      "node.js",
+      "react",
+      "redux",
+      "rest api",
+      "serverless",
+      "sql",
+      "webpack"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.2233,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 4 of 15 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468201",
+    "position": "Software Engineer (Male)",
+    "employer": "Data Management Systems (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=5&ac=0000000223&jc=0001468201&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49th year of business operations. While partnering the world’s leading IT Co’s, DMS specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets DMS provides the excitement of working with the world’s leading IT brands, Financial solutions and learning from experienced managers and professionals in the IT industry. DMS represents the World’s leading American IT Co’s IBM, HP, Oracle, Microsoft, Diebold Nixdorf, Entrust-Datacard, Cisco and VMWare and has been the first to implement many cutting-edge technology solutions in Sr...",
+    "text_full": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49th year of business operations. While partnering the world’s leading IT Co’s, DMS specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets DMS provides the excitement of working with the world’s leading IT brands, Financial solutions and learning from experienced managers and professionals in the IT industry. DMS represents the World’s leading American IT Co’s IBM, HP, Oracle, Microsoft, Diebold Nixdorf, Entrust-Datacard, Cisco and VMWare and has been the first to implement many cutting-edge technology solutions in Sri Lanka for over 48 years. The following vacancy currently exists in the Banking and Financial Systems Strategic Business Unit (SBU) of DMS. Vacancy: Software Engineer (Male) Applicants should be under 28 years of age and possess a Computer Science / Software degree from a recognized University / Institute and have a desire to pursue a career in Software Development and Support. Candidates for these positions should have: Working knowledge in C#, .NET Framework, Web Forms, JavaScript, HTML5, CSS3 and PostgreSQL. A willingness to learn new things, and have the ability to Understand Programming Logic. Strong ability to reverse engineer code and the ability to read and understand code written by others. A good grasp of OOP design concepts and functional programming concepts. Ability to suggest innovative ideas and find solutions to problems on their own. Have the ability to interpret new SDK references and documentation. Experience in using Linux and Microsoft Windows servers, drivers, their functions etc. If selected for an interview, applicants should be able to Demonstrate All Above Listed Capabilities with Examples from academic & internship or work related projects completed. Job Profile Includes the following: - Customer requirement gathering. Planning, Design and Implementation of software applications, including UI design and writing code according to given specifications. Working as part of a team, which may be established for a specific project. Preparing documentation for developed programs. Testing sample data-sets to check that the program works as intended. Other general IT related tasks. Benefits: Attractive remuneration packages based on qualifications and experience. Comprehensive medical insurance upon confirmation. How to Apply: Email your CV along with the names and addresses of two referees to careers@dmslanka2.com . Please specify the position you are applying for in the subject line of the email.",
+    "skills_found": [
+      ".net",
+      "c#",
+      "css",
+      "html",
+      "javascript",
+      "linux",
+      "oop",
+      "oracle",
+      "postgresql"
+    ],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 46.72,
+    "baseline_match_percent": 22.22,
+    "overlap": [
+      "javascript",
+      "linux"
+    ],
+    "missing": [
+      ".net",
+      "c#",
+      "css",
+      "html",
+      "oop",
+      "oracle",
+      "postgresql"
+    ],
+    "job_skill_count": 9,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "c#",
+      "css",
+      "html",
+      "javascript",
+      "linux",
+      "oop",
+      "oracle",
+      "postgresql"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.224,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 2 of 9 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1459425",
+    "position": "Full stack Software Engineer (1)",
+    "employer": "Browns Group Of Companies",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=32&ac=0000000221&jc=0001459425&ec=0000000264&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "JOIN. TEAM OF SPSl Browns Browns is one of the largest diversified conglomerates in Sri Lanka, which manages a fast growing and valuable portfolio of brands across several key industry sectors, such as automotive; plantations; leisure; power generation; agriculture; pharmaceuticals; oie * investments; marine and manufacturing. Being in existence for over 150 years, the Company is built upon a strong foundation of strength, driven by a vision and a will to succeed. We are looking for a self-motivated, result-driven individual with a proven track record to join our Browns Group. Full Stack Software Engineer Key Responsibilities ¢ Design, develop, and maintain scalable backend systems and micro...",
+    "text_full": "JOIN. TEAM OF SPSl Browns Browns is one of the largest diversified conglomerates in Sri Lanka, which manages a fast growing and valuable portfolio of brands across several key industry sectors, such as automotive; plantations; leisure; power generation; agriculture; pharmaceuticals; oie * investments; marine and manufacturing. Being in existence for over 150 years, the Company is built upon a strong foundation of strength, driven by a vision and a will to succeed. We are looking for a self-motivated, result-driven individual with a proven track record to join our Browns Group. Full Stack Software Engineer Key Responsibilities ¢ Design, develop, and maintain scalable backend systems and microservices using Golang ¢ Build and optimize RESTful APIs and real-time services using WebSockets ¢ Implement robust authentication, authorization, and data security practices ¢ Ensure high availability, performance, fault tolerance, and reliability of systems ¢ Write clean, well-documented, and testable code following industry best practices ¢ Work with databases including MySQL, MSSQL, and MongoDB, covering schema design, query optimization, and performance tuning ¢« Manage data consistency, concurrency, and transaction handling ¢ Collaborate with frontend teams on React-based integrations and contribute to frontend development when required Work closely with DevOps teams on CI/CD pipelines, containerization, and deployments (Docker experience is an advantage) Utilize message queues such as Kafka or RabbitMQ@ Participate in system architecture design, technical discussions, and decision-making Support system monitoring and logging using tools such as Prometheus, Grafana, or ELK Qualifications & Experience Bachelor’s Degree in Computer Science, Engineering, or equivalent practical experience Minimum of two (2) years’ experience in a similar role Experience working on large-scale or high-traffic systems Prior experience mentoring or leading development teams will be an advantage Strong analytical, problem-solving, and debugging skills Sound understanding of scalable system design and software design patterns Experience working in Agile/Scrum environments Excellent communication and teamwork skills Ability to work independently and take ownership of assigned responsibilities If you believe your profile matches the role, kindly please forward your CV to us within 7 days of this advertisement. Human Resources Department Brown & Company PLC <3 34, Sir Mohamed Macan Markar Mawatha, Colombo - 03 wns Tel: O112 663 O00 Bro = AHeritage of Trust E-mail: careers@brownsgroup.com Apply now! www.brownsgroup.com | © fin)",
+    "skills_found": [
+      "ci/cd",
+      "docker",
+      "go",
+      "grafana",
+      "mongodb",
+      "monitoring",
+      "mysql",
+      "prometheus",
+      "react",
+      "rest api",
+      "sql server"
+    ],
+    "signals_found": [
+      "backend",
+      "frontend",
+      "full stack",
+      "integration",
+      "microservices",
+      "scalable systems"
+    ],
+    "match_percent": 43.98,
+    "baseline_match_percent": 18.18,
+    "overlap": [
+      "docker",
+      "react"
+    ],
+    "missing": [
+      "ci/cd",
+      "go",
+      "grafana",
+      "mongodb",
+      "monitoring",
+      "mysql",
+      "prometheus",
+      "rest api",
+      "sql server"
+    ],
+    "job_skill_count": 11,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "ci/cd",
+      "docker",
+      "go",
+      "grafana",
+      "mongodb",
+      "monitoring",
+      "mysql",
+      "prometheus",
+      "react",
+      "rest api",
+      "sql server"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.1552,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 2 of 11 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1465159",
+    "position": "Senior Software Engineer JAVA (4)",
+    "employer": "DirectFN",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=22&ac=0000000492&jc=0001465159&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "DirectFN We're looking fora Senior Software Engineer [JAVA] © Hybrid © Full Time Degree in CS/IT 2+ Years Java JEE SQL JUnit Spring Framework Send your CV to careers@directfn.com Mention the position you're applying for in the subject line of your email",
+    "text_full": "DirectFN We're looking fora Senior Software Engineer [JAVA] © Hybrid © Full Time Degree in CS/IT 2+ Years Java JEE SQL JUnit Spring Framework Send your CV to careers@directfn.com Mention the position you're applying for in the subject line of your email",
+    "skills_found": [
+      "java",
+      "java ee",
+      "junit",
+      "spring framework",
+      "sql"
+    ],
+    "signals_found": [],
+    "match_percent": 43.75,
+    "baseline_match_percent": 20.0,
+    "overlap": [
+      "sql"
+    ],
+    "missing": [
+      "java",
+      "java ee",
+      "junit",
+      "spring framework"
+    ],
+    "job_skill_count": 5,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "java",
+      "java ee",
+      "junit",
+      "spring framework",
+      "sql"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.1338,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 1 of 5 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468630",
+    "position": "Software Engineer JAVA (1)",
+    "employer": "DirectFN",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=0000000492&jc=0001468630&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "DirectFN We're looking fora Software Engineer [JAVA] Java Spring Framework RDBMS(Oracle) JEE SQL JUnit Send your CV to careers@directfn.com Mention the position you're applying for in the subject line of yo@uenmalll",
+    "text_full": "DirectFN We're looking fora Software Engineer [JAVA] Java Spring Framework RDBMS(Oracle) JEE SQL JUnit Send your CV to careers@directfn.com Mention the position you're applying for in the subject line of yo@uenmalll",
+    "skills_found": [
+      "java",
+      "java ee",
+      "junit",
+      "oracle",
+      "spring framework",
+      "sql"
+    ],
+    "signals_found": [],
+    "match_percent": 42.5,
+    "baseline_match_percent": 16.67,
+    "overlap": [
+      "sql"
+    ],
+    "missing": [
+      "java",
+      "java ee",
+      "junit",
+      "oracle",
+      "spring framework"
+    ],
+    "job_skill_count": 6,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "java",
+      "java ee",
+      "junit",
+      "oracle",
+      "spring framework",
+      "sql"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.1131,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 1 of 6 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468636",
+    "position": "Software Engineer .NET (1)",
+    "employer": "DirectFN",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=0000000492&jc=0001468636&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "DirectFN We're Looking for a Software Engineer [C# .NET] Degree in CS/IT OOP Concepts Angular CrystalReports PL/SQL Send your CV to careers@directfn.com Mention the position you're applying for in the subject line of youd@nmalll",
+    "text_full": "DirectFN We're Looking for a Software Engineer [C# .NET] Degree in CS/IT OOP Concepts Angular CrystalReports PL/SQL Send your CV to careers@directfn.com Mention the position you're applying for in the subject line of youd@nmalll",
+    "skills_found": [
+      ".net",
+      "angular",
+      "c#",
+      "oop",
+      "pl/sql",
+      "sql"
+    ],
+    "signals_found": [],
+    "match_percent": 42.47,
+    "baseline_match_percent": 16.67,
+    "overlap": [
+      "sql"
+    ],
+    "missing": [
+      ".net",
+      "angular",
+      "c#",
+      "oop",
+      "pl/sql"
+    ],
+    "job_skill_count": 6,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "angular",
+      "c#",
+      "oop",
+      "pl/sql",
+      "sql"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.1121,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 1 of 6 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1466522",
+    "position": "Software Engineer - Ruby on Rails",
+    "employer": "VitalHub (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=DEFZZZ&jc=0001466522&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "WE ARE gy HIRING RUBY ON RAILS OPPORTUNITIES Software Engineer APPLY NOW!!!",
+    "text_full": "WE ARE gy HIRING RUBY ON RAILS OPPORTUNITIES Software Engineer APPLY NOW!!!",
+    "skills_found": [
+      "ruby"
+    ],
+    "signals_found": [],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [
+      "ruby"
+    ],
+    "job_skill_count": 1,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "ruby"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 1 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468200",
+    "position": "Engineering Service Executives for Kuliyapitiya (Male)",
+    "employer": "Data Management Systems (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=6&ac=0000000223&jc=0001468200&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 48 th year of operations. DMS represents the world’s leading IT brands and specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets. DMS provides the excitement of working with the world’s leading IT brands, financial solutions and learning from the most experienced managers and professionals in the IT industry. DMS represents Diebold Nixdorf Inc. USA, the world leader in CRMs (Cash Recycling Machines) and ATMs (Automated Teller Machines) and while having implemented the following pioneering Projects, DMS is the market...",
+    "text_full": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 48 th year of operations. DMS represents the world’s leading IT brands and specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets. DMS provides the excitement of working with the world’s leading IT brands, financial solutions and learning from the most experienced managers and professionals in the IT industry. DMS represents Diebold Nixdorf Inc. USA, the world leader in CRMs (Cash Recycling Machines) and ATMs (Automated Teller Machines) and while having implemented the following pioneering Projects, DMS is the market leader supporting an installed base of over 2000 CRMs and ATMs in Sri Lanka and the Maldives. Introduced ATMs to the Maldives in 1999 First CRMs in Sri Lanka and in the Maldives First Branch and Networked Bulk Cash Depositors in Asia Pacific. First Envelope-less Cash Acceptance ATMs in Asia Pacific. First Envelope-less Bulk Cheque Deposit ATMs in Asia Pacific. First Networked Foreign Currency Conversion ATMs which accept foreign currency and dispense Sri Lanka Currency and Coins. Career advancement is based on performance and merit. The following vacancies now exist for candidates living in and around Kuliyapitiya to provide field service and support for ATMs and Cash Recyclers in this area and only candidates residing in Kuliyapitiya should apply. Engineering Service Executives for Kuliyapitiya (Male) Career opportunities exist for disciplined, motivated, self-reliant persons in Field Engineering Services who possess a positive attitude and can work under minimum supervision after initial training. Candidates should: - Be under 27 years of age. Have as a minimum a National Diploma in Engineering Sciences (NDES) or HNDE or NDT or similar qualification in Electronics Engineering or Mechatronics Engineering from a recognized institution. Have knowledge of PC hardware and Windows software. Selected candidates will be required to service and maintain ATMs & Cash Recyclers installed at various banks in the Kuliyapitiya area. Only those who wish to pursue a career in self-service banking devices should apply. Candidates should reside in the Kuliyapitiya Town or in close proximity to the Kuliyapitiya Town and have a motorcycle or scooter together with the relevant riding license. Successful candidates who perform to the Company's expectations have a career path with promotional prospects to Senior ATM Service Engineers, Team Leaders, Group Managers, Department Managers and beyond. GENERAL • The above position includes a negotiable salary. Please E-mail your CV stating names and addresses of two referees to careers@dmslanka2.com . Indicate the post applied for as the Subject of your E-mail.",
+    "skills_found": [],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [],
+    "job_skill_count": 0,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 0 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468199",
+    "position": "Engineering Service Executives for Matara and Tangalle areas (Male)",
+    "employer": "Data Management Systems (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=0000000223&jc=0001468199&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49 th year of operations. DMS represents the world’s leading IT brands and specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets. DMS provides the excitement of working with the world’s leading IT brands, financial solutions and learning from the most experienced managers and professionals in the IT industry. DMS represents Diebold Nixdorf Inc. USA, the world leader in CRMs (Cash Recycling Machines) and ATMs (Automated Teller Machines) and while having implemented the following pioneering Projects, DMS is the market...",
+    "text_full": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49 th year of operations. DMS represents the world’s leading IT brands and specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets. DMS provides the excitement of working with the world’s leading IT brands, financial solutions and learning from the most experienced managers and professionals in the IT industry. DMS represents Diebold Nixdorf Inc. USA, the world leader in CRMs (Cash Recycling Machines) and ATMs (Automated Teller Machines) and while having implemented the following pioneering Projects, DMS is the market leader supporting an installed base of over 2000 CRMs and ATMs in Sri Lanka and the Maldives. Introduced ATMs to the Maldives in 1999 First CRMs in Sri Lanka and in the Maldives First Branch and Networked Bulk Cash Depositors in Asia Pacific. First Envelope-less Cash Acceptance ATMs in Asia Pacific. First Envelope-less Bulk Cheque Deposit ATMs in Asia Pacific. First Networked Foreign Currency Conversion ATMs which accept foreign currency and dispense Sri Lanka Currency and Coins. The following vacancies now exist for candidates living in and around Matara and Tangalle areas to provide field service and support for ATMs and Cash Recyclers in this area. Engineering Service Executives for Matara and Tangalle areas (Male) Career opportunities exist for disciplined, motivated, self-reliant persons in Field Engineering Services who possess a positive attitude and can work under minimum supervision after initial training. Candidates should: - Be under 27 years of age. Have as a minimum a National Diploma in Engineering Sciences (NDES) or HNDE or NDT or similar qualification in Electronics Engineering or Mechatronics Engineering from a recognized institution. Have knowledge of PC hardware and Windows software. Selected candidates will be required to service and maintain ATMs & Cash Recyclers installed at various banks in the Matara and Tangalle areas. Candidates should reside in the Matara or Tangalle Town or in close proximity and have a motorcycle or scooter together with the relevant riding license. Successful candidates who perform to the Company's expectations have a career path with promotional prospects to Senior ATM Service Engineers, Team Leaders, Group Managers, Department Managers and beyond. GENERAL • The above position includes a negotiable salary. Please E-mail your CV stating names and addresses of two referees to careers@dmslanka2.com . Indicate the post applied for as the Subject of your E-mail.",
+    "skills_found": [],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [],
+    "job_skill_count": 0,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 0 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468198",
+    "position": "Electronics Engineers",
+    "employer": "Data Management Systems (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=0000000223&jc=0001468198&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Data Management Systems (Pvt) Ltd (DMS) Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49th year of business operations, partnering the world's leading IT Co’s. DMS specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets DMS provides the excitement of working with the world's leading IT brands, Financial solutions and learning from experienced managers and professionals in the IT industry. DMS represents the World's leading American IT Co's IBM, HP, Oracle, Microsoft, Diebold Nixdorf, Entrust-Datacard, Cisco and VMWare and has been the first to implement many cutting-edge technology solutions in Sr...",
+    "text_full": "Data Management Systems (Pvt) Ltd (DMS) Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49th year of business operations, partnering the world's leading IT Co’s. DMS specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets DMS provides the excitement of working with the world's leading IT brands, Financial solutions and learning from experienced managers and professionals in the IT industry. DMS represents the World's leading American IT Co's IBM, HP, Oracle, Microsoft, Diebold Nixdorf, Entrust-Datacard, Cisco and VMWare and has been the first to implement many cutting-edge technology solutions in Sri Lanka for over 48 years. The following vacancies currently exist in the Banking and Financial Systems Strategic Business Unit (SBU) of DMS. Vacancy: Electronics Engineer s Applicants should be under 28 years of age and have a degree or a Higher National Diploma in Electronics Engineering. Selected candidates will have to test, troubleshoot, and carry out repairs for defective Electronic and other devices and identify long-term rectifications for frequent defects. Successful candidates who perform to the Company's expectations have a defined career growth path to Management. Candidates living in the Greater Colombo area are preferred. Benefits: Attractive remuneration package based on qualifications and experience. Medical insurance upon confirmation. How to Apply: Email your CV along with the names and addresses of two referees to careers@dmslanka2.com . Please specify the position you are applying for in the subject line of the email.",
+    "skills_found": [
+      "oracle"
+    ],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [
+      "oracle"
+    ],
+    "job_skill_count": 1,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "oracle"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 1 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468196",
+    "position": "Engineering Service Executives for Rathnapura and Balangoda Areas (Male)",
+    "employer": "Data Management Systems (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=9&ac=0000000223&jc=0001468196&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49 th year of operations. DMS represents the world’s leading IT brands and specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets. DMS provides the excitement of working with the world’s leading IT brands, financial solutions and learning from the most experienced managers and professionals in the IT industry. DMS represents Diebold Nixdorf Inc. USA, the world leader in CRMs (Cash Recycling Machines) and ATMs (Automated Teller Machines) and while having implemented the following pioneering Projects, DMS is the market...",
+    "text_full": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49 th year of operations. DMS represents the world’s leading IT brands and specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets. DMS provides the excitement of working with the world’s leading IT brands, financial solutions and learning from the most experienced managers and professionals in the IT industry. DMS represents Diebold Nixdorf Inc. USA, the world leader in CRMs (Cash Recycling Machines) and ATMs (Automated Teller Machines) and while having implemented the following pioneering Projects, DMS is the market leader supporting an installed base of over 2000 CRMs and ATMs in Sri Lanka and the Maldives. Introduced ATMs to the Maldives in 1999 First CRMs in Sri Lanka and in the Maldives First Branch and Networked Bulk Cash Depositors in Asia Pacific. First Envelope-less Cash Acceptance ATMs in Asia Pacific. First Envelope-less Bulk Cheque Deposit ATMs in Asia Pacific. First Networked Foreign Currency Conversion ATMs which accept foreign currency and dispense Sri Lanka Currency and Coins. Career advancement is based on performance and merit. The following vacancies now exist for candidates living in and around Rathnapura and Balangoda areas to provide field service and support for ATMs and Cash Recyclers in this area and only candidates residing in Rathnapura and Balangoda areas should apply. Engineering Service Executives for Rathnapura and Balangoda areas (Male) Career opportunities exist for disciplined, motivated, self-reliant persons in Field Engineering Services who possess a positive attitude and can work under minimum supervision after initial training. Candidates should: - Be under 27 years of age. Have as a minimum a National Diploma in Engineering Sciences (NDES) or HNDE or NDT or similar qualification in Electronics Engineering or Mechatronics Engineering from a recognized institution. Have knowledge of PC hardware and Windows software. Selected candidates will be required to service and maintain ATMs & Cash Recyclers installed at various banks in the Rathnapura and Balangoda areas. Only those who wish to pursue a career in self-service banking devices should apply. Candidates should reside in the Rathnapura or Balangoda Town or in close proximity and have a motorcycle or scooter together with the relevant riding license. Successful candidates who perform to the Company's expectations have a career path with promotional prospects to Senior ATM Service Engineers, Team Leaders, Group Managers, Department Managers and beyond. GENERAL • The above position includes a negotiable salary. Please E-mail your CV stating names and addresses of two referees to careers@dmslanka2.com . Indicate the post applied for as the Subject of your E-mail.",
+    "skills_found": [],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [],
+    "job_skill_count": 0,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 0 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468195",
+    "position": "Customer Engineers (Male)",
+    "employer": "Data Management Systems (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=10&ac=0000000223&jc=0001468195&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49th year of business operations, partnering the world's leading IT Co’s. DMS specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets DMS provides the excitement of working with the world's leading IT brands, Financial solutions and learning from experienced managers and professionals in the IT industry. DMS represents the World's leading American IT Co's IBM, HP, Oracle, Microsoft, Diebold Nixdorf, Entrust-Datacard, Cisco and VMWare and has been the first to implement many cutting-edge technology solutions in Sri Lank...",
+    "text_full": "Data Management Systems (Pvt) Ltd Data Management Systems (Pvt) Ltd, (DMS) is a pioneering IT Company in Sri Lanka, now in its 49th year of business operations, partnering the world's leading IT Co’s. DMS specializes in Systems Integration and Customized Software Solutions for Sri Lankan and overseas markets DMS provides the excitement of working with the world's leading IT brands, Financial solutions and learning from experienced managers and professionals in the IT industry. DMS represents the World's leading American IT Co's IBM, HP, Oracle, Microsoft, Diebold Nixdorf, Entrust-Datacard, Cisco and VMWare and has been the first to implement many cutting-edge technology solutions in Sri Lanka for over 48 years. The following vacancies currently exist in the Banking and Financial Systems Strategic Business Unit (SBU) of DMS. Vacancy: Customer Engineer s (Male) Applicants should be under 26 years of age and have a degree in Electronics or Mechatronics Engineering. Selected candidates will be responsible for maintaining a variety of Hardware and Software installed at banks and commercial establishments, including Entrust Datacard Credit and Debit Card Personalization systems, Diebold Nixdorf self-checkout systems, and Panini cheque scanners. Successful candidates who perform to the Company's expectations have a defined career growth path to Management. Candidates living in the Greater Colombo area are preferred. Benefits: Attractive remuneration package based on qualifications and experience. Medical insurance upon confirmation. How to Apply: Email your CV along with the names and addresses of two referees to careers@dmslanka2.com . Please specify the position you are applying for in the subject line of the email.",
+    "skills_found": [
+      "oracle"
+    ],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [
+      "oracle"
+    ],
+    "job_skill_count": 1,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "oracle"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 1 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1468186",
+    "position": "Lead Business Systems Analyst (1)",
+    "employer": "SriLankan Airlines Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=11&ac=0000000381&jc=0001468186&ec=0000000499&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "SriLankan Airlines Lead Business Systems Analyst Vacancy Description SriLankan Airlines Ltd, the national carrier of Sri Lanka operates with a network of destinations throughout Asia, the Middle East, Europe and Australia. The airlines has a strong presence in Maldives and Southern India. SriLankan is a member of the oneworld alliance. SriLankan Airlines Ltd, the National Carrier of Sri Lanka operates with a network of destinations throughout Asia, the Middle East, Europe, and Australia. The Airline has a strong presence in the Maldives and Southern India. SriLankan is a member of the ‘oneworld’ alliance. SriLankan IT Systems drives the airline’s IT strategy through digital transformation, t...",
+    "text_full": "SriLankan Airlines Lead Business Systems Analyst Vacancy Description SriLankan Airlines Ltd, the national carrier of Sri Lanka operates with a network of destinations throughout Asia, the Middle East, Europe and Australia. The airlines has a strong presence in Maldives and Southern India. SriLankan is a member of the oneworld alliance. SriLankan Airlines Ltd, the National Carrier of Sri Lanka operates with a network of destinations throughout Asia, the Middle East, Europe, and Australia. The Airline has a strong presence in the Maldives and Southern India. SriLankan is a member of the ‘oneworld’ alliance. SriLankan IT Systems drives the airline’s IT strategy through digital transformation, technology adoption, data modeling, business intelligence, and business continuity. The focus is on transforming business and operational processes, expanding digital passenger reach, and improving customer experience through solutions design, development, and integrations while enhancing airline IT domain knowledge. Award-winning SriLankan IT team is seeking a dynamic individual to join as a Business Systems Analyst. The individual is responsible for Leading IT Business Systems team to deliver effective IT solutions and services to business requirements through constant communication and engagement.This includes ensuring maximum usage of existing solutions and introducing new solutions to improve productivity, efficiency, and effectiveness of the job function for the financial year. The role is also essential in strengthening the airline’s operational functions within its evolving IT landscape by addressing gap-analysis, quality assurance, and audit concerns, while supporting digital transformation across critical domains such as passenger services, cargo, flight operations, and maintenance. Key responsibilities will include: Be innovative and introduce new technologies, processes and solutions to increase user experience. Coordinate with the internal users and users of shared service partners and maintain continuous communication for user and management updates. For systems solutions, ensure that business objectives, functional requirements, data models, technical architecture and dependencies with other IT systems are identified and documented. Assist the business managers in formulating a plan for acquiring packaged solutions or in sponsoring custom-made software development. Functional domain knowledge in your area is essential. Manage the delivery of solutions and, using the analytical and software engineering resources allocated to the project, achieve the targets of quality, cost benefits and timescales. Project follow up, daily, weekly with relevant parties and provide regular updates to IT Business Systems Management. Review project status, progress, documentation and methods and introduce improvements as necessary. Regularly review resource requirements and ensure quality assurance practices are applied throughout the project lifecycle. Set deliverables and targets for project staff, closely supervise both the staff and their work, and conduct performance appraisals at appropriate times and identify their training and development needs. Provide the required leadership to your subordinates. Effective adherence of CIS&PM (Corporate Information Security & Privacy Management Manual) by implementing and advocating security controls to safeguard information security of Information Assets. Help the line managers review business plans and objectives with business managers to update and agree the detailed work program. Assist line management in the detailed definition of projects and in producing resource, infrastructure and investment plans. Assist Line Managers manage the relationships with external suppliers and internal specialist groups, agreeing with the plan, deliverables, and timescales for the services to be provided. Conduct regular reviews of services provided from operational systems and to devise update and progress enhancement programs. Provide consultancy services to business managers in analyzing new areas of potential benefits through process and systems improvement. Incident management, assist MITBS (IT Business Systems Management) and users with analysis to prevent frequent incidents and provide permanent solutions. Assist business managers in making the business case for any investments recommended in additional services or in new systems and infrastructure. Requirements Bachelor's Degree * in relevant field from a recognized University with a minimum of 04 years post qualifying Relevant Experience (* Engineering, Computer Science, General Science with Mathematics, Management Information Systems, Applied Statistics etc.) OR Full professional qualification equivalent to NVQ Level 07 with 06 years post qualifying experience in a relevant discipline. Be a Sri Lankan citizen. The upper age limit should be 35 years as of 23rd February 2026, which is the closing date. Employment will be offered on fixed term contract. We are an equal opportunity organization. Influencing will be a reflection of unsuitability. Please note that we will correspond with you within a month of closing the advertisement in the event your application is shortlisted for consideration. Category - Airline - Aviation Start date - 02/13/2026 End date - 02/23/2026 https://recruit.srilankan.com/jobs/Careers/700027000030279275/Lead-Business-Systems-Analyst?source=CareerSite",
+    "skills_found": [
+      "cybersecurity",
+      "qa"
+    ],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [
+      "cybersecurity",
+      "qa"
+    ],
+    "job_skill_count": 2,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "cybersecurity",
+      "qa"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 2 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1467502",
+    "position": "Business Systems Analyst (1)",
+    "employer": "SriLankan Airlines Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=14&ac=0000000381&jc=0001467502&ec=0000000499&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "SriLankan Airlines Business Systems Analyst Vacancy Description SriLankan Airlines Ltd, the national carrier of Sri Lanka operates with a network of destinations throughout Asia, the Middle East, Europe and Australia. The airlines has a strong presence in Maldives and Southern India. SriLankan is a member of the oneworld alliance. Europe, and Australia. The Airline has a strong presence in the Maldives and Southern India. SriLankan is a member of the ‘oneworld’ alliance. SriLankan IT Systems drives the airline’s IT strategy through digital transformation, technology adoption, data modeling, business intelligence, and business continuity. The focus is on transforming business and operational...",
+    "text_full": "SriLankan Airlines Business Systems Analyst Vacancy Description SriLankan Airlines Ltd, the national carrier of Sri Lanka operates with a network of destinations throughout Asia, the Middle East, Europe and Australia. The airlines has a strong presence in Maldives and Southern India. SriLankan is a member of the oneworld alliance. Europe, and Australia. The Airline has a strong presence in the Maldives and Southern India. SriLankan is a member of the ‘oneworld’ alliance. SriLankan IT Systems drives the airline’s IT strategy through digital transformation, technology adoption, data modeling, business intelligence, and business continuity. The focus is on transforming business and operational processes, expanding digital passenger reach, and improving customer experience through solutions design, development, and integrations while enhancing airline IT domain knowledge. Award-winning SriLankan IT team is seeking a dynamic individual to join as a Business Systems Analyst. The individual is responsible for Providing analytical solutions to improve efficiency and productivity through the processes and features of Commercial and Finance Systems. Analyze the situations, prioritize and deliver the solutions and resolve issues using the external and internal resources assigned to the unit meeting agreed service levels. Key responsibilities will include: Identify and document business objectives, functional requirements, data models, technical architecture and dependencies with other IT systems. Assist the business managers in formulating a plan for acquiring packaged solutions or in sponsoring custom-made software development. Participate in the preparation and execution of project implementation plans, Test plans and assist the project manager to meet the project targets. Review the issues reported by the business users, analyze the issue, come up with prospective solutions and assist the supervisor to select the appropriate solution. Work with the team to deliver the agreed solution. Work with Oracle Inc to get the support requests resolved. Effective adherence of CIS&PM (Corporate Information Security & Privacy Management Manual) by implementing and advocating security controls to safeguard information security of Information Assets. Review the processes in the respective business areas, document them, and work to improve efficiency and effectiveness to achieve cost savings, revenue gains, or other benefits to the company. Review the Oracle EBS implementation and other Commercial and Finance system implementations on a timely basis, recommend improvements, and work with the team to implement approved suggestions. Set deliverables and targets for staff, closely supervise and follow up on their work, track progress, and regularly report on resource requirements. Requirements Bachelors’ Degree*in relevant field from a recognized University with a minimum of 01 years post qualifying Relevant Experience (*Engineering, Computer Science, General Science with Mathematics, Management Information Systems, Applied Statistics etc.) OR ​ Full professional qualification equivalent to NVQ Level 07 with 03 years post qualifying experience in a relevant discipline. Be a Sri Lankan citizen. The upper age limit should be 35 years as of 20th February 2026, which is the closing date. Employment will be offered on fixed term contract. We are an equal opportunity organization. Influencing will be a reflection of unsuitability. Please note that we will correspond with you within a month of closing the advertisement in the event your application is shortlisted for consideration. Category - Airline - Aviation Start date - 02/10/2026 End date - 02/20/2026 https://recruit.srilankan.com/jobs/Careers/700027000029758320/Business-Systems-Analyst?source=CareerSite",
+    "skills_found": [
+      "cybersecurity",
+      "oracle"
+    ],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [
+      "cybersecurity",
+      "oracle"
+    ],
+    "job_skill_count": 2,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "cybersecurity",
+      "oracle"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 2 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1467230",
+    "position": "Enterprise Architect (1)",
+    "employer": "George Bernard (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=15&ac=0000000486&jc=0001467230&ec=0000000654&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "“i George Bernard GOOD PEOPLE",
+    "text_full": "“i George Bernard GOOD PEOPLE",
+    "skills_found": [],
+    "signals_found": [],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [],
+    "job_skill_count": 0,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 0 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1465356",
+    "position": "Senior Software Engineer - Cold Fusion",
+    "employer": "VitalHub (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=20&ac=DEFZZZ&jc=0001465356&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "COLD FUSION OPPORTUNITIES Senior Software Engineer APPLY NOW!",
+    "text_full": "COLD FUSION OPPORTUNITIES Senior Software Engineer APPLY NOW!",
+    "skills_found": [],
+    "signals_found": [],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [],
+    "job_skill_count": 0,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 0 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1464350",
+    "position": "Lead - Software Engineering",
+    "employer": "Printcare Premedia Services Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=27&ac=DEFZZZ&jc=0001464350&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Ce Partnerships for Perfection Printcare PLC is an icon of Sri Lanka's Printing & Packaging industry, and is one of South Asia's best known Printing and Packaging enterprises with a clientele that extends over five continents. We are equipped with state-of-the-art technology and provide design-to-delivery printing, packaging & digital media solutions, across a broad spectrum of industries, including Apparel, Education, FMCG, Tea, Telecommunications, Publishing, Security Printing, Lottery, Print and Digital Media among others. Printcare Premedia Services Ltd. is a subsidiary of Printcare PLC, based in Kelaniya. As the Group's clientele as well as the manufacturing capacity and product range c...",
+    "text_full": "Ce Partnerships for Perfection Printcare PLC is an icon of Sri Lanka's Printing & Packaging industry, and is one of South Asia's best known Printing and Packaging enterprises with a clientele that extends over five continents. We are equipped with state-of-the-art technology and provide design-to-delivery printing, packaging & digital media solutions, across a broad spectrum of industries, including Apparel, Education, FMCG, Tea, Telecommunications, Publishing, Security Printing, Lottery, Print and Digital Media among others. Printcare Premedia Services Ltd. is a subsidiary of Printcare PLC, based in Kelaniya. As the Group's clientele as well as the manufacturing capacity and product range continues to expand geographically and exponentially with innovative products and new production sites, we are looking to strengthen our team with high caliber professionals Lead - Software Engineering Are you passionate about building scalable systems, mentoring engineers, and driving technical excellence? We're looking for a strategic, hands-on leader to guide our engineering team and shape our technical vision. What You'll Do: e Architect and implement high-quality, scalable software solutions. « Mentor developers and define engineering standards. * Collaborate on system design and product roadmaps. You Are: « A technical expert with deep knowledge of modern stacks. ¢ Comfortable traversing between hands-on coding and team leadership. « Up-to-date with emerging technologies and architectural patterns. Please email your curriculum vitae together with names and contact details of two non-related referees to careers@printcare.|Ik within 7 days. Please mention the position in the subject line. General Manager - Human Resources Printcare Premedia Services Ltd. No.77, Nungamugoda Road, Kelaniya £-mail: careers@printcare.|k Web: www. printcare.Ik “ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, FSSC 22000, FSC & BRC GS Accredited Company”",
+    "skills_found": [],
+    "signals_found": [
+      "scalable systems"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [],
+    "job_skill_count": 0,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 0 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1463780",
+    "position": "Software Engineers",
+    "employer": "HAT Corporate Solutions (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=29&ac=DEFZZZ&jc=0001463780&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "SHAT CORPORATE SOLUTIONS HIR Software Engineers Qualifications: « Fresh graduates, Interns, and trainees are welcome with a passion for coding! « Experienced developers whos having a proven track record ¢ Strong proficiency in .NET and MS technologies e Excellent coding and problem-solving skills © Good understanding of MSSQL Databases and Stored Procedures e Team player Product Support / Hardware Technicians Qualifications: ¢ Windows OS installation and configuration expertise ¢ Application installation and troubleshooting ¢ Willingness to visit customer sites * Basic networking knowledge « Added Advantage: Graphic design & Canva skills Be part of a team that's transforming businesses acros...",
+    "text_full": "SHAT CORPORATE SOLUTIONS HIR Software Engineers Qualifications: « Fresh graduates, Interns, and trainees are welcome with a passion for coding! « Experienced developers whos having a proven track record ¢ Strong proficiency in .NET and MS technologies e Excellent coding and problem-solving skills © Good understanding of MSSQL Databases and Stored Procedures e Team player Product Support / Hardware Technicians Qualifications: ¢ Windows OS installation and configuration expertise ¢ Application installation and troubleshooting ¢ Willingness to visit customer sites * Basic networking knowledge « Added Advantage: Graphic design & Canva skills Be part of a team that's transforming businesses across Sri Lanka Send your CV to careers@hatcs.|k HAT Corporate Solutions (Pvt) Ltd, No.894/4C, Athurugiriya Road, Malabe. Hotline : 0112 86 48 48 Mobile : 0772 86 61 96",
+    "skills_found": [
+      ".net",
+      "mobile",
+      "sql server"
+    ],
+    "signals_found": [],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [
+      ".net",
+      "mobile",
+      "sql server"
+    ],
+    "job_skill_count": 3,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "mobile",
+      "sql server"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 3 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1463357",
+    "position": "Senior Software Engineer - Data Integrations",
+    "employer": "Sysco LABS",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=30&ac=DEFZZZ&jc=0001463357&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Sysco LABS 300",
+    "text_full": "Sysco LABS 300",
+    "skills_found": [],
+    "signals_found": [
+      "integration"
+    ],
+    "match_percent": 36.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [],
+    "job_skill_count": 0,
+    "user_skill_count": 11,
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "core_skills": [],
+    "matched_must_have": [],
+    "missing_must_have": [],
+    "must_have_gate_pass": true,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 1.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 0 extracted skills.",
+      "No explicit must-have section found."
+    ]
+  },
+  {
+    "ref": "1466560",
+    "position": "Software Engineer",
+    "employer": "Expo Industrial Engineering Pvt Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=18&ac=DEFZZZ&jc=0001466560&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "LO. INDUSTRIAL ENGINEERING SOFTWARE ENGINEER Expo Industrial engineering is under Expo Industrial Group, which was established under the purview of the BOI since 1992, for the purpose of providing engineering requirements, spares, machinery tools, component, injection molded products, high precision solutions to different industries and developing, designing, manufacturing of heat transfer and screen-pri top tier garment industry and life style industry with leading brands in the US, UK and Europe. Applications are called from suitable candidate to fill the following vacancies at our manufacturing facility at Phase 11, EPZ.Katunayake We are seel 1g a Senior Software Engineer with strong expe...",
+    "text_full": "LO. INDUSTRIAL ENGINEERING SOFTWARE ENGINEER Expo Industrial engineering is under Expo Industrial Group, which was established under the purview of the BOI since 1992, for the purpose of providing engineering requirements, spares, machinery tools, component, injection molded products, high precision solutions to different industries and developing, designing, manufacturing of heat transfer and screen-pri top tier garment industry and life style industry with leading brands in the US, UK and Europe. Applications are called from suitable candidate to fill the following vacancies at our manufacturing facility at Phase 11, EPZ.Katunayake We are seel 1g a Senior Software Engineer with strong expertise in application development, database reporting, quality assurance, and production deployments. The ideal candidate will play a key role in development, testing, release management, and report development, ensuring reliable, high-quality software solutions. Key Responsibilities Design, develop, test, and maintain software applications using C#.NET, PHP, JavaScript, and jQuery Develop and optimize SAL queries, views, stored procedures, and database schemas Design, develop, and maintain business and operational reports using SQL and Crystal Reports Perform quality assurance (QA) activities including unit testing, system testing, regression testing, and bug fixing Manage version control, release builds, and deployment cycles Deploy, configure, and maintain applications on Ils (for .NET) and Apache (for PHP) Coordinate version releases, patches, and hotfix deployments across environments (Dev / UAT / Production) Troubleshoot production issues and provide timely fixes and root-cause analysis Work closely with business users to understand reporting and system requirements Ensure compliance with coding standards, security best practices, and documentation Required Skills & Qualifications ‘Strong proficiency in SQL (complex queries, stored procedures, performance tuning) Proven experience developing reports using Crystal Reports ‘Strong experience in C#.NET (ASP.NET / .NET Framework / .NET Core) Solid hands-on experience with PHP Strong front-end development skills using JavaScript and jQuery ‘ Experience with Il configuration and deployment Experience with Apache web server configuration for PHP applications Hands-on experience in QA processes and testing methodologies Experience with version control systems (Git / SVN or similar) Good understanding of software release management Experience with ERP, MIS, or eporting-intensive enterprise systems , knowledge of RESTful APIs and third-party system integrations, familiarity with Version Control Systems TFS, GIT and experience working in Agile / Scrum environments will be added advantage The remuneration package for the above position is negotiable and would be in line with the applicant's experience and qualifications. If you think you have what it takes to be successful in this challenging role, please apply within 7 days of this publication by email to dulaksha.n@expo.|k or by post to Manager — HR and istration, Expo Industrial Engineering Pvt .{TD, Phase 11, EPZ, Katunayake indicating the position applied for on the subject line of the email or on the top left corner of the envelope. The Company reserves the right to communicate with the short listed applicants only. Expo Industrial Engineering Pvt.LTD is an equal Opportunity Employer.",
+    "skills_found": [
+      ".net",
+      "c#",
+      "crystal reports",
+      "git",
+      "javascript",
+      "php",
+      "qa",
+      "rest api",
+      "sql"
+    ],
+    "signals_found": [
+      "frontend",
+      "integration",
+      "spa"
+    ],
+    "match_percent": 17.6,
+    "baseline_match_percent": 33.33,
+    "overlap": [
+      "git",
+      "javascript",
+      "sql"
+    ],
+    "missing": [
+      ".net",
+      "c#",
+      "crystal reports",
+      "php",
+      "qa",
+      "rest api"
+    ],
+    "job_skill_count": 9,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      ".net",
+      "c#",
+      "crystal reports",
+      "git",
+      "javascript",
+      "php",
+      "qa",
+      "rest api",
+      "sql"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "c#",
+      "crystal reports",
+      "git",
+      "javascript",
+      "php",
+      "qa",
+      "rest api",
+      "sql"
+    ],
+    "matched_must_have": [
+      "git",
+      "javascript",
+      "sql"
+    ],
+    "missing_must_have": [
+      ".net",
+      "c#",
+      "crystal reports",
+      "php",
+      "qa",
+      "rest api"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.3333,
+      "core_weighted_coverage": 0.2811,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 3 of 9 extracted skills.",
+      "Matched 3/9 must-have skills. Need at least 5.",
+      "Critical gaps: .net, c#, crystal reports, php, qa"
+    ]
+  },
+  {
+    "ref": "1467010",
+    "position": "Associate Software Engineer - Department of IT",
+    "employer": "SLIIT",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=17&ac=DEFZZZ&jc=0001467010&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "WE ARE HIRING Associate Software Engineer Department of IT The Sri Lanka Institute of Information Technology (SLIT) is a pioneer in the higher education sector of Sti Lanka and offers undergraduate and postgraduate degrees in a wide range of disciplines. It is committed to provide the best student experience through a dedi academic and non and recreat sted group of ademic staff. The main campus located in Malabe has excellent academic nal facilities. We are looking for a dynamic and result oriented i Software Engineer attached to Department of IT. dual to join our team as Associate Key Duties & Responsibilities : * Analyzing requirements and designing, developing, and deploying new software...",
+    "text_full": "WE ARE HIRING Associate Software Engineer Department of IT The Sri Lanka Institute of Information Technology (SLIT) is a pioneer in the higher education sector of Sti Lanka and offers undergraduate and postgraduate degrees in a wide range of disciplines. It is committed to provide the best student experience through a dedi academic and non and recreat sted group of ademic staff. The main campus located in Malabe has excellent academic nal facilities. We are looking for a dynamic and result oriented i Software Engineer attached to Department of IT. dual to join our team as Associate Key Duties & Responsibilities : * Analyzing requirements and designing, developing, and deploying new software applications. Identifying opportunities for improving existing applications, making recommendations, and designing and implementing enhancements. Integrating existing software products with new solutions to ensure the required outcomes. Maintaining and improving existing codebases and conducting peer reviews of code changes. Testing software applications to ensure quality and reliability. Minimum Requirements: * A Bachelor's degree in a relevant field from a recognized University/ Institution. A minimum of 1 to 2 years of proven experience in software development. Strong knowledge on .NET technologies, relational databases such as MS SQL , MySQL, and web services and APIs: REST, JSON + Knowledge of Entity Framework and LINQ, JavaScript Experience in fullstack development and working in an Agile environment. SLIIT offers a competi jesalary and other benefits commensurate with qualifications and experience. Click here to apply Apply within 7 days of this advert being published",
+    "skills_found": [
+      ".net",
+      "javascript",
+      "mysql",
+      "rest api",
+      "sql",
+      "web services"
+    ],
+    "signals_found": [],
+    "match_percent": 17.54,
+    "baseline_match_percent": 33.33,
+    "overlap": [
+      "javascript",
+      "sql"
+    ],
+    "missing": [
+      ".net",
+      "mysql",
+      "rest api",
+      "web services"
+    ],
+    "job_skill_count": 6,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      ".net",
+      "javascript",
+      "mysql",
+      "rest api",
+      "sql",
+      "web services"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "javascript",
+      "mysql",
+      "rest api",
+      "sql",
+      "web services"
+    ],
+    "matched_must_have": [
+      "javascript",
+      "sql"
+    ],
+    "missing_must_have": [
+      ".net",
+      "mysql",
+      "rest api",
+      "web services"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.3333,
+      "core_weighted_coverage": 0.2773,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 2 of 6 extracted skills.",
+      "Matched 2/6 must-have skills. Need at least 3.",
+      "Critical gaps: .net, mysql, rest api, web services"
+    ]
+  },
+  {
+    "ref": "1464792",
+    "position": "Trainee Software Engineer",
+    "employer": "Kandysoft Global Corporation",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=24&ac=DEFZZZ&jc=0001464792&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "We Are HIRING! Trainee Software Engineer Kandysoft Global Corporation Innovating since 2005. Building software for Australia, New Zealand, and beyond We're expanding our engineering team and looking for passionate, curious, and driven individuals ready to grow into world-class software engineers. If you love solving problems, learning fast, and building real products used across OECD markets, this is your opportunity. Job Requirements A Bachelor's degree in IT, Software Engineering, Computer Science, or a related field Strong programming fundamentals in C# and SQL Solid understanding of Object-Oriented Design Familiarity with HTML, CSS, XML, and SOAP-based Web Services Exposure to .NET Stand...",
+    "text_full": "We Are HIRING! Trainee Software Engineer Kandysoft Global Corporation Innovating since 2005. Building software for Australia, New Zealand, and beyond We're expanding our engineering team and looking for passionate, curious, and driven individuals ready to grow into world-class software engineers. If you love solving problems, learning fast, and building real products used across OECD markets, this is your opportunity. Job Requirements A Bachelor's degree in IT, Software Engineering, Computer Science, or a related field Strong programming fundamentals in C# and SQL Solid understanding of Object-Oriented Design Familiarity with HTML, CSS, XML, and SOAP-based Web Services Exposure to .NET Standard/Core, Web API, and modern C# Basic knowledge of JavaScript and frameworks such as React, Angular Confident written and verbal communication in English A proactive mindset, willingness to learn, and enthusiasm for building real software Fondgroft Global Corporation",
+    "skills_found": [
+      ".net",
+      "angular",
+      "c#",
+      "css",
+      "html",
+      "javascript",
+      "react",
+      "sql",
+      "web services"
+    ],
+    "signals_found": [],
+    "match_percent": 17.49,
+    "baseline_match_percent": 33.33,
+    "overlap": [
+      "javascript",
+      "react",
+      "sql"
+    ],
+    "missing": [
+      ".net",
+      "angular",
+      "c#",
+      "css",
+      "html",
+      "web services"
+    ],
+    "job_skill_count": 9,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      ".net",
+      "angular",
+      "c#",
+      "css",
+      "html",
+      "javascript",
+      "react",
+      "sql",
+      "web services"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "angular",
+      "c#",
+      "css",
+      "html",
+      "javascript",
+      "react",
+      "sql",
+      "web services"
+    ],
+    "matched_must_have": [
+      "javascript",
+      "react",
+      "sql"
+    ],
+    "missing_must_have": [
+      ".net",
+      "angular",
+      "c#",
+      "css",
+      "html",
+      "web services"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.3333,
+      "core_weighted_coverage": 0.274,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 3 of 9 extracted skills.",
+      "Matched 3/9 must-have skills. Need at least 5.",
+      "Critical gaps: .net, angular, c#, css, html"
+    ]
+  },
+  {
+    "ref": "1468619",
+    "position": "Software Engineer",
+    "employer": "Scienter Technologies (Pte) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=DEFZZZ&jc=0001468619&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "POST OF SOFTWARE ENGINEER Since it’s inception in 1995, SCIENTER TECHNOLOGIES has provided Sri Lankan and global industries with a multitude of comprehensive integrated software solutions. Renowned for its ‘cutting edge’ in increasing efficiency, profitability and its modernity keeping in line with continuous innovation witnessed and experienced technologically over the years, the company has become the solutions preferred provider for many corporate entities. If you are looking for a challenging career at Scienter, we would like you to consider yourself for the above position. Skills / Requirements * A degree or equivalent professional qualification from a recognized university. * Thorough...",
+    "text_full": "POST OF SOFTWARE ENGINEER Since it’s inception in 1995, SCIENTER TECHNOLOGIES has provided Sri Lankan and global industries with a multitude of comprehensive integrated software solutions. Renowned for its ‘cutting edge’ in increasing efficiency, profitability and its modernity keeping in line with continuous innovation witnessed and experienced technologically over the years, the company has become the solutions preferred provider for many corporate entities. If you are looking for a challenging career at Scienter, we would like you to consider yourself for the above position. Skills / Requirements * A degree or equivalent professional qualification from a recognized university. * Thorough knowledge and development skills in ASP.net, Web API, Cit .net & SQL Server are essential. * Comprehensive understanding of Microsoft Reporting Services (SSRS) will be added an advantage. * Ability to work towards deadlines/milestones. * Highly motivated and able to work as part of a team. * Good communication and interpersonal skills. * Minimum 02 year industry experience is essential. Please email your application to vacancies@scienter.lk, indicating the position applied as the subject, on or before the 02\" March 2026 and start your career with an award winning organization paving the way to a successful career. #302, Galle Road, Colombo 04, Sri Lanka. @)+94 11 259 8555 +94 11259 5911 © www.scienter.lk",
+    "skills_found": [
+      ".net",
+      "sql",
+      "sql server"
+    ],
+    "signals_found": [
+      "ssr"
+    ],
+    "match_percent": 17.45,
+    "baseline_match_percent": 33.33,
+    "overlap": [
+      "sql"
+    ],
+    "missing": [
+      ".net",
+      "sql server"
+    ],
+    "job_skill_count": 3,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      ".net",
+      "sql",
+      "sql server"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "sql",
+      "sql server"
+    ],
+    "matched_must_have": [
+      "sql"
+    ],
+    "missing_must_have": [
+      ".net",
+      "sql server"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.3333,
+      "core_weighted_coverage": 0.2715,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 1 of 3 extracted skills.",
+      "Matched 1/3 must-have skills. Need at least 2.",
+      "Critical gaps: .net, sql server"
+    ]
+  },
+  {
+    "ref": "1465084",
+    "position": "Senior Software Engineer | Python & Selenium Specialist",
+    "employer": "Innobot",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=23&ac=DEFZZZ&jc=0001465084&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "CODE YOUR NEXT BIG MOVE! SENIOR SOFTWARE EGINEER PYTHON & SELENIUM SPECIALIST Requirements . Educational Background ¢ Bachelor's degree in Computer Science, Software Engineering, or a related field . Technical Skills Strong proficiency in Python (OOP, libraries like unittest, pytest, requests, pandas, etc.) Hands-on experience with Selenium WebDriver for web application testing Familiarity with browser automation, handling dynamic elements, and cross-browser testing Experience with test frameworks like Pytest, Robot Framework, or Behave Knowledge of API testing using tools like Postman or libraries like requests/httpx Experience in version control systems (e.g., Git) Familiarity with CI/CD t...",
+    "text_full": "CODE YOUR NEXT BIG MOVE! SENIOR SOFTWARE EGINEER PYTHON & SELENIUM SPECIALIST Requirements . Educational Background ¢ Bachelor's degree in Computer Science, Software Engineering, or a related field . Technical Skills Strong proficiency in Python (OOP, libraries like unittest, pytest, requests, pandas, etc.) Hands-on experience with Selenium WebDriver for web application testing Familiarity with browser automation, handling dynamic elements, and cross-browser testing Experience with test frameworks like Pytest, Robot Framework, or Behave Knowledge of API testing using tools like Postman or libraries like requests/httpx Experience in version control systems (e.g., Git) Familiarity with CI/CD tools (e.g., Jenkins, GitHub Actions) Working knowledge of databases (SQL/NoSQL) Experience ¢ 2-4+ years of experience as a Software Engineer, Test Automation Engineer, or similar role ¢ Proven experience in developing and maintaining automated test scripts using Python & Selenium ¢ Experience working in Agile/Scrum teams and collaborating with developers and QA teams Soft Skills ¢ Strong analytical and problem-solving abilities * Good communication and documentation skills * Team-oriented with the ability to work independently when needed APPLY NOW innobotllc Q 58/45P 16th lane, A\\ Send Your Resume To The Email Address: 5S careers@innobotheal Jayawardanapura",
+    "skills_found": [
+      "ci/cd",
+      "git",
+      "github actions",
+      "jenkins",
+      "oop",
+      "pandas",
+      "pytest",
+      "python",
+      "qa",
+      "selenium",
+      "sql"
+    ],
+    "signals_found": [],
+    "match_percent": 14.14,
+    "baseline_match_percent": 27.27,
+    "overlap": [
+      "git",
+      "python",
+      "sql"
+    ],
+    "missing": [
+      "ci/cd",
+      "github actions",
+      "jenkins",
+      "oop",
+      "pandas",
+      "pytest",
+      "qa",
+      "selenium"
+    ],
+    "job_skill_count": 11,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      "ci/cd",
+      "git",
+      "github actions",
+      "jenkins",
+      "oop",
+      "pandas",
+      "pytest",
+      "python",
+      "qa",
+      "selenium",
+      "sql"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "ci/cd",
+      "git",
+      "github actions",
+      "jenkins",
+      "oop",
+      "pandas",
+      "pytest",
+      "python",
+      "qa",
+      "selenium",
+      "sql"
+    ],
+    "matched_must_have": [
+      "git",
+      "python",
+      "sql"
+    ],
+    "missing_must_have": [
+      "ci/cd",
+      "github actions",
+      "jenkins",
+      "oop",
+      "pandas",
+      "pytest",
+      "qa",
+      "selenium"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.2727,
+      "core_weighted_coverage": 0.2132,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 3 of 11 extracted skills.",
+      "Matched 3/11 must-have skills. Need at least 6.",
+      "Critical gaps: ci/cd, github actions, jenkins, oop, pandas"
+    ]
+  },
+  {
+    "ref": "1467086",
+    "position": "Associate Software Engineer (PHP/Laravel Full Stack) (1)",
+    "employer": "Smart Quest (Pvt)Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=16&ac=0000000013&jc=0001467086&ec=0000000013&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Quest Are You Ready to Code Your Future? Gampaha | Software Solutions Industry JOB SUMMARY Our client is seeking an enthusiastic Associate Software Engineer with expertise in PHP/Laravel Full Stack development. The role involves designing, developing, and maintaining web applications while collaborating with the development team to deliver high-quality software solutions for clients. RESPONSIBILITIES ¢ Develop and maintain web applications using PHP/Laravel frameworks for full-stack development. Write clean, efficient, and well-documented code following best practices. Collaborate with cross-functional teams including UI/UX designers, QA, and product managers to deliver robust solutions. Tro...",
+    "text_full": "Quest Are You Ready to Code Your Future? Gampaha | Software Solutions Industry JOB SUMMARY Our client is seeking an enthusiastic Associate Software Engineer with expertise in PHP/Laravel Full Stack development. The role involves designing, developing, and maintaining web applications while collaborating with the development team to deliver high-quality software solutions for clients. RESPONSIBILITIES ¢ Develop and maintain web applications using PHP/Laravel frameworks for full-stack development. Write clean, efficient, and well-documented code following best practices. Collaborate with cross-functional teams including UI/UX designers, QA, and product managers to deliver robust solutions. Troubleshoot, debug, and optimize existing software applications for performance and scalability. Participate in code reviews, testing, and knowledge-sharing sessions to continuously improve development practices. Stay updated with emerging technologies and frameworks to implement innovative solutions. © jobs@smartquestconsult.com REQUIREMENTS ¢ Bachelors Degree in Computer Science, Software Engineering, or related field. 1-2 years of experience in PHP/Laravel full- stack development (fresh graduates with strong projects or internships are welcome). Solid understanding of PHP, Laravel, MySQL, HTML, CSS, JavaScript, and REST APIs. Familiarity with version control systems such as Git. Strong problem-solving and analytical skills. Good communication and teamwork abilities. Proactive, eager to learn, and adaptable to new technologies. O www.smartquestconsult.com (GS) Scan & Apply via OR code to get your profile shortlisted fast!",
+    "skills_found": [
+      "css",
+      "git",
+      "html",
+      "javascript",
+      "mysql",
+      "php",
+      "qa",
+      "rest api"
+    ],
+    "signals_found": [
+      "full stack"
+    ],
+    "match_percent": 14.09,
+    "baseline_match_percent": 25.0,
+    "overlap": [
+      "git",
+      "javascript"
+    ],
+    "missing": [
+      "css",
+      "html",
+      "mysql",
+      "php",
+      "qa",
+      "rest api"
+    ],
+    "job_skill_count": 8,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      "css",
+      "git",
+      "html",
+      "javascript",
+      "mysql",
+      "php",
+      "rest api"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "css",
+      "git",
+      "html",
+      "javascript",
+      "mysql",
+      "php",
+      "qa",
+      "rest api"
+    ],
+    "matched_must_have": [
+      "git",
+      "javascript"
+    ],
+    "missing_must_have": [
+      "css",
+      "html",
+      "mysql",
+      "php",
+      "rest api"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.2857,
+      "core_weighted_coverage": 0.2231,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 2 of 8 extracted skills.",
+      "Matched 2/7 must-have skills. Need at least 4.",
+      "Critical gaps: css, html, mysql, php, rest api"
+    ]
+  },
+  {
+    "ref": "1465263",
+    "position": "Software Engineer - Intern",
+    "employer": "SPOS (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=21&ac=DEFZZZ&jc=0001465263&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "SPOS (PVT) LTD We are Hiring! SOFTWARE ENGINEER - INTERN SPOS (Pvt) Ltd. is seeking a_ skilled Software Engineer - Intern to join our growing team! If you have expertise in VB -NET, ASP.NET, C#, SQL functions, GitHub, and SQL Server Management Studio, this opportunity is for you. Requirements Basic Knowledge of VB .NET, ASP.NET, and C# Basic Understanding of SQL functions Good problem-solving and analytical skills Experience with GitHub and SQL Server Management Studio is a plus. Excellent teamwork and problem-solving skills Ability to work under dynamic pressure Ability to commit to the internship period and work on assigned tasks responsibly Important: Applicants must reside near the Kuliy...",
+    "text_full": "SPOS (PVT) LTD We are Hiring! SOFTWARE ENGINEER - INTERN SPOS (Pvt) Ltd. is seeking a_ skilled Software Engineer - Intern to join our growing team! If you have expertise in VB -NET, ASP.NET, C#, SQL functions, GitHub, and SQL Server Management Studio, this opportunity is for you. Requirements Basic Knowledge of VB .NET, ASP.NET, and C# Basic Understanding of SQL functions Good problem-solving and analytical skills Experience with GitHub and SQL Server Management Studio is a plus. Excellent teamwork and problem-solving skills Ability to work under dynamic pressure Ability to commit to the internship period and work on assigned tasks responsibly Important: Applicants must reside near the Kuliyapitiya or Kurunegala area. What We are Offer & Enjoy a Competitive Salary, Benefits, & Work- life Balance. © Work Hours: 9:00 AM — 6:00 PM ? Location: SPOS (Pvt) Ltd, Kuliyapitiya Send Your CV To: spossolutions@outlook.com +94 70 55 666 70 For More Information _spossolutions@outllok.com",
+    "skills_found": [
+      ".net",
+      "c#",
+      "sql",
+      "sql server"
+    ],
+    "signals_found": [],
+    "match_percent": 12.95,
+    "baseline_match_percent": 25.0,
+    "overlap": [
+      "sql"
+    ],
+    "missing": [
+      ".net",
+      "c#",
+      "sql server"
+    ],
+    "job_skill_count": 4,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      ".net",
+      "c#",
+      "sql",
+      "sql server"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      ".net",
+      "c#",
+      "sql",
+      "sql server"
+    ],
+    "matched_must_have": [
+      "sql"
+    ],
+    "missing_must_have": [
+      ".net",
+      "c#",
+      "sql server"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.25,
+      "core_weighted_coverage": 0.1949,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 1 of 4 extracted skills.",
+      "Matched 1/4 must-have skills. Need at least 2.",
+      "Critical gaps: .net, c#, sql server"
+    ]
+  },
+  {
+    "ref": "1465789",
+    "position": "Full Stack Developer (API Integrations | PHP | Mobile) (2)",
+    "employer": "Smart Quest (Pvt)Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=19&ac=0000000013&jc=0001465789&ec=0000000013&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "\\\\ a \\ WAN ‘. QS x , Full Stack Developer (API Integrations | PHP | Mobile) Key Responsibilities ¢ Build and maintain integrations between internal systems and external APIs Read third-party API documents and convert requirements into working solutions Implement secure authentication methods (OAuth, JWT, API keys, etc.) Develop integration components such as reusable modules, webhooks, callbacks, and sync logic Work on backend (PHP) and contribute to frontend/mobile tasks (Kotlin/Flutter/React Native/React) Write and run integration tests; troubleshoot and fix production issues ¢ Maintain internal API documentation Participate in code reviews and share knowledge with the team Requirements ¢...",
+    "text_full": "\\\\ a \\ WAN ‘. QS x , Full Stack Developer (API Integrations | PHP | Mobile) Key Responsibilities ¢ Build and maintain integrations between internal systems and external APIs Read third-party API documents and convert requirements into working solutions Implement secure authentication methods (OAuth, JWT, API keys, etc.) Develop integration components such as reusable modules, webhooks, callbacks, and sync logic Work on backend (PHP) and contribute to frontend/mobile tasks (Kotlin/Flutter/React Native/React) Write and run integration tests; troubleshoot and fix production issues ¢ Maintain internal API documentation Participate in code reviews and share knowledge with the team Requirements ¢ 3-5 years of experience as a Software Engineer / Full Stack Developer ¢ Strong PHP backend development experience ¢ Experience in Kotlin and native Android development Exposure to Flutter and/or React Native (willing to support app migration projects) ¢ Good knowledge of REST APIs, MySQL, and mobile app architecture Familiar with Git, CI/CD tools (GitHub Actions/Jenkins), and Agile practices ¢ Strong debugging/problem-solving skills Good communication skills and ability to work with cross-functional teams About Scan & Apply via QR code to get your Company : profile shortlisted fast! Our client is a Malaysian software : solutions company with operations in Sri : Lanka. They are looking for a Full Stack Developer to join their Sri Lankan team © www.smartquestconsult.com",
+    "skills_found": [
+      "android",
+      "ci/cd",
+      "flutter",
+      "git",
+      "github actions",
+      "jenkins",
+      "jwt",
+      "kotlin",
+      "mobile",
+      "mysql",
+      "oauth",
+      "php",
+      "react",
+      "react native",
+      "rest api",
+      "webhooks"
+    ],
+    "signals_found": [
+      "backend",
+      "frontend",
+      "full stack",
+      "integration"
+    ],
+    "match_percent": 6.99,
+    "baseline_match_percent": 12.5,
+    "overlap": [
+      "git",
+      "react"
+    ],
+    "missing": [
+      "android",
+      "ci/cd",
+      "flutter",
+      "github actions",
+      "jenkins",
+      "jwt",
+      "kotlin",
+      "mobile",
+      "mysql",
+      "oauth",
+      "php",
+      "react native",
+      "rest api",
+      "webhooks"
+    ],
+    "job_skill_count": 16,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      "android",
+      "ci/cd",
+      "flutter",
+      "git",
+      "github actions",
+      "jenkins",
+      "kotlin",
+      "mobile",
+      "mysql",
+      "php",
+      "react",
+      "react native",
+      "rest api"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "android",
+      "ci/cd",
+      "flutter",
+      "git",
+      "github actions",
+      "jenkins",
+      "jwt",
+      "kotlin",
+      "mobile",
+      "mysql",
+      "oauth",
+      "php",
+      "react",
+      "react native",
+      "rest api",
+      "webhooks"
+    ],
+    "matched_must_have": [
+      "git",
+      "react"
+    ],
+    "missing_must_have": [
+      "android",
+      "ci/cd",
+      "flutter",
+      "github actions",
+      "jenkins",
+      "kotlin",
+      "mobile",
+      "mysql",
+      "php",
+      "react native",
+      "rest api"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.1538,
+      "core_weighted_coverage": 0.094,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 2 of 16 extracted skills.",
+      "Matched 2/13 must-have skills. Need at least 7.",
+      "Critical gaps: android, ci/cd, flutter, github actions, jenkins"
+    ]
+  },
+  {
+    "ref": "1463105",
+    "position": "Associate Software Engineer | Trainee (Web Development)",
+    "employer": "Neurotechnology Lab",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=31&ac=DEFZZZ&jc=0001463105&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "Neurotechnology Lab is looking to provide job opportunities to software developers/engineers on the following job roles mentioned below. We at Neurotechnology were in the field of Biometric and Artificial Intelligence based in Colombo for more than a decade and looking forward to expanding while enriching the careers of the applicants who are interested in joining the force. Associate software engineer / Trainee (Web development) Technical Skills * Good knowledge of React (Hooks, State management, component lifecycle, router, Next.js SSR/CSR/SEO) * Good Knowledge on Angular v2+ (Components, services, dependency injection, TypeScript proficiency, RxJS and observables, NgRx/state management, A...",
+    "text_full": "Neurotechnology Lab is looking to provide job opportunities to software developers/engineers on the following job roles mentioned below. We at Neurotechnology were in the field of Biometric and Artificial Intelligence based in Colombo for more than a decade and looking forward to expanding while enriching the careers of the applicants who are interested in joining the force. Associate software engineer / Trainee (Web development) Technical Skills * Good knowledge of React (Hooks, State management, component lifecycle, router, Next.js SSR/CSR/SEO) * Good Knowledge on Angular v2+ (Components, services, dependency injection, TypeScript proficiency, RxJS and observables, NgRx/state management, Angular CLI and modules) * Knowledge of Angularis (Controllers, directives, services, $scope management, Migration strategies to modern Angular/React, Understanding of upgrade/downgrade process) + Knowledge on Bootstrap 4/5 (Grid system, responsive design, Component customization, Bootstrap with React or Angular), CSS preprocessors (SASS/SCSS/LESS), Responsive design principles, Cross-browser compatibility) * Optionally, knowledge of Spring Boot (REST AP! development, Spring Security (JWT, OAuth2), Spring Data JPA/Hibernate, Microservices architecture, Dependency injection, Maven/Gradle build tools) * Knowledge of databases (MySQL/MSSQL, PostgreSQL/Oracle), NoSL basics, ORM knowledge sual Studio Code, SVN, GitLab/GitHub/Bitbucket, Jenkins, GitLab Cl, GitHub Actions, Jest, React Testing Library, Karma/Jasmine, JUnit, Mockito, Docker basics, npm, yarn, Webpack, Babel © Tool Soft Skills * Strong problem-solving skills, Effective communication in technical teams, Code review and mentoring capabilities, Agile/Scrum methodology experience * Nice-to-Have: \\WS/Azure/GCP fundamentals, Full-stack deployment knowledge, Performance optimization, Kafka basics Typical Responsibilities ‘* Develop responsive web applications using React/Angular/AngularJS ‘* Maintain and migrate AngularJS applications ‘* Implement UI components with Bootstrap ‘Ensure application performance and security ‘© Write unit and integration tests Collaborating in Agile teams * Code reviews and technical documentation Qualifications and Experience Levels * Associate Engineer: Relevant bachelor’s degree and 1-2 years * Trainee: Relevant undergraduate Applicants who are interested in the above roles may mail their applications to: ntlab.careers@neurotechnology.com mentioning on the subject the designation interested in applying within 14 days of the advertisement. AL tectnology Lab Biometric and Artificial Intelligence Technologies Neurotechnology Lab (Pvt) Limited (the “Company”) was incorporated in Sri Lanka as a limited liability company on 27th July 2012. The Company is principally engaged in software development by using Neurotechnology SDKs from UAB Neurotechnology, Lithuania. Neurotechnology is a provider of high- precision biometric fingerprint, face, iris, voiceprint and palm print identification algorithms, object recognition technology and software development products. More than 2,500 system integrators, security companies and hardware providers integrate Neurotechnology’s algorithms into their products. With millions of customer installations worldwide, Neurotechnology’s products are used for both civil and forensic applications, including border crossings, criminal investigations, systems for voter registration, verification and duplication checking, passport issuance and other national-scale projects. Drawing from years of academic research in the fields of neuroinformatic, image processing and pattern recognition, Neurotechnology was founded in 1990 in Vilnius, Lithuania and released its first fingerprint identification system in 1991. Since that time the company has released more than 80 products and version upgrades for identification and verification of objects and personal identity. Neurotechnology’s identification algorithms have consistently earned the highest honors in some of the industry's most",
+    "skills_found": [
+      "angular",
+      "azure",
+      "babel",
+      "bootstrap",
+      "css",
+      "docker",
+      "gcp",
+      "github actions",
+      "javascript",
+      "jenkins",
+      "jest",
+      "junit",
+      "jwt",
+      "mysql",
+      "next.js",
+      "oauth",
+      "oracle",
+      "postgresql",
+      "react",
+      "react testing library",
+      "rest api",
+      "sass",
+      "spring boot",
+      "spring framework",
+      "sql server",
+      "typescript",
+      "webpack"
+    ],
+    "signals_found": [
+      "full stack",
+      "integration",
+      "microservices",
+      "ssr"
+    ],
+    "match_percent": 6.09,
+    "baseline_match_percent": 11.11,
+    "overlap": [
+      "docker",
+      "javascript",
+      "react"
+    ],
+    "missing": [
+      "angular",
+      "azure",
+      "babel",
+      "bootstrap",
+      "css",
+      "gcp",
+      "github actions",
+      "jenkins",
+      "jest",
+      "junit",
+      "jwt",
+      "mysql",
+      "next.js",
+      "oauth",
+      "oracle",
+      "postgresql",
+      "react testing library",
+      "rest api",
+      "sass",
+      "spring boot",
+      "spring framework",
+      "sql server",
+      "typescript",
+      "webpack"
+    ],
+    "job_skill_count": 27,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      "angular",
+      "babel",
+      "bootstrap",
+      "css",
+      "docker",
+      "github actions",
+      "javascript",
+      "jenkins",
+      "jest",
+      "junit",
+      "jwt",
+      "mysql",
+      "next.js",
+      "oauth",
+      "oracle",
+      "postgresql",
+      "react",
+      "react testing library",
+      "rest api",
+      "sass",
+      "spring boot",
+      "spring framework",
+      "sql server",
+      "typescript",
+      "webpack"
+    ],
+    "nice_to_have_skills": [
+      "azure",
+      "gcp"
+    ],
+    "core_skills": [
+      "angular",
+      "babel",
+      "bootstrap",
+      "css",
+      "docker",
+      "github actions",
+      "javascript",
+      "jenkins",
+      "jest",
+      "junit",
+      "jwt",
+      "mysql",
+      "next.js",
+      "oauth",
+      "oracle",
+      "postgresql",
+      "react",
+      "react testing library",
+      "rest api",
+      "sass",
+      "spring boot",
+      "spring framework",
+      "sql server",
+      "typescript",
+      "webpack"
+    ],
+    "matched_must_have": [
+      "docker",
+      "javascript",
+      "react"
+    ],
+    "missing_must_have": [
+      "angular",
+      "babel",
+      "bootstrap",
+      "css",
+      "github actions",
+      "jenkins",
+      "jest",
+      "junit",
+      "jwt",
+      "mysql",
+      "next.js",
+      "oauth",
+      "oracle",
+      "postgresql",
+      "react testing library",
+      "rest api",
+      "sass",
+      "spring boot",
+      "spring framework",
+      "sql server",
+      "typescript",
+      "webpack"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.12,
+      "core_weighted_coverage": 0.0969,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 3 of 27 extracted skills.",
+      "Matched 3/25 must-have skills. Need at least 13.",
+      "Critical gaps: angular, babel, bootstrap, css, github actions"
+    ]
+  },
+  {
+    "ref": "1467838",
+    "position": "Software Engineer",
+    "employer": "Sri Lanka Insurance",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=12&ac=DEFZZZ&jc=0001467838&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "text_excerpt": "SOFTWARE ENGINEER ‘sri Lanka Insurance General is backed by decades of industry expertise and the country's most experienced insurance sector technical knowledge base. Join a team of highly qualified and most experienced professionals in the country to experience unparalleled ‘opportunities for career growth and personal development opportunities within a performance-driven culture. Qualifications & Pre-requisites Software Development: Education and Experience: + Participate in the full software development fecycle,ineliding requirement + Bachelors degree in Computer Se ayes, design, Implementation testing, and deployment related le + Work closely with product managers, business users, and o...",
+    "text_full": "SOFTWARE ENGINEER ‘sri Lanka Insurance General is backed by decades of industry expertise and the country's most experienced insurance sector technical knowledge base. Join a team of highly qualified and most experienced professionals in the country to experience unparalleled ‘opportunities for career growth and personal development opportunities within a performance-driven culture. Qualifications & Pre-requisites Software Development: Education and Experience: + Participate in the full software development fecycle,ineliding requirement + Bachelors degree in Computer Se ayes, design, Implementation testing, and deployment related le + Work closely with product managers, business users, and othrstakeholdersto + Prove experience as a Software Engin derstand project requirements and delver solutions that meet user needs. onto of completed projects - Atleast one year of experience + Experience wih software development methodologies and p esting and Debugging + Develop and execute unit tests to ensure software functionality and + Identity cagose, and fix software defects and performance issues + Proficieny in one or more 9 languages (e9. Java, Py cree races + Experience with software development framework @s. aos +Family wih databases and SOL, a8 well a knowledge of version Incuding design speciation, user guides, and API documentation. oie cea CF CaO Cen em Oe . posed eter you meet the above qualifications and experience, please email your CV along with the names of two non-related referees to jobs@srilankainsurance.com within 7 days ofthis advertisement. Kindly mention the post applied for inthe subject line of your email © cS jobs@srilankainsurance.com| APPLY NOW ENERAL",
+    "skills_found": [
+      "java"
+    ],
+    "signals_found": [],
+    "match_percent": 0.0,
+    "baseline_match_percent": 0.0,
+    "overlap": [],
+    "missing": [
+      "java"
+    ],
+    "job_skill_count": 1,
+    "user_skill_count": 11,
+    "must_have_skills": [
+      "java"
+    ],
+    "nice_to_have_skills": [],
+    "core_skills": [
+      "java"
+    ],
+    "matched_must_have": [],
+    "missing_must_have": [
+      "java"
+    ],
+    "must_have_gate_pass": false,
+    "matched_nice_to_have": [],
+    "weighted_components": {
+      "must_have_coverage": 0.0,
+      "core_weighted_coverage": 0.0,
+      "nice_to_have_coverage": 0.0,
+      "signal_coverage": 0.0
+    },
+    "explanations": [
+      "Matched 0 of 1 extracted skills.",
+      "Matched 0/1 must-have skills. Need at least 1.",
+      "Critical gaps: java"
+    ]
+  }
+]
