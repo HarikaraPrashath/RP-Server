@@ -676,7 +676,8 @@ async def parse_cv(file: UploadFile = File(...)) -> JSONResponse:
 
 
 @app.get("/cv")
-def get_latest_cv() -> JSONResponse:
+def get_latest_cv(request: Request) -> JSONResponse:
+    _require_user(request)
     entry = _latest_cv_entry()
     if not entry:
         return JSONResponse({"ok": True, "file": None})
@@ -697,7 +698,8 @@ def get_latest_cv() -> JSONResponse:
 
 
 @app.get("/cv/file")
-def get_cv_file(id: str) -> FileResponse:
+def get_cv_file(id: str, request: Request) -> FileResponse:
+    _require_user(request)
     entries = _load_cv_index()
     entry = next((item for item in entries if item.get("id") == id), None)
     if not entry:
@@ -871,13 +873,9 @@ def get_job_file(name: str) -> FileResponse:
 
 @app.post("/jobs/refresh")
 async def refresh_jobs(request: Request, payload: dict[str, Any] | None = None) -> JSONResponse:
+    user = _require_user(request)
     payload = payload or {}
-    profile = _default_profile()
-    token = _extract_bearer_token(request)
-    if token:
-        user = _find_user_by_token(token)
-        if user:
-            profile = _load_profile_for_email(str(user.get("email", "")))
+    profile = _load_profile_for_email(str(user.get("email", "")))
     keyword = str(
         payload.get("keyword")
         or profile.get("basics", {}).get("position")
@@ -946,7 +944,8 @@ def get_trends() -> JSONResponse:
 
 
 @app.post("/trends/seed")
-async def seed_trends(payload: dict[str, Any] | None = None) -> JSONResponse:
+async def seed_trends(request: Request, payload: dict[str, Any] | None = None) -> JSONResponse:
+    _require_user(request)
     payload = payload or {}
     days = payload.get("days", TREND_WINDOW_DAYS)
     replace = bool(payload.get("replace", True))
@@ -1011,6 +1010,7 @@ def get_ranked_summary() -> JSONResponse:
 
 @app.post("/analyse")
 async def analyse(request: Request, payload: dict[str, Any] | None = None) -> JSONResponse:
+    user = _require_user(request)
     payload = payload or {}
     keyword = str(payload.get("keyword", "")).strip()
 
@@ -1029,12 +1029,8 @@ async def analyse(request: Request, payload: dict[str, Any] | None = None) -> JS
         profile_source = override
         student_profile = _build_student_profile(profile_source, defaults=STUDENT_PROFILE)
     else:
-        token = _extract_bearer_token(request)
-        if token:
-            user = _find_user_by_token(token)
-            if user:
-                profile_source = _load_profile_for_email(str(user.get("email", "")))
-                student_profile = _build_student_profile(profile_source, defaults=STUDENT_PROFILE)
+        profile_source = _load_profile_for_email(str(user.get("email", "")))
+        student_profile = _build_student_profile(profile_source, defaults=STUDENT_PROFILE)
 
     if not keyword:
         basics = profile_source.get("basics") if isinstance(profile_source, dict) else {}
