@@ -1,3 +1,4 @@
+import utils.session
 from pathlib import Path
 import statistics as stats
 import sys

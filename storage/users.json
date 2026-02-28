@@ -10,12 +10,19 @@
     "passwordSalt": "137669c335891855bf1ada62a1c95103",
     "passwordHash": "627b0fe2c1c00414d8fc931bd708ad07de899cee473984fcc8fca8ca342e4d45",
     "createdAt": "2025-12-27T16:25:39.481823+00:00",
-    "token": "3p9N92hOcnAWkXUylZGDNKaGYKTvpoRll-xQ40IzwVY"
+    "token": "E_zqufsgVVEnu_eIjpVqkosVBXNBSP0gfmI2x0Q-_1E"
   },
   {
     "email": "diven@gmail.com",
     "passwordSalt": "db96c9454886caaa40293c51198d2053",
     "passwordHash": "508bc0e35827eaaedd62916450c844d6256edfc5c22222d3aa6c10aab2eb5f1f",
     "createdAt": "2026-01-02T14:27:55.920261+00:00"
+  },
+  {
+    "email": "grey@gmail.com",
+    "passwordSalt": "1c0805e0cf6103b088a39fea5a051146",
+    "passwordHash": "0133506240ef72791cd31acab534f45ccec1e7cfb0d5acf21796c953edda093b",
+    "token": "-dkpYf3KM4LekJOx3HJVmxOnhpUi9cJ3hKETTwU9ecw",
+    "createdAt": "2026-02-28T05:21:06.344795+00:00"
   }
 ]

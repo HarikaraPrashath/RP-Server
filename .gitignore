@@ -29,7 +29,6 @@ models/
 # =========================
 # Environment variables
 # =========================
-.env
 
 # =========================
 # OS files
@@ -41,7 +40,6 @@ Thumbs.db
 # IDE / Editor
 # =========================
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -57,3 +55,5 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+config.bat
+node_modules
