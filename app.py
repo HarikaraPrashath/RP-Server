@@ -13,10 +13,23 @@ import secrets
 import random
 
 import subprocess
+import mimetypes
+import requests
 from fastapi import FastAPI, File, HTTPException, UploadFile, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
+from sqlalchemy import select, delete, text as sql_text
 
+from Database.db import SessionLocal
+from Database.models import (
+    User,
+    Profile,
+    CvFile,
+    LastQuery,
+    JobMetadata,
+    RankedJob,
+    TrendSnapshot,
+)
 BASE_DIR = Path(__file__).resolve().parent
 CV_EXTRACTOR_DIR = BASE_DIR / "CV_extractor"
 SCR_OUTPUT_DIR = BASE_DIR / "scr_output" / "topjobs_ads"
@@ -35,6 +48,10 @@ TREND_HISTORY_PATH = STORAGE_DIR / "trends_history.json"
 SCRAPER_PATH = CV_EXTRACTOR_DIR / "scrapper" / "TopJobs_scraper_t2.py"
 PIPELINE_PATH = CV_EXTRACTOR_DIR / "job_skill_pipeline.py"
 SKILLS_PATH = CV_EXTRACTOR_DIR / "skills.txt"
+
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "").strip()
+SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "").strip()
+SUPABASE_STORAGE_BUCKET = os.environ.get("SUPABASE_STORAGE_BUCKET", "").strip()
 
 MAX_FILE_SIZE = 20 * 1024 * 1024
 TREND_WINDOW_DAYS = 7
@@ -247,35 +264,96 @@ def _profile_path_for_email(email: str) -> Path:
 
 
 def _load_profile_for_email(email: str) -> dict[str, Any]:
-    path = _profile_path_for_email(email)
-    stored = _read_json(path, {})
-    if not isinstance(stored, dict):
-        stored = {}
-    profile = _coerce_profile(stored)
+    with SessionLocal() as db:
+        row = db.execute(select(Profile).where(Profile.email == _normalize_email(email))).scalar_one_or_none()
+        stored = row.profile_json if row and isinstance(row.profile_json, dict) else {}
+    profile = _coerce_profile(stored if isinstance(stored, dict) else {})
     if email and not profile.get("basics", {}).get("contactEmail"):
         profile["basics"]["contactEmail"] = email
     return profile
 
 
 def _save_profile_for_email(email: str, payload: dict[str, Any]) -> None:
-    path = _profile_path_for_email(email)
-    _write_json(path, payload)
+    normalized = _normalize_email(email)
+    with SessionLocal() as db:
+        row = db.execute(select(Profile).where(Profile.email == normalized)).scalar_one_or_none()
+        if row:
+            row.profile_json = payload
+            row.updated_at = datetime.now(tz=timezone.utc)
+        else:
+            db.add(
+                Profile(
+                    email=normalized,
+                    profile_json=payload,
+                    updated_at=datetime.now(tz=timezone.utc),
+                )
+            )
+        db.commit()
 
 
 def _load_cv_index() -> list[dict[str, Any]]:
-    data = _read_json(CV_INDEX_PATH, [])
-    return data if isinstance(data, list) else []
+    with SessionLocal() as db:
+        rows = db.execute(select(CvFile).order_by(CvFile.uploaded_at.desc())).scalars().all()
+    return [
+        {
+            "id": row.id,
+            "path": row.path,
+            "originalName": row.original_name,
+            "size": row.size,
+            "contentType": row.content_type,
+            "uploadedAt": row.uploaded_at.isoformat(),
+        }
+        for row in rows
+    ]
 
 
 def _save_cv_index(entries: list[dict[str, Any]]) -> None:
-    _write_json(CV_INDEX_PATH, entries)
+    if not entries:
+        return
+    with SessionLocal() as db:
+        for entry in entries:
+            cv_id = str(entry.get("id", "")).strip()
+            if not cv_id:
+                continue
+            row = db.execute(select(CvFile).where(CvFile.id == cv_id)).scalar_one_or_none()
+            uploaded_at = entry.get("uploadedAt")
+            try:
+                uploaded_dt = datetime.fromisoformat(str(uploaded_at))
+            except Exception:
+                uploaded_dt = datetime.now(tz=timezone.utc)
+            if row:
+                row.path = str(entry.get("path", row.path))
+                row.original_name = str(entry.get("originalName", row.original_name))
+                row.size = int(entry.get("size", row.size) or 0)
+                row.content_type = str(entry.get("contentType", row.content_type))
+                row.uploaded_at = uploaded_dt
+            else:
+                db.add(
+                    CvFile(
+                        id=cv_id,
+                        path=str(entry.get("path", "")),
+                        original_name=str(entry.get("originalName", "")),
+                        size=int(entry.get("size", 0) or 0),
+                        content_type=str(entry.get("contentType", "application/octet-stream")),
+                        uploaded_at=uploaded_dt,
+                    )
+                )
+        db.commit()
 
 
 def _latest_cv_entry() -> dict[str, Any] | None:
-    entries = _load_cv_index()
-    if not entries:
+    with SessionLocal() as db:
+        row = db.execute(select(CvFile).order_by(CvFile.uploaded_at.desc())).scalar_one_or_none()
+    if not row:
         return None
-    return sorted(entries, key=lambda item: item.get("uploadedAt", ""), reverse=True)[0]
+    return {
+        "id": row.id,
+        "path": row.path,
+        "originalName": row.original_name,
+        "size": row.size,
+        "contentType": row.content_type,
+        "uploadedAt": row.uploaded_at.isoformat(),
+    }
 
 
 def _safe_filename(name: str) -> str:
@@ -295,6 +373,155 @@ def _python_run(cmd: list[str], env: dict[str, str] | None = None) -> None:
         raise RuntimeError(result.stderr.strip() or result.stdout.strip() or "Command failed")
 
 
+def _storage_enabled() -> bool:
+    return bool(SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY and SUPABASE_STORAGE_BUCKET)
+
+
+def _storage_public_url(path: str) -> str:
+    return f"{SUPABASE_URL}/storage/v1/object/public/{SUPABASE_STORAGE_BUCKET}/{path}"
+
+
+def _storage_object_exists(remote_path: str) -> bool:
+    if not _storage_enabled():
+        return False
+    url = _storage_public_url(remote_path)
+    try:
+        resp = requests.head(url, timeout=10)
+        return resp.status_code == 200
+    except Exception:
+        return False
+
+
+def _upload_to_storage(local_path: Path, remote_path: str) -> str | None:
+    if not _storage_enabled():
+        return None
+    if not local_path.exists():
+        return None
+    if _storage_object_exists(remote_path):
+        return _storage_public_url(remote_path)
+    content_type, _ = mimetypes.guess_type(local_path.name)
+    content_type = content_type or "application/octet-stream"
+    url = f"{SUPABASE_URL}/storage/v1/object/{SUPABASE_STORAGE_BUCKET}/{remote_path}"
+    headers = {
+        "Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}",
+        "apikey": SUPABASE_SERVICE_ROLE_KEY,
+        "Content-Type": content_type,
+        "x-upsert": "true",
+    }
+    try:
+        with local_path.open("rb") as f:
+            resp = requests.post(url, data=f, headers=headers, timeout=30)
+        if resp.status_code in (200, 201):
+            return _storage_public_url(remote_path)
+        return None
+    except Exception:
+        return None
+
+
+def _sync_jobs_from_files() -> None:
+    metadata_path = SCR_OUTPUT_DIR / "metadata.json"
+    ranked_path = SCR_OUTPUT_DIR / "ranked_jobs.json"
+    if not metadata_path.exists() or not ranked_path.exists():
+        return
+    metadata = _read_json(metadata_path, [])
+    ranked = _read_json(ranked_path, [])
+    if not isinstance(metadata, list) or not isinstance(ranked, list):
+        return
+
+    now = datetime.now(tz=timezone.utc)
+    with SessionLocal() as db:
+        db.execute(sql_text("SET LOCAL statement_timeout = '300s'"))
+        db.execute(sql_text("TRUNCATE TABLE job_metadata"))
+        db.execute(sql_text("TRUNCATE TABLE ranked_jobs"))
+        db.commit()
+
+        batch = 0
+        for job in metadata:
+            if not isinstance(job, dict):
+                continue
+            files = job.get("files") if isinstance(job.get("files"), list) else []
+            text_file = next((f for f in files if str(f).lower().endswith(".txt")), None)
+            image_file = next(
+                (f for f in files if str(f).lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".webp"))),
+                None,
+            )
+            image_url = None
+            if image_file and _storage_enabled():
+                if isinstance(image_file, str) and image_file.startswith("http"):
+                    image_url = image_file
+                else:
+                    local_img = SCR_OUTPUT_DIR / _safe_filename(str(image_file))
+                    image_url = _upload_to_storage(local_img, f"jobs/{local_img.name}")
+            snippet = ""
+            if text_file:
+                try:
+                    text = (SCR_OUTPUT_DIR / _safe_filename(text_file)).read_text(
+                        encoding="utf-8", errors="ignore"
+                    )
+                    text = " ".join(text.split())
+                    snippet = text[:300] + ("..." if len(text) > 300 else "")
+                except Exception:
+                    snippet = ""
+
+            db.add(
+                JobMetadata(
+                    ref=job.get("ref"),
+                    position=job.get("position"),
+                    employer=job.get("employer"),
+                    url=job.get("url"),
+                    ad_type=job.get("type"),
+                    files=files,
+                    text_snippet=snippet,
+                    image_file=image_url or image_file,
+                    created_at=now,
+                )
+            )
+            batch += 1
+            if batch % 25 == 0:
+                db.commit()
+
+        if batch % 25 != 0:
+            db.commit()
+
+        batch = 0
+        for job in ranked:
+            if not isinstance(job, dict):
+                continue
+            db.add(
+                RankedJob(
+                    ref=job.get("ref"),
+                    position=job.get("position"),
+                    employer=job.get("employer"),
+                    url=job.get("url"),
+                    skills_found=job.get("skills_found", []) or [],
+                    overlap=job.get("overlap", []) or [],
+                    missing=job.get("missing", []) or [],
+                    match_percent=job.get("match_percent"),
+                    baseline_match_percent=job.get("baseline_match_percent"),
+                    job_skill_count=job.get("job_skill_count"),
+                    user_skill_count=job.get("user_skill_count"),
+                    text_excerpt=job.get("text_excerpt"),
+                    text_full=job.get("text_full"),
+                    must_have_skills=job.get("must_have_skills", []) or [],
+                    nice_to_have_skills=job.get("nice_to_have_skills", []) or [],
+                    core_skills=job.get("core_skills", []) or [],
+                    matched_must_have=job.get("matched_must_have", []) or [],
+                    missing_must_have=job.get("missing_must_have", []) or [],
+                    must_have_gate_pass=job.get("must_have_gate_pass"),
+                    matched_nice_to_have=job.get("matched_nice_to_have", []) or [],
+                    weighted_components=job.get("weighted_components", {}) or {},
+                    explanations=job.get("explanations", []) or [],
+                    created_at=now,
+                )
+            )
+            batch += 1
+            if batch % 25 == 0:
+                db.commit()
+
+        if batch % 25 != 0:
+            db.commit()
+
+
 def _should_refresh(keyword: str, force: bool) -> bool:
     if force:
         return True
@@ -302,14 +529,16 @@ def _should_refresh(keyword: str, force: bool) -> bool:
         return True
     if not (SCR_OUTPUT_DIR / "ranked_jobs.json").exists():
         return True
-
-    info = _read_json(LAST_QUERY_PATH, {})
-    last_keyword = str(info.get("keyword", "")).strip().lower()
-    last_run_raw = info.get("ranAt")
-    try:
-        last_run = datetime.fromisoformat(last_run_raw)
-    except Exception:
-        last_run = datetime.fromtimestamp(0, tz=timezone.utc)
+    last_keyword = ""
+    last_run = datetime.fromtimestamp(0, tz=timezone.utc)
+    with SessionLocal() as db:
+        row = db.execute(select(LastQuery).where(LastQuery.id == 1)).scalar_one_or_none()
+        if row:
+            last_keyword = str(row.keyword or "").strip().lower()
+            if isinstance(row.ran_at, datetime):
+                last_run = row.ran_at
+                if last_run.tzinfo is None:
+                    last_run = last_run.replace(tzinfo=timezone.utc)
 
     age = datetime.now(tz=timezone.utc) - last_run
     if last_keyword != keyword.strip().lower():
@@ -320,12 +549,49 @@ def _should_refresh(keyword: str, force: bool) -> bool:
 
 
 def _load_users() -> list[dict[str, Any]]:
-    data = _read_json(USERS_PATH, [])
-    return data if isinstance(data, list) else []
+    with SessionLocal() as db:
+        rows = db.execute(select(User)).scalars().all()
+    return [
+        {
+            "email": row.email,
+            "passwordSalt": row.password_salt,
+            "passwordHash": row.password_hash,
+            "token": row.token,
+            "createdAt": row.created_at.isoformat(),
+        }
+        for row in rows
+    ]
 
 
 def _save_users(users: list[dict[str, Any]]) -> None:
-    _write_json(USERS_PATH, users)
+    if not users:
+        return
+    with SessionLocal() as db:
+        for user in users:
+            email = _normalize_email(str(user.get("email", "")))
+            if not email:
+                continue
+            row = db.execute(select(User).where(User.email == email)).scalar_one_or_none()
+            if row:
+                row.password_salt = str(user.get("passwordSalt", row.password_salt))
+                row.password_hash = str(user.get("passwordHash", row.password_hash))
+                row.token = user.get("token", row.token)
+            else:
+                created_at = user.get("createdAt")
+                try:
+                    created_dt = datetime.fromisoformat(str(created_at))
+                except Exception:
+                    created_dt = datetime.now(tz=timezone.utc)
+                db.add(
+                    User(
+                        email=email,
+                        password_salt=str(user.get("passwordSalt", "")),
+                        password_hash=str(user.get("passwordHash", "")),
+                        token=user.get("token"),
+                        created_at=created_dt,
+                    )
+                )
+        db.commit()
 
 
 def _normalize_email(email: str) -> str:
@@ -338,12 +604,18 @@ def _hash_password(password: str, salt: bytes) -> str:
 
 
 def _find_user(email: str) -> dict[str, Any] | None:
-    users = _load_users()
     normalized = _normalize_email(email)
-    for user in users:
-        if _normalize_email(str(user.get("email", ""))) == normalized:
-            return user
-    return None
+    with SessionLocal() as db:
+        row = db.execute(select(User).where(User.email == normalized)).scalar_one_or_none()
+    if not row:
+        return None
+    return {
+        "email": row.email,
+        "passwordSalt": row.password_salt,
+        "passwordHash": row.password_hash,
+        "token": row.token,
+        "createdAt": row.created_at.isoformat(),
+    }
 
 
 def _extract_bearer_token(request: Request) -> str | None:
@@ -357,11 +629,17 @@ def _extract_bearer_token(request: Request) -> str | None:
 
 
 def _find_user_by_token(token: str) -> dict[str, Any] | None:
-    users = _load_users()
-    for user in users:
-        if str(user.get("token", "")) == token:
-            return user
-    return None
+    with SessionLocal() as db:
+        row = db.execute(select(User).where(User.token == token)).scalar_one_or_none()
+    if not row:
+        return None
+    return {
+        "email": row.email,
+        "passwordSalt": row.password_salt,
+        "passwordHash": row.password_hash,
+        "token": row.token,
+        "createdAt": row.created_at.isoformat(),
+    }
 
 
 def _require_user(request: Request) -> dict[str, Any]:
@@ -379,12 +657,42 @@ def _normalize_term(value: str) -> str:
 
 
 def _load_trend_history() -> list[dict[str, Any]]:
-    data = _read_json(TREND_HISTORY_PATH, [])
-    return data if isinstance(data, list) else []
+    with SessionLocal() as db:
+        rows = db.execute(select(TrendSnapshot).order_by(TrendSnapshot.ran_at.asc())).scalars().all()
+    return [
+        {
+            "ranAt": row.ran_at.isoformat(),
+            "keyword": row.keyword,
+            "jobCount": row.job_count,
+            "skillCounts": row.skill_counts or {},
+            "roleCounts": row.role_counts or {},
+        }
+        for row in rows
+    ]
 
 
 def _save_trend_history(entries: list[dict[str, Any]]) -> None:
-    _write_json(TREND_HISTORY_PATH, entries)
+    with SessionLocal() as db:
+        db.execute(delete(TrendSnapshot))
+        db.commit()
+        for entry in entries:
+            try:
+                ran_at = datetime.fromisoformat(str(entry.get("ranAt")))
+            except Exception:
+                continue
+            keyword = str(entry.get("keyword", "")).strip()
+            if not keyword:
+                continue
+            db.add(
+                TrendSnapshot(
+                    ran_at=ran_at,
+                    keyword=keyword,
+                    job_count=int(entry.get("jobCount", 0) or 0),
+                    skill_counts=entry.get("skillCounts", {}) or {},
+                    role_counts=entry.get("roleCounts", {}) or {},
+                )
+            )
+        db.commit()
 
 
 def _count_skills(ranked: list[dict[str, Any]]) -> dict[str, int]:
@@ -434,20 +742,19 @@ def _record_trend_snapshot(keyword: str) -> None:
         "roleCounts": _count_roles(metadata),
     }
 
-    history = _load_trend_history()
-    history.append(snapshot)
-
-    cutoff = now - timedelta(days=TREND_HISTORY_DAYS)
-    pruned = []
-    for entry in history:
-        try:
-            ran_at = datetime.fromisoformat(str(entry.get("ranAt")))
-        except Exception:
-            continue
-        if ran_at >= cutoff:
-            pruned.append(entry)
-
-    _save_trend_history(pruned)
+    with SessionLocal() as db:
+        db.add(
+            TrendSnapshot(
+                ran_at=now,
+                keyword=keyword,
+                job_count=len(metadata),
+                skill_counts=snapshot["skillCounts"],
+                role_counts=snapshot["roleCounts"],
+            )
+        )
+        cutoff = now - timedelta(days=TREND_HISTORY_DAYS)
+        db.execute(delete(TrendSnapshot).where(TrendSnapshot.ran_at < cutoff))
+        db.commit()
 
 
 def _summarize_trends(history: list[dict[str, Any]]) -> dict[str, Any]:
@@ -659,17 +966,18 @@ async def parse_cv(file: UploadFile = File(...)) -> JSONResponse:
 
     parsed = parse_resume(str(stored_path), skills_list=SKILLS)
 
-    entries = _load_cv_index()
-    entry = {
-        "id": cv_id,
-        "path": str(stored_path),
-        "originalName": file.filename,
-        "size": len(contents),
-        "contentType": content_type or "application/octet-stream",
-        "uploadedAt": datetime.now(tz=timezone.utc).isoformat(),
-    }
-    entries.append(entry)
-    _save_cv_index(entries)
+    with SessionLocal() as db:
+        db.add(
+            CvFile(
+                id=cv_id,
+                path=str(stored_path),
+                original_name=file.filename,
+                size=len(contents),
+                content_type=content_type or "application/octet-stream",
+                uploaded_at=datetime.now(tz=timezone.utc),
+            )
+        )
+        db.commit()
 
     payload = {**parsed, "cvId": cv_id}
     return JSONResponse(payload)
@@ -820,50 +1128,28 @@ async def forgot_password(payload: dict[str, Any]) -> JSONResponse:
 @app.get("/jobs")
 def get_jobs() -> JSONResponse:
     print("[jobs] fetch metadata")
-    metadata_path = SCR_OUTPUT_DIR / "metadata.json"
-    if not metadata_path.exists():
-        return JSONResponse({"jobs": []})
-
-    data = _read_json(metadata_path, [])
-    jobs = []
-    if isinstance(data, list):
-        for job in data:
-            files = job.get("files") if isinstance(job, dict) else []
-            files = files if isinstance(files, list) else []
-            text_file = next((f for f in files if str(f).lower().endswith(".txt")), None)
-            image_file = next(
-                (f for f in files if str(f).lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".webp"))),
-                None,
-            )
-            snippet = ""
-            if text_file:
-                try:
-                    text = (SCR_OUTPUT_DIR / _safe_filename(text_file)).read_text(
-                        encoding="utf-8", errors="ignore"
-                    )
-                    text = " ".join(text.split())
-                    snippet = text[:300] + ("..." if len(text) > 300 else "")
-                except Exception:
-                    snippet = ""
-
-            jobs.append(
-                {
-                    "ref": job.get("ref") if isinstance(job, dict) else "",
-                    "position": job.get("position") if isinstance(job, dict) else "",
-                    "employer": job.get("employer") if isinstance(job, dict) else "",
-                    "url": job.get("url") if isinstance(job, dict) else "",
-                    "type": job.get("type") if isinstance(job, dict) else None,
-                    "files": files,
-                    "textSnippet": snippet,
-                    "imageFile": image_file,
-                }
-            )
-
+    with SessionLocal() as db:
+        rows = db.execute(select(JobMetadata).order_by(JobMetadata.created_at.desc())).scalars().all()
+    jobs = [
+        {
+            "ref": row.ref or "",
+            "position": row.position or "",
+            "employer": row.employer or "",
+            "url": row.url or "",
+            "type": row.ad_type,
+            "files": row.files or [],
+            "textSnippet": row.text_snippet or "",
+            "imageFile": row.image_file,
+        }
+        for row in rows
+    ]
     return JSONResponse({"jobs": jobs})
 
 
 @app.get("/jobs/file")
 def get_job_file(name: str) -> FileResponse:
+    if name.startswith("http://") or name.startswith("https://"):
+        return RedirectResponse(name)
     safe_name = _safe_filename(name)
     file_path = SCR_OUTPUT_DIR / safe_name
     if not file_path.exists():
@@ -911,11 +1197,16 @@ async def refresh_jobs(request: Request, payload: dict[str, Any] | None = None) 
                 + (["--enable_ocr"] if enable_ocr else []),
                 env=os.environ.copy(),
             )
-
-            _write_json(
-                LAST_QUERY_PATH,
-                {"keyword": keyword, "ranAt": datetime.now(tz=timezone.utc).isoformat()},
-            )
+            now = datetime.now(tz=timezone.utc)
+            with SessionLocal() as db:
+                row = db.execute(select(LastQuery).where(LastQuery.id == 1)).scalar_one_or_none()
+                if row:
+                    row.keyword = keyword
+                    row.ran_at = now
+                else:
+                    db.add(LastQuery(id=1, keyword=keyword, ran_at=now))
+                db.commit()
+            _sync_jobs_from_files()
             try:
                 _record_trend_snapshot(keyword)
             except Exception:
@@ -963,21 +1254,53 @@ async def seed_trends(request: Request, payload: dict[str, Any] | None = None) -
 @app.get("/ranked")
 def get_ranked() -> JSONResponse:
     print("[ranked] fetch ranked list")
-    ranked_path = SCR_OUTPUT_DIR / "ranked_jobs.json"
-    if not ranked_path.exists():
-        return JSONResponse({"ranked": []})
-    data = _read_json(ranked_path, [])
-    ranked = data if isinstance(data, list) else []
+    with SessionLocal() as db:
+        rows = db.execute(select(RankedJob).order_by(RankedJob.match_percent.desc().nullslast())).scalars().all()
+    ranked = [
+        {
+            "ref": row.ref,
+            "position": row.position,
+            "employer": row.employer,
+            "url": row.url,
+            "text_excerpt": row.text_excerpt,
+            "text_full": row.text_full,
+            "skills_found": row.skills_found or [],
+            "signals_found": [],
+            "match_percent": row.match_percent,
+            "baseline_match_percent": row.baseline_match_percent,
+            "overlap": row.overlap or [],
+            "missing": row.missing or [],
+            "job_skill_count": row.job_skill_count,
+            "user_skill_count": row.user_skill_count,
+            "must_have_skills": row.must_have_skills or [],
+            "nice_to_have_skills": row.nice_to_have_skills or [],
+            "core_skills": row.core_skills or [],
+            "matched_must_have": row.matched_must_have or [],
+            "missing_must_have": row.missing_must_have or [],
+            "must_have_gate_pass": row.must_have_gate_pass,
+            "matched_nice_to_have": row.matched_nice_to_have or [],
+            "weighted_components": row.weighted_components or {},
+            "explanations": row.explanations or [],
+        }
+        for row in rows
+    ]
     return JSONResponse({"ranked": ranked})
 
 
 @app.get("/ranked/summary")
 def get_ranked_summary() -> JSONResponse:
-    ranked_path = SCR_OUTPUT_DIR / "ranked_jobs.json"
-    if not ranked_path.exists():
-        return JSONResponse({"best": None, "top": []})
-    data = _read_json(ranked_path, [])
-    ranked = data if isinstance(data, list) else []
+    with SessionLocal() as db:
+        rows = db.execute(select(RankedJob)).scalars().all()
+    ranked = [
+        {
+            "ref": row.ref,
+            "position": row.position,
+            "employer": row.employer,
+            "url": row.url,
+            "match_percent": row.match_percent or 0,
+        }
+        for row in rows
+    ]
     if not ranked:
         return JSONResponse({"best": None, "top": []})
 

@@ -1,0 +1,53 @@
+QA Engineer — Remote
+Paymate Software develops, sells and supports Payroll/HR software for businesses in Canada and US.
+We are looking for a full time, long-term QA Engineer to join our team in Sri Lanka working remotely
+Typical Day in Role:
+* Planning, creating, and executing on end-to-end test plans
+‘* Developing QA strategies, converted requirements to test scenarios and testcases and designed,
+maintained and executed test plans to rigorously test product functionality and investigate all
+potential product test failures
+Write API automation using Postman
+Writing and maintaining technical program, end user documentation and operational procedures
+* Researching, consulting, analysing and evaluating system program needs
+© Participating in meetings with project development teams to identify technology limitations
+© Defect logging and verification
+* Consistently working with our product, services, and engineering team to collaborate on quality
+testing
+Mandatory Skills/Requirements
+* Web Automation Testing
+‘* Page object model
+© Agile experience
+‘* Mobile automation/manual testing experience (Android & iOS)
+Nice to have skills
+* API test automation using POSTMAN
+* Performance test experience using JMETER
+© Work with Azure Devops
+Soft Skills:
+* Excellent verbal and written communication in English
+* Your strength is your ability to recognize what's wrong, troubleshoot and provide solutions that
+would enforce bug-free implementation.
+* You're a self-starter with a strong desire to work on a small collaborative team in a fast-paced
+environment.
+Important background information and Questions to submit when applying
+* Weare in Ontario, Canada, and the time difference is 9.5 or 10.5 hours during the year. To
+ensure that there is sufficient contact time between you and the developers, you will have to be
+available for meetings between 6.30 and 9.30 PM your time. You may be required to be
+available at other hours during emergencies. You can choose to do the other at hours of your
+choice but online between these hours. Are you able to do this on a consistent basis?
+
+* We have mobile and tablet applications for both Android and Apple (i0S) platforms. To support
+this, we require the necessary devices & tools, like iOS and Android devices.
+
+* This is a fulltime permanent position, and we are looking for a long-term commitment by mutual
+agreement. What period can you commit to in term of number of years provided we are happy
+with each other?
+
+* What are your salary expectations?
+
+*  Ifyouare offered a job, when is the earliest you can start?
+
+Compensation will be paid in Canadian dollars.
+
+If you qualify, please send us your resume with your salary expectations in SLR to
+resume@paymatesoftware.com. Please send a cover letter to explain your availably and indicate if you
+have worked on similar projects.

@@ -1,0 +1,65 @@
+=a
+\y TITANFX
+PHP / Laravel Software Engineer (Mid-Level) Full-Time
+Remote
+Titan FX is a global online trading and technology company delivering fast, reliable, and
+high-performance systems across international markets. We combine cutting-edge
+infrastructure with a strong engineering culture to build scalable platforms that support
+high-volume financial operations.
+Our team is friendly, collaborative, and multicultural - made up of talented professionals from
+around the world.
+We are looking for a Mid-Level PHP / Laravel Software Engineer (100% Remote) to join
+our team and help build and scale high-performance backend systems used globally. If you
+are a PHP Backend Developer with deep Laravel expertise and experience designing
+scalable, high-volume applications - this is your opportunity to make a real impact.
+Required Skills & Experience
+
+e 4+ years of solid PHP Backend Development experience
+
+e Strong expertise in Laravel Framework
+
+e Experience with MySQL Database Design & Optimization
+
+e Strong knowledge of REST API Development & Integration
+
+e Experience with AWS Cloud Services
+
+e Strong understanding of Software Architecture & Scalable Systems
+
+e Experience working in a remote environment
+
+e Version control & modern CI/CD practices
+Nice to Have
+
+e Reactjs / Nextjs
+
+e Full-stack development capability
+Key Responsibilities
+
+e Develop and maintain backend systems using PHP (Laravel MVC Framework)
+
+e Design scalable, secure, and high-performance backend architectures
+
+e Build and integrate RESTful APIs & third-party API services
+
+e Follow best practices in OOP, MVC architecture, clean code & deployment
+
+e Contribute to system design, performance optimization, and code reviews
+Why we think you’ll like working at Titan FX
+We actively foster a culture that supports our core values to Deliver, Empower and Care. Our
+culture sets us apart - it’s a key reason that brings people to Titan FX and keeps them here.
+In addition to receiving a competitive industry salary with the potential to earn a bonus each
+year, we also offer;
+
+e training workshops, coaching and career development programs
+
+e flexible working conditions to support our people to find the right balance
+
+e travel opportunities to our HQ in Vanuatu and other satellite offices
+We take our core values seriously and work hard to create an environment where everyone
+feels welcome. Teams who reflect a diversity of experience, identity, perspective and
+background, help us to create a healthy & inclusive working culture.
+If you're a confident Laravel Backend Engineer ready to build scalable systems and grow
+with a high-performing, multicultural team - apply now via this link:
+https://titanfx.teamtailor.com/jobs/7238929-php-laravel-software-engineer-mid-level-re
+mote

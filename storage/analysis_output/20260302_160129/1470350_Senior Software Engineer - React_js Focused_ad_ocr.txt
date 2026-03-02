@@ -1,0 +1,33 @@
+Information Technology
+Peercore Information Technology
+Peercore Information Technology Pvt Ltd is a products and services company catering to the business requirements of
+strategic Australian Market. Headquartered in Colombo, Sri Lanka with a fully-fledged branch office at the Access Towers in
+Colombo, Sri Lanka since 2002. Peercore IT has been developing commercial software for the past 20 years for clients in the
+food distribution.
+Peercore IT with its increasing expansion plans anticipates recruiting the following personnel to its dynamic team based in
+Colombo.
+Peercore IT is now recruiting staff to work on Projects for its client Peerless Foods Pvt Ltd — Australia.
+Senior Software Engineer — React.js Focused
+Required Skills & Experience
+© Development Experience
+© Minimum of 4 year of hands-on software development experience.
+© React,js Proficiency
+© Expertise in building and maintaining large-scale Single Page Applications (SPAs) using React.js.
+© Strong knowledge of modern React concepts, including hooks, context API, and state management libraries
+(e.g., Redux or React Query).
+© Familiarity with React's ecosystem, such as React Router, component libraries, and testing tools.
+« Frontend Development
+© Proficient in JavaScript (ES6+), HTMLS, and CSS3.
+© Experience with frontend tooling like Webpack, Babel, or Vite.
+© Understanding of responsive design principles and cross-browser compatibility.
+© Version Control
+© Confident working with Git for version control in a collaborative team environment.
+© Communication Skills
+© Excellent written and spoken English, with the ability to convey technical concepts clearly.
+e Nice to Have
+© Familiarity with TypeScript and modern testing libraries (e.g., Jest, React Testing Library)
+© Exposure to server-side rendering frameworks like Next.js.
+© Knowledge of CI/CD pipelines and agile methodologies.
+If you think you fit to this role please e-mail your curriculum vitae along with contact numbers to
+careers|@peerlessfoods.com.au indicating the position you are applying for, in the subject line.
+Peercore IT is an equal opportunity employer

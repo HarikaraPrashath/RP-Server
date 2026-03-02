@@ -1,0 +1,59 @@
+Senior Full-Stack Software Engineer
+Experience Required: 10+ Years
+About the Opportunity
+We are seeking an experienced Senior Full-Stack Software Engineer to join our team and help
+shape a large-scale, enterprise-grade data management platform.
+This role goes beyond feature development. You will work across a sophisticated ecosystem
+that includes multiple client applications, a Node.js backend, integrations with C++ engine
+components, cloud storage providers, and analytical databases.
+As a senior member of the engineering team, you will contribute to architecture decisions, drive
+technical excellence, and mentor other engineers while delivering high-impact solutions.
+Key Responsibilities
+e Own features end-to-end — Design, architect, and implement solutions from
+React-based frontends to Node.js/Express backend services, ensuring scalability and
+long-term maintainability
+¢ Design and optimize data pipelines — Work with MySQL, PostgreSQL, and analytical
+engines such as DuckDB to build high-performance data workflows
+¢ Drive architectural decisions — Contribute to the evolution of a multi-tenant SaaS
+platform supporting cloud, on-premise, and agent-based deployments
+Develop core APIs and communication layers — Build and maintain REST APIs and
+TCP/socket-based services
+e Integrate cloud services — Work with AWS (S3) and Azure (Blob Storage, Identity) and
+other third-party integrations
+e@ Champion engineering excellence — Conduct code reviews, establish best practices,
+and mentor mid-level and junior engineers
+e Enhance developer experience — Improve CI/CD pipelines, build tooling, and internal
+engineering workflows
+Required Skills & Experience
+10+ years of professional software engineering experience with demonstrated ownership
+of complex production systems
+Strong expertise in TypeScript and JavaScript (frontend and backend)
+Deep experience with React (v17/v18), including modern state management patterns
+(Redux or similar)
+Proven experience with Node.js and Express in scalable production environments
+e Solid knowledge of SQL and relational databases (MySQL and/or PostgreSQL),
+including schema design and query optimization
+e Experience integrating AWS S3 and/or Azure Blob Storage
+e Strong testing background (Jest, React Testing Library, or similar)
+Comfortable working in large codebases/monorepos with modern build tools
+e Advanced Git workflow knowledge
+e Demonstrated technical leadership and mentorship experience
+Preferred Experience
+© Material UI (v4/v5)
+e Redis for caching and session management
+e DuckDB or similar OLAP/analytical databases
+e Docker and containerization
+© Authentication systems (JWT, OAuth, SSO)
+e@ Observability tools (Prometheus, structured logging, distributed tracing)
+ Monorepo tooling such as pnpm workspaces and modern bundlers (Webpack, RSBuild)
+Nice to Have
+e Python for scripting, data processing, or ML/Al workflows
+e Experience working alongside C/C++ native components
+Storybook for component-driven development
+e  Internationalization experience (i18next)
+Why Join Us?
+Work ona complex, high-impact enterprise platform
+e Influence the architecture and engineering direction
+e Collaborate with a skilled and experienced technical team
+Opportunity to mentor and grow as a technical leader
+Responses should be sent to Romesh.vidanage@xinfinit.com

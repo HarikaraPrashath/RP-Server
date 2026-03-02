@@ -1,9 +1,29 @@
 [
   {
+    "ref": "1474800",
+    "position": "Intern Software Engineer (1)",
+    "employer": "DTech (Pvt) Ltd",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=0000000201&jc=0001474800&ec=0000000635&pg=applicant/vacancybyfunctionalarea.jsp",
+    "type": "image",
+    "files": [
+      "1474800_Intern Software Engineer _1__ad.jpg"
+    ]
+  },
+  {
+    "ref": "1470974",
+    "position": "Software Engineering",
+    "employer": "Company Name Withheld",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=DEFZZZ&jc=0001470974&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "type": "image",
+    "files": [
+      "1470974_Software Engineering_ad.png"
+    ]
+  },
+  {
     "ref": "1474595",
     "position": "Intern Software Engineer - Work From Home",
     "employer": "Yumarone Labz Pvt Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=DEFZZZ&jc=0001474595&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=DEFZZZ&jc=0001474595&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1474595_Intern Software Engineer - Work From Home_ad.png"
@@ -13,7 +33,7 @@
     "ref": "1474508",
     "position": "Senior Software Engineer JAVA (4)",
     "employer": "DirectFN",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=0000000492&jc=0001474508&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=0000000492&jc=0001474508&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1474508_Senior Software Engineer JAVA _4__ad.png"
@@ -23,7 +43,7 @@
     "ref": "1474505",
     "position": "Associate Technical Lead (1)",
     "employer": "DirectFN",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=0000000492&jc=0001474505&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=0000000492&jc=0001474505&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1474505_Associate Technical Lead _1__ad.png"
@@ -33,7 +53,7 @@
     "ref": "1474504",
     "position": "Associate Technical Lead (1)",
     "employer": "DirectFN",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=0000000492&jc=0001474504&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=5&ac=0000000492&jc=0001474504&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1474504_Associate Technical Lead _1__ad.png"
@@ -43,7 +63,7 @@
     "ref": "1474429",
     "position": "Front End Software Engineer Internship",
     "employer": "Medcube USA",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=DEFZZZ&jc=0001474429&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=6&ac=DEFZZZ&jc=0001474429&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1474429_Front End Software Engineer Internship_ad.png"
@@ -53,7 +73,7 @@
     "ref": "1474423",
     "position": "Back End Software Engineer Internship",
     "employer": "Medcube USA",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=5&ac=DEFZZZ&jc=0001474423&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=DEFZZZ&jc=0001474423&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1474423_Back End Software Engineer Internship_ad.png"
@@ -63,7 +83,7 @@
     "ref": "1474210",
     "position": "Engineers for Entrust Systems",
     "employer": "Data Management Systems (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=6&ac=0000000223&jc=0001474210&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=0000000223&jc=0001474210&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1474210_Engineers for Entrust Systems_content.txt",
@@ -74,7 +94,7 @@
     "ref": "1474208",
     "position": "Software Engineer (Male)",
     "employer": "Data Management Systems (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=0000000223&jc=0001474208&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=9&ac=0000000223&jc=0001474208&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1474208_Software Engineer _Male__content.txt",
@@ -85,7 +105,7 @@
     "ref": "1474205",
     "position": "Engineering Service Executives for Matara and Tangalle areas (Male)",
     "employer": "Data Management Systems (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=0000000223&jc=0001474205&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=10&ac=0000000223&jc=0001474205&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1474205_Engineering Service Executives for Matara and Tangalle areas _Male__content.txt",
@@ -96,7 +116,7 @@
     "ref": "1474204",
     "position": "Electronics Engineers",
     "employer": "Data Management Systems (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=9&ac=0000000223&jc=0001474204&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=11&ac=0000000223&jc=0001474204&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1474204_Electronics Engineers_content.txt",
@@ -107,7 +127,7 @@
     "ref": "1474203",
     "position": "Engineering Service Executives for Rathnapura and Balangoda Areas (Male)",
     "employer": "Data Management Systems (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=10&ac=0000000223&jc=0001474203&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=12&ac=0000000223&jc=0001474203&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1474203_Engineering Service Executives for Rathnapura and Balangoda Areas _Male__content.txt",
@@ -118,7 +138,7 @@
     "ref": "1474201",
     "position": "Customer Engineers (Male)",
     "employer": "Data Management Systems (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=11&ac=0000000223&jc=0001474201&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=13&ac=0000000223&jc=0001474201&ec=0000000266&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1474201_Customer Engineers _Male__content.txt",
@@ -126,20 +146,10 @@
     ]
   },
   {
-    "ref": "1470974",
-    "position": "Software Engineering",
-    "employer": "Company Name Withheld",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=12&ac=DEFZZZ&jc=0001470974&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
-    "type": "image",
-    "files": [
-      "1470974_Software Engineering_ad.png"
-    ]
-  },
-  {
     "ref": "1473847",
     "position": "Senior Full Stack Software Engineer",
     "employer": "Levein",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=13&ac=DEFZZZ&jc=0001473847&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=14&ac=DEFZZZ&jc=0001473847&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1473847_Senior Full Stack Software Engineer_ad.png"
@@ -149,7 +159,7 @@
     "ref": "1473754",
     "position": "Senior Full-Stack Software Engineer",
     "employer": "Company Name Withheld",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=14&ac=DEFZZZ&jc=0001473754&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=15&ac=DEFZZZ&jc=0001473754&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1473754_Senior Full-Stack Software Engineer_ad.png"
@@ -159,7 +169,7 @@
     "ref": "1473397",
     "position": "Metrologist (1)",
     "employer": "SriLankan Airlines Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=15&ac=0000000381&jc=0001473397&ec=0000000499&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=16&ac=0000000381&jc=0001473397&ec=0000000499&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1473397_Metrologist _1__content.txt",
@@ -170,7 +180,7 @@
     "ref": "1473023",
     "position": "Senior Software Engineer Full Stack (1)",
     "employer": "DirectFN",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=16&ac=0000000492&jc=0001473023&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=17&ac=0000000492&jc=0001473023&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1473023_Senior Software Engineer Full Stack _1__ad.png"
@@ -180,7 +190,7 @@
     "ref": "1472793",
     "position": "Senior Software Engineer - Laravel",
     "employer": "IPOSG Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=17&ac=DEFZZZ&jc=0001472793&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=18&ac=DEFZZZ&jc=0001472793&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472793_Senior Software Engineer - Laravel_ad.png"
@@ -190,7 +200,7 @@
     "ref": "1472771",
     "position": "Senior Software Engineer | Software Engineer",
     "employer": "HRC Labs",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=18&ac=DEFZZZ&jc=0001472771&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=19&ac=DEFZZZ&jc=0001472771&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472771_Senior Software Engineer _ Software Engineer_ad.png"
@@ -200,7 +210,7 @@
     "ref": "1472768",
     "position": "Senior Software Engineer - Full Stack",
     "employer": "HRC Labs",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=19&ac=DEFZZZ&jc=0001472768&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=20&ac=DEFZZZ&jc=0001472768&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472768_Senior Software Engineer - Full Stack_ad.png"
@@ -210,7 +220,7 @@
     "ref": "1472669",
     "position": "Trainee Software Engineer (Full Time)",
     "employer": "P & A Insurance Brokers (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=20&ac=DEFZZZ&jc=0001472669&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=21&ac=DEFZZZ&jc=0001472669&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472669_Trainee Software Engineer _Full Time__ad.png"
@@ -220,7 +230,7 @@
     "ref": "1472478",
     "position": "Software Engineer | Senior Software Engineer (Data Migration & Integration)",
     "employer": "Acentura Pvt Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=21&ac=0000000494&jc=0001472478&ec=0000000666&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=22&ac=0000000494&jc=0001472478&ec=0000000666&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472478_Software Engineer _ Senior Software Engineer _Data Migration _ Integration__ad.png"
@@ -230,7 +240,7 @@
     "ref": "1472448",
     "position": "Software Engineer",
     "employer": "Contrinex Ceylon (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=22&ac=DEFZZZ&jc=0001472448&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=23&ac=DEFZZZ&jc=0001472448&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472448_Software Engineer_ad.png"
@@ -240,7 +250,7 @@
     "ref": "1472443",
     "position": "Full Stack Software Engineer",
     "employer": "Levein",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=23&ac=DEFZZZ&jc=0001472443&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=24&ac=DEFZZZ&jc=0001472443&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472443_Full Stack Software Engineer_ad.png"
@@ -250,7 +260,7 @@
     "ref": "1472311",
     "position": "Head of MEP (1)",
     "employer": "Maritime Placements (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=24&ac=0000000023&jc=0001472311&ec=0000000023&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=25&ac=0000000023&jc=0001472311&ec=0000000023&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1472311_Head of MEP _1__ad.png"
@@ -260,7 +270,7 @@
     "ref": "1472001",
     "position": "Operations Specialist (1)",
     "employer": "Haleon Lanka (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=25&ac=0000000183&jc=0001472001&ec=0000000677&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=26&ac=0000000183&jc=0001472001&ec=0000000677&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "text",
     "files": [
       "1472001_Operations Specialist _1__content.txt",
@@ -271,7 +281,7 @@
     "ref": "1471936",
     "position": "Senior Front end Developer (1)",
     "employer": "DirectFN",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=26&ac=0000000492&jc=0001471936&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=27&ac=0000000492&jc=0001471936&ec=0000000661&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1471936_Senior Front end Developer _1__ad.png"
@@ -281,7 +291,7 @@
     "ref": "1471515",
     "position": "Software Engineering Vacancies",
     "employer": "Acentura Pvt Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=27&ac=0000000494&jc=0001471515&ec=0000000666&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=28&ac=0000000494&jc=0001471515&ec=0000000666&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1471515_Software Engineering Vacancies_ad.png"
@@ -291,7 +301,7 @@
     "ref": "1471459",
     "position": "Intern - Software Engineer | Software Engineer | Senior Software Engineer",
     "employer": "Venturecorp (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=28&ac=DEFZZZ&jc=0001471459&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=29&ac=DEFZZZ&jc=0001471459&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1471459_Intern - Software Engineer _ Software Engineer _ Senior Software Engineer_ad.png"
@@ -301,7 +311,7 @@
     "ref": "1470770",
     "position": "Junior Software Engineer in Test",
     "employer": "Orfium Sri Lanka",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=29&ac=DEFZZZ&jc=0001470770&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=30&ac=DEFZZZ&jc=0001470770&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1470770_Junior Software Engineer in Test_ad.jpg"
@@ -311,7 +321,7 @@
     "ref": "1470493",
     "position": "Trainee Software Engineer",
     "employer": "Maga Engineering (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=30&ac=0000000399&jc=0001470493&ec=0000000525&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=31&ac=0000000399&jc=0001470493&ec=0000000525&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1470493_Trainee Software Engineer_ad.png"
@@ -321,7 +331,7 @@
     "ref": "1470350",
     "position": "Senior Software Engineer - React.js Focused",
     "employer": "Peercore Information Technology (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=31&ac=DEFZZZ&jc=0001470350&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=32&ac=DEFZZZ&jc=0001470350&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1470350_Senior Software Engineer - React_js Focused_ad.png"
@@ -331,7 +341,7 @@
     "ref": "1470298",
     "position": "Sales Engineer - Infrastructure & Software Platforms",
     "employer": "Data Management Systems (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=32&ac=DEFZZZ&jc=0001470298&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=33&ac=DEFZZZ&jc=0001470298&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1470298_Sales Engineer - Infrastructure _ Software Platforms_ad.png"
@@ -341,7 +351,7 @@
     "ref": "1469898",
     "position": "Software Engineer  - AI",
     "employer": "Fexcon (Pvt) Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=33&ac=DEFZZZ&jc=0001469898&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=34&ac=DEFZZZ&jc=0001469898&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1469898_Software Engineer  - AI_ad.png"
@@ -351,7 +361,7 @@
     "ref": "1469659",
     "position": "PHP | Laravel Software Engineer (Mid - Level) Full Time Remote",
     "employer": "Titan FX Limited",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=34&ac=DEFZZZ&jc=0001469659&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=35&ac=DEFZZZ&jc=0001469659&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1469659_PHP _ Laravel Software Engineer _Mid - Level_ Full Time Remote_ad.png"
@@ -361,7 +371,7 @@
     "ref": "1469449",
     "position": "QA Engineer - Remote",
     "employer": "Paymate Software Corporation",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=35&ac=DEFZZZ&jc=0001469449&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=36&ac=DEFZZZ&jc=0001469449&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1469449_QA Engineer - Remote_ad.png"
@@ -371,20 +381,10 @@
     "ref": "1469316",
     "position": "SOFTWARE ENGINEER / ABAP DEVELOPER - COLOMBO 5 (3)",
     "employer": "Maritime International Limited",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=36&ac=0000000274&jc=0001469316&ec=0000000361&pg=applicant/vacancybyfunctionalarea.jsp",
+    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=37&ac=0000000274&jc=0001469316&ec=0000000361&pg=applicant/vacancybyfunctionalarea.jsp",
     "type": "image",
     "files": [
       "1469316_SOFTWARE ENGINEER _ ABAP DEVELOPER - COLOMBO 5 _3__ad.gif"
-    ]
-  },
-  {
-    "ref": "1467086",
-    "position": "Associate Software Engineer (PHP/Laravel Full Stack) (1)",
-    "employer": "Smart Quest (Pvt)Ltd",
-    "url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=37&ac=0000000013&jc=0001467086&ec=0000000013&pg=applicant/vacancybyfunctionalarea.jsp",
-    "type": "image",
-    "files": [
-      "1467086_Associate Software Engineer _PHP_Laravel Full Stack_ _1__ad.png"
     ]
   }
 ]

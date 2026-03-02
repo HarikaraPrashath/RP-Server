@@ -1,0 +1,31 @@
+e e
+Senior Software Engineer - Laravel
+We are seeking a Senior Software Engineer (Laravel) to join our backend team.
+The ideal candidate should have strong expertise in Laravel and AWS (EC2, S3,
+Lambda) with experience building scalable, cloud-based backend systems.
+Solid knowledge of MySQL, REST APIs, microservices, and CI/CD pipelines is
+required. Experience with React or React Native is a plus.
+Key Responsibilities
+* Develop and maintain scalable backend services and APIs using Laravel.
+¢ Design and optimize MySQL databases for performance and reliability.
+¢ Build and manage cloud-native applications on AWS (EC2, $3, Lambda).
+* Troubleshoot and resolve backend issues in collaboration with support and
+release teams.
+¢ Participate in Agile sprints, release planning, and production monitoring.
+* Maintain CI/CD pipelines (Bitbucket) for automated deployments.
+* Conduct code reviews and ensure best practices in clean architecture.
+Required Qualifications
+« 5+ years of software development experience, including 3+ years of hands-on
+Laravel experience in production environments.
+¢ Strong knowledge of MySQL or other relational databases.
+« Experience with AWS services (EC2, S3, Lambda).
+¢ Familiarity with Docker/Kubernetes and containerized environments.
+* Solid understanding of REST APIs and microservices architecture.
+* Experience working with CI/CD pipelines (preferably Bitbucket).
+« Strong problem-solving, communication, and Agile teamwork skills.
+Nice to Have
+« Experience with React or React Native.
+* Knowledge of TDD and backend testing frameworks.
+"
+APPLY NOW ae
+© resume@iposg.com rc — —

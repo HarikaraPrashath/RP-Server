@@ -1,0 +1,58 @@
+JOB TITLE: TRAINEE SOFTWARE ENGINEER (FULL TIME)
+LOCATION: ONSITE
+We are looking for a Trainee Software Engineer to support the design and development of internal
+systems for our insurance brokerage operations. The focus is on scalable web applications and Al-driven
+workflow automation.
+This is a full-time role. Interns will also be considered.
+Tech Stack
+
+© TypeScript
+
+© React / Next.js
+
+«© Tailwind Css
+
+© Hono.js
+
+© PostgreSQL
+
+° AWS
+Responsibilities
+
+© Assist in developing and maintaining internal web applications
+
+Support API and backend service development
+
+« Work with PostgreSQL databases.
+
+‘© Help deploy and manage applications on AWS
+
+* Contribute to Al-based workflow automation and intelligent process design
+Requirements
+
+© Good understanding of TypeScript fundamentals
+
+© Experience with React or Next.js
+
+* Backend development knowledge (Node.js / Hono.js preferred)
+
+© Understanding of relational databases (PostgreSQL)
+
+«Familiarity with AWS concepts
+
+‘© Automation-first mindset and willingness to experiment with Al tooling
+Added Advantage
+
+«Experience with n&n
+
+Knowledge of Al agents, LLM integrations or workflow automation systems
+What We Value
+
+‘* Strong learning attitude
+
+‘* Practical problem-solving
+
+‘* Clean, structured thinking
+
+© Ownership and initiative
+Send your CV and project links (GitHub/portfolio) to hr@pandainsurance.lk Mobile - 070 2290522
