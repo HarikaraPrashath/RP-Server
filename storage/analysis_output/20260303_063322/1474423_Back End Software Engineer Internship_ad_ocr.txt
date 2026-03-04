@@ -1,0 +1,34 @@
+Send your resume to
+E careers@medcubeusa.com
+BACK-END SOFTWARE ENGINEER INTERNSHIP
+Medcube USA is seeking a motivated and technically strong Back-End Software Engineer
+Intern to join our engineering team. This role is ideal for candidates who are passionate about
+server-side development, scalable architecture, and Al-enabled web applications.
+Key Responsibilities
+* Collaborate with senior engineers and product stakeholders to design, develop, and maintain scalable
+back-end services and APIs.
+* Contribute to the development and integration of Al-powered features within web-based applications.
+* Implement clean, maintainable, and efficient server-side logic using modern development standards.
+* Optimize application performance, scalability, and database efficiency.
+* Troubleshoot, debug, and resolve backend issues to ensure system reliability and stability.
+* Participate in code reviews and adopt industry best practices in software architecture, version control,
+and secure coding.
+* Support deployment, testing, and continuous improvement of backend systems.
+Education
+* Bachelor's degree (or currently pursuing) in Computer Science, Software Engineering,
+Computer Programming, or a related discipline.
+Technical Competencies
+* Proficiency in C# and knowledge of .NET Core / .NET Framework
+* Basic understanding of RESTful API development and server-side
+architecture
+* Familiarity with SQL Server and/or Entity Framework
+* Working knowledge of Git and GitHub for version control a
+* Strong understanding of Object-Oriented Programming (OOP) principles |
+* Familiarity with front-end technologies such as HTML, CSS, JavaScript,
+and Angular ZO
+* Exposure to Next.js and Nodes will be considered an advantage f
+If you are passionate about backend engineering and eager to build
+intelligent, scalable systems in a fast-growing technology environment,
+we encourage you to apply.
+Nene U3EUSA
+wr

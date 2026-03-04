@@ -1,0 +1,34 @@
+a
+Beyond the edge of Innovation
+Ce
+Fexcon is a global software company primarily involved in
+designing, developing, delivering, and supporting mobile and ' 1)
+web applications. We are dedicated to providing world-class %
+quality software solutions and Al-driven solutions for our io
+clients in Australia, New Zealand, and Sri Lanka.
+We are seeking a motivated Software Engineer — Al who is passionate about Artificial Intelligence and eager to grow in a
+dynamic, fast-paced environment. This role offers an excellent opportunity to gain hands-on experience in Agentic Al,
+Generative Al, and real-world Al applications, while contributing to the design and development of innovative Al-driven
+solutions across diverse industries.
+SOFTWARE ENGINEER - Al
+Location: Hybrid | Type: Full-Time
+Key Responsibilities:
+« Design and implement Al agents for automation, communication, and intelligent decision-making
+« Analyze and assess emerging Al tools, frameworks, and APIs to enhance solution capabilities
+« Develop, test, and refine prompting strategies for various Al use cases and Agent behaviours
+* Build and maintain structured knowledge bases to improve LLM accuracy and performance
+* Collaborate with cross-functional teams to design and enhance Al-driven solutions
+« Support the integration of Al components into existing systems and workflows
+« Document research findings, experiments, and implementations clearly for internal reference
+Requirements:
+« Adegree in Computer Science, Artificial Intelligence, Software Engineering, or a related discipline
+« Minimum 1 year of hands-on experience in Agentic Al and software development
+« Familiarity with Python, Dify, n8n and relevant Al frameworks is a must
+« Hands-on experience with AWS DevOps practices will be an added advantage
+* Good understanding of Generative Al concepts and Large Language Models (LLMs)
+* Good knowledge of prompt engineering
+« Ability to explore, evaluate, and adapt to new Al tools and technologies efficiently
+* Strong analytical mindset with a willingness to learn and experiment
+* Effective written and verbal communication skills
+Please send in your resume to jobs@fexcon.com stating the position applied for in the subject line
+© +94 115 219 553 @® _www.texcon.comau © No.196, Nawala Road, Nawala, Sri Lanka.

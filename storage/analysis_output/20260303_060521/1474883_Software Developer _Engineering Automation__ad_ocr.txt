@@ -1,0 +1,44 @@
+anne
+INC
+DRAFT
+Software Developer — Engineering Automation
+Location: Colombo, Sri Lanka (In-Office)
+Employment Type: Full-Time
+About the Role
+We are a structural engineering firm with offices in Australia and Sri Lanka seeking a capable in-
+house Software Developer to build and maintain automation systems across our engineering
+workflows. This is a long-term position for someone who enjoys solving practical business problems
+using software.
+You will work directly with the Managing Director to design and implement tools that improve speed,
+quality control, and operational efficiency across the entire office.
+Key Responsibilities
+e¢ Develop Revit automation tools using Revit API
+e Build structural model checking systems (slabs, columns, tags, revisions)
+e Develop AutoCAD automations
+e Create Structural Engineering QA validation systems
+¢ Automate documentation workflows
+e Build HR and project management tools
+e Implement reminder, alert, and workflow monitoring systems
+e Integrate platforms such as Procore and Microsoft 365 where required
+Required Skills
+e Strong programming ability (Python and C#)
+e¢ Good understanding of object-oriented programming
+e Experience building desktop applications or automation tools
+e Understanding of file systems, data processing, and workflow logic
+e Ability to work independently and think structurally
+e Strong analytical and problem-solving mindset
+Highly Preferred
+e Experience with Revit API or AutoCAD API
+e Experience working with engineering or construction software
+e Experience with database systems
+¢ Experience integrating third-party APIs
+e Uldevelopment experience
+What We Offer
+e Long-term stable role
+e Direct involvement in strategic system development
+e Ownership and autonomy in building internal tools
+© Competitive salary based on capability
+How to Apply
+Please submit your CV along with examples of automation tools or software systems you have built
+to manuo@arkdraft.com.au. Include a short explanation describing a workflow you improved and
+how you approached it.

@@ -1,0 +1,47 @@
+WE ARE HIRING!
+INTERN — SOFTWARE ENGINEERING
+Skills can be developed. Technologies evolve. But the right attitude — ownership, discipline, and passion
+for learning — defines long-term success.
+Technical Stack & Exposure
+* Backend Frameworks: Spring Boot (Java), Laravel (PHP)
+* Database: MySQL (Relational Database Design & Optimization)
+* Mobile (Optional): Flutter
+* API Architecture: RESTful Services
+* Version Control: Git
+* Development Practices: SDLC, Code Review, Testing & Debugging
+* React / Next.js
+Key Technical Responsibilities
+* Assist in the design and development of scalable web and enterprise applications
+* Develop backend components using Spring Boot or Laravel following best coding standards
+* Design, write, and optimize SQL queries for efficient data handling
+* Contribute to RESTful API development and third-party system integrations
+* Participate in debugging, performance tuning, and application optimization
+* Maintain structured, reusable, and well-documented code
+* Support deployment processes and post-release monitoring
+* Collaborate with frontend and cross-functional teams to ensure seamless integration
+Candidate Profile
+* Currently pursuing or recently completed a Degree/Diploma in:
+* Software Engineering
+* Computer Science
+* Information Technology or related discipline
+* Foundational knowledge in Java or PHP
+* Understanding of Object-Oriented Programming (OOP) principles
+* Familiarity with relational databases and SQL concepts
+* Basic understanding of API communication and client-server architecture
+* Strong analytical thinking and structured problem-solving ability
+* Effective communication and teamwork skills
+Added Technical Advantages
+* Exposure to Flutter mobile application development
+* Experience with Git-based workflows
+* Understanding of REST API design principles
+* Knowledge of software development lifecycle methodologies
+What You Will Gain
+* Hands-on experience with enterprise-grade systems
+* Practical exposure to scalable backend architecture
+* Mentorship from senior software engineers
+* Exposure to industry best practices and structured development processes
+* Opportunity for full-time employment based on demonstrated performance
+The selected candidate is assured of an attractive remuneration package. Send your detailed
+resume to PeuesariCeim la along with contact details of two non-related referees
+within 10 days of this advertisement.
+DTECH D Tech is a fully owned subsidiary of DSI \
