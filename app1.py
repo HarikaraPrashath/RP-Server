@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from __future__ import annotations
 
 import asyncio
@@ -767,6 +766,8 @@ def _summarize_trends(history: list[dict[str, Any]]) -> dict[str, Any]:
             ran_at = datetime.fromisoformat(str(entry.get("ranAt")))
         except Exception:
             continue
+        if ran_at.tzinfo is None:
+            ran_at = ran_at.replace(tzinfo=timezone.utc)
         if ran_at >= window_cutoff:
             windowed.append({**entry, "_ranAt": ran_at})
 
@@ -1378,6 +1379,3 @@ async def analyse(request: Request, payload: dict[str, Any] | None = None) -> JS
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
     return JSONResponse(result)
-=======
-﻿from app.main import app
->>>>>>> a7e0a89d4e792f191f034d9bcd5438dc6f8f7333

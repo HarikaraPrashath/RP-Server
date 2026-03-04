@@ -1,0 +1,31 @@
+acenturd
+
+WE'RE HIRING
+
+(Data Migration & Integration)
+Were looking for someone with
+
+* 3-8+ years in data engineering / ETL / system integration
+
+¢ Strong SQL & relational database expertise
+
+e Hands-on SSIS & ETL pipeline development
+
+« Experience with Azure Data Services
+
+* Data modeling (ERDs, PK-FK relationships)
+
+e Incremental loads, validation & reconciliation a.
+
+* CRM experience (Salesforce / MS Dynamics - advantage) \
+
+¢ Analytical thinker with strong troubleshooting skills
+
+Experience with GitHub & Cl/CD practices
+
+sounds like you? j
+
+Apply now
+
+Send your CV to s
+careers@acentura.com !

@@ -1,0 +1,35 @@
+- WEAREHIRING
+‘ WE AR ae
+—
+SOFTWARE ENGINEER
+Contri isa oved comp attala ti :
+Switzétland: We de re indus * Dal
+ets with st q
+| <a .
++ Devel d data model with col Q car
+« Establis d Git repository for versio d as,
+ensuring organized development, Controlled updates, and li Te
+. caves Weneeuncton Blocks for Cont ata prot and PLC .
+= integration.
+* Integrate Contrit into custo |O-Link master configurati
+~ commu validation. 7
+° Pe issioning, troubles! de technical support to Sal
+and it in HQengineers.
+* Prepare tumentation, including version-controlled code and ste
+procedures. >>
+REQUIREMENTS: " 2
+* Bachelor's degree in, are Engineering / Computer science /»Electronic Engineering or eq
++ Experience in solid alana skills (Python or C#/.NET) , ;
++ Experience with structured data formats (JSON, XML, CSV)
++ Experience with Git and version-controlled workflows”
++ Experience with at least one PLC platform (preferred)
+— Siemens (S7-1200/1500 — TIA Portal)
+= Beckhoff (TwinCAT)
+— Allen-Bradley (ControlLogix/CompactLogix — Studio 5000)
+— Omron (NJ/NX - Sysmac Studio)
++ Ability to perform wiring, setup, and troubleshooting of PLC systems
+¢ Strong problem-solving and documentation skills
+© Good communication skills in English
+Send your cv to:
+Sanchana.fernando@contrinex.com CONTRINEX.)
+NO. 191 HEKITTA ROAD, WATTALA, SRI LANKA | +94 112 938 800

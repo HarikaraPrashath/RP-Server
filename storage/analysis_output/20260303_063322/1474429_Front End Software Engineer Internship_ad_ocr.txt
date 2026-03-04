@@ -1,0 +1,35 @@
+Send your resume to
+careers@medcubeusa.com
+FRONT-END SOFTWARE ENGINEER INTERNSHIP
+Medcube USA is seeking a motivated and detail-oriented Front-End Software Engineer Intern
+to join our growing technology team. This internship offers an excellent opportunity to gain
+hands-on experience building scalable, high-performance web applications within an
+innovation-driven environment.
+Key Responsibilities
+* Collaborate with senior engineers, product managers, and stakeholders to design and develop
+intuitive, responsive web applications.
+* Build, enhance, and optimize Al-enabled web-based platforms using modern front-end frameworks.
+* Implement clean, maintainable, and scalable code following industry best practices.
+* Troubleshoot, debug, and resolve front-end performance and usability issues.
+* Contribute to UI/UX improvements with a strong focus on user-centered design.
+* Participate in code reviews and agile development processes.
+* Continuously explore emerging technologies and recommend improvements to the front-end
+architecture.
+Education
+* Currently pursuing or recently completed a Bachelor's degree in Computer Science, Software
+Engineering, Computer Programming, or a related discipline (or equivalent practical experience).
+Technical Competencies
+* Hands-on experience with Angular (v2+).
+* Strong proficiency in HTML5, CSS3, JavaScript (ES6+).
+* Experience with Taitwind CSS and Bootstrap.
+* Solid understanding of UI/UX principles and responsive design.
+* Familiarity with RESTful APIs and front-end integration.
+* Working knowledge of Git and GitHub for version control.
+Preferred (Nice to Have)
+* Exposure to Nextjs and Node,js.
+* Understanding of modern front-end build tools and deployment ys
+workflows. s
+* Basic knowledge of performance optimization techniques.
+NAREDCUBEUSA !
+wr m
+sg
